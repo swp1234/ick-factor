@@ -1,0 +1,89 @@
+{
+    "meta": {
+        "title": "Tes Ick Factor | DopaBrain",
+        "description": "Swipe 20 perilaku untuk mengetahui tingkat sensitivitas ick kamu!"
+    },
+    "a11y": {
+        "skip": "Lewati ke konten"
+    },
+    "app": {
+        "title": "Tes Ick Factor",
+        "subtitle": "Seberapa sensitif radar ick kamu?",
+        "description": "Swipe 20 perilaku sehari-hari. Ke kanan kalau ick, ke kiri kalau oke. Seberapa pemilih kamu sebenarnya?",
+        "start": "Temukan Ick Saya"
+    },
+    "swipe": {
+        "ick": "ICK!",
+        "fine": "OKE",
+        "ickBtn": "Ick!",
+        "fineBtn": "Oke",
+        "hint": "\u2190 Oke | Ick \u2192 (atau pakai tombol panah)"
+    },
+    "categories": {
+        "hygiene": "Kebersihan",
+        "social": "Sosial",
+        "personality": "Kepribadian",
+        "dating": "Kencan"
+    },
+    "cards": {
+        "c1": "Mengunyah dengan mulut terbuka",
+        "c2": "Tidak cuci tangan setelah dari kamar mandi",
+        "c3": "Pakai baju yang sama 3 hari berturut-turut",
+        "c4": "Biarkan piring kotor di bak cuci berhari-hari",
+        "c5": "Potong kuku di tempat umum",
+        "c6": "Balas 'K' untuk pesan panjang",
+        "c7": "Terus-terusan cerita tentang mantan",
+        "c8": "Posting setiap makanan di media sosial",
+        "c9": "Ketawa keras sendiri dengan leluconnya",
+        "c10": "Di-read tapi tidak dibalas berhari-hari",
+        "c11": "Bilang 'aku beda dari yang lain'",
+        "c12": "Selalu punya cerita yang lebih hebat",
+        "c13": "Bicara cadel sama pacar di tempat umum",
+        "c14": "Pakai zodiak untuk membenarkan perilaku buruk",
+        "c15": "Terus-terusan humble-brag",
+        "c16": "Cek HP saat makan malam",
+        "c17": "Pesankan makanan tanpa tanya dulu",
+        "c18": "Kirim voice note bukan pesan teks",
+        "c19": "Pakai terlalu banyak emoji di pesan",
+        "c20": "Jalan pelan di tengah trotoar"
+    },
+    "tiers": {
+        "unbothered": {
+            "name": "Legenda Santai",
+            "desc": "Tidak ada yang mengganggu kamu. Melihat orang makan sereal pakai air pun cuma angkat bahu. Toleransi kamu legendaris."
+        },
+        "chill": {
+            "name": "Cukup Kalem",
+            "desc": "Punya standar tapi fleksibel. Beberapa hal mengganggu, tapi kebanyakan kamu biarkan saja."
+        },
+        "detector": {
+            "name": "Detektor Ick",
+            "desc": "Radar ick kamu terkalibrasi sempurna. Kamu menyadari hal yang orang lain lewatkan tapi tidak berlebihan."
+        },
+        "magnet": {
+            "name": "Magnet Ick",
+            "desc": "Kamu menemukan ick di mana-mana. Teman-teman sudah belajar untuk berhati-hati di sekitar kamu."
+        },
+        "overlord": {
+            "name": "Overlord Ick",
+            "desc": "Standar kamu astronomis. Hampir semuanya bikin ick. Tinggal sama kamu pasti olahraga ekstrem."
+        }
+    },
+    "result": {
+        "icks": "Ick!",
+        "breakdown": "Analisis per Kategori",
+        "yourIcks": "Ick Kamu",
+        "noIcks": "Tidak ada yang bikin ick! Benar-benar santai.",
+        "retake": "Ulangi Tes"
+    },
+    "share": {
+        "title": "Bagikan Ick Kamu",
+        "text": "Aku dapat {count}/20 ick! Sensitivitas ick: \"{tier}\" \ud83e\udd22 Coba juga:",
+        "twitter": "Bagikan di X",
+        "copyUrl": "Salin Link",
+        "copied": "Tersalin!"
+    },
+    "nav": {
+        "back": "DopaBrain Beranda"
+    }
+}

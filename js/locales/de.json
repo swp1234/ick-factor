@@ -1,0 +1,89 @@
+{
+    "meta": {
+        "title": "Ick-Faktor Test | DopaBrain",
+        "description": "Wische durch 20 Verhaltensweisen und finde deinen Ick-Empfindlichkeitsgrad heraus!"
+    },
+    "a11y": {
+        "skip": "Zum Inhalt springen"
+    },
+    "app": {
+        "title": "Ick-Faktor Test",
+        "subtitle": "Wie empfindlich ist dein Ick-Radar?",
+        "description": "Wische durch 20 Alltagsverhaltensweisen. Nach rechts wenn es dir Ick gibt, nach links wenn es okay ist. Wie w\u00e4hlerisch bist du wirklich?",
+        "start": "Meinen Ick finden"
+    },
+    "swipe": {
+        "ick": "ICK!",
+        "fine": "OK",
+        "ickBtn": "Ick!",
+        "fineBtn": "OK",
+        "hint": "\u2190 OK | Ick \u2192 (oder Pfeiltasten)"
+    },
+    "categories": {
+        "hygiene": "Hygiene",
+        "social": "Sozial",
+        "personality": "Pers\u00f6nlichkeit",
+        "dating": "Dating"
+    },
+    "cards": {
+        "c1": "Kaut mit offenem Mund",
+        "c2": "W\u00e4scht sich nach dem Bad nicht die H\u00e4nde",
+        "c3": "Tr\u00e4gt 3 Tage die gleiche Kleidung",
+        "c4": "L\u00e4sst das Geschirr tagelang im Sp\u00fclbecken",
+        "c5": "Schneidet sich in der \u00d6ffentlichkeit die N\u00e4gel",
+        "c6": "Antwortet 'K' auf lange Nachrichten",
+        "c7": "Redet st\u00e4ndig \u00fcber den Ex",
+        "c8": "Postet jede Mahlzeit in sozialen Medien",
+        "c9": "Lacht laut \u00fcber eigene Witze",
+        "c10": "L\u00e4sst dich tagelang auf gelesen",
+        "c11": "Sagt 'Ich bin nicht wie andere Leute'",
+        "c12": "\u00dcbertrumpft jede Geschichte die du erz\u00e4hlst",
+        "c13": "Redet in der \u00d6ffentlichkeit Babysprache mit dem Partner",
+        "c14": "Nutzt Astrologie um schlechtes Verhalten zu rechtfertigen",
+        "c15": "Betreibt st\u00e4ndig Humble-Bragging",
+        "c16": "Schaut beim Essen aufs Handy",
+        "c17": "Bestellt f\u00fcr dich ohne zu fragen",
+        "c18": "Schickt Sprachnachrichten statt Textnachrichten",
+        "c19": "Benutzt zu viele Emojis in Nachrichten",
+        "c20": "Geht langsam mitten auf dem B\u00fcrgersteig"
+    },
+    "tiers": {
+        "unbothered": {
+            "name": "Unber\u00fchrte Legende",
+            "desc": "Nichts bringt dich aus der Ruhe. Du k\u00f6nntest sehen wie jemand M\u00fcsli mit Wasser isst und nur die Achseln zucken. Deine Toleranz ist legend\u00e4r."
+        },
+        "chill": {
+            "name": "Ziemlich Entspannt",
+            "desc": "Du hast Standards aber bist flexibel. Ein paar Dinge st\u00f6ren dich, aber meistens l\u00e4sst du es durchgehen."
+        },
+        "detector": {
+            "name": "Ick-Detektor",
+            "desc": "Dein Ick-Radar ist perfekt kalibriert. Du bemerkst Dinge die andere \u00fcbersehen, bist aber nicht unvern\u00fcnftig."
+        },
+        "magnet": {
+            "name": "Ick-Magnet",
+            "desc": "Du entdeckst \u00fcberall Icks. Deine Freunde haben gelernt, vorsichtig um dich herum zu sein."
+        },
+        "overlord": {
+            "name": "Ick-Overlord",
+            "desc": "Deine Standards sind astronomisch. Fast alles gibt dir Ick. Mit dir zu leben muss ein Extremsport sein."
+        }
+    },
+    "result": {
+        "icks": "Icks!",
+        "breakdown": "Kategorieaufschl\u00fcsselung",
+        "yourIcks": "Deine Icks",
+        "noIcks": "Nichts gibt dir Ick! Wirklich unber\u00fchrt.",
+        "retake": "Nochmal machen"
+    },
+    "share": {
+        "title": "Teile deinen Ick-Faktor",
+        "text": "Ich habe {count}/20 Icks! Meine Ick-Empfindlichkeit: \"{tier}\" \ud83e\udd22 Mach deinen:",
+        "twitter": "Auf X teilen",
+        "copyUrl": "Link kopieren",
+        "copied": "Kopiert!"
+    },
+    "nav": {
+        "back": "DopaBrain Startseite"
+    }
+}

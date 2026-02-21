@@ -1,0 +1,89 @@
+{
+    "meta": {
+        "title": "Test du Ick | DopaBrain",
+        "description": "Swipez 20 comportements pour d\u00e9couvrir votre niveau de sensibilit\u00e9 au ick !"
+    },
+    "a11y": {
+        "skip": "Aller au contenu"
+    },
+    "app": {
+        "title": "Test du Ick",
+        "subtitle": "\u00c0 quel point votre radar \u00e0 ick est-il sensible ?",
+        "description": "Swipez 20 comportements du quotidien. \u00c0 droite si c'est un ick, \u00e0 gauche si c'est ok. \u00c0 quel point \u00eates-vous difficile ?",
+        "start": "D\u00e9couvrir Mon Ick"
+    },
+    "swipe": {
+        "ick": "ICK !",
+        "fine": "OK",
+        "ickBtn": "Ick !",
+        "fineBtn": "OK",
+        "hint": "\u2190 OK | Ick \u2192 (ou utilisez les fl\u00e8ches)"
+    },
+    "categories": {
+        "hygiene": "Hygi\u00e8ne",
+        "social": "Social",
+        "personality": "Personnalit\u00e9",
+        "dating": "Rencontres"
+    },
+    "cards": {
+        "c1": "M\u00e2che la bouche ouverte",
+        "c2": "Ne se lave pas les mains apr\u00e8s les toilettes",
+        "c3": "Porte les m\u00eames v\u00eatements 3 jours de suite",
+        "c4": "Laisse la vaisselle dans l'\u00e9vier pendant des jours",
+        "c5": "Se coupe les ongles en public",
+        "c6": "R\u00e9pond 'K' aux longs messages",
+        "c7": "Parle constamment de son ex",
+        "c8": "Poste chaque repas sur les r\u00e9seaux sociaux",
+        "c9": "Rit fort \u00e0 ses propres blagues",
+        "c10": "Vous laisse en vu pendant des jours",
+        "c11": "Dit 'je ne suis pas comme les autres'",
+        "c12": "Surench\u00e9rit sur chaque histoire que vous racontez",
+        "c13": "Parle b\u00e9b\u00e9 \u00e0 son partenaire en public",
+        "c14": "Utilise l'astrologie pour justifier un mauvais comportement",
+        "c15": "Fait constamment de fausse modestie",
+        "c16": "Regarde son t\u00e9l\u00e9phone pendant le d\u00eener",
+        "c17": "Commande pour vous sans demander",
+        "c18": "Envoie des messages vocaux au lieu de textos",
+        "c19": "Utilise trop d'emojis dans les messages",
+        "c20": "Marche lentement au milieu du trottoir"
+    },
+    "tiers": {
+        "unbothered": {
+            "name": "L\u00e9gende Imperturbable",
+            "desc": "Rien ne vous d\u00e9range. Vous pourriez voir quelqu'un manger des c\u00e9r\u00e9ales avec de l'eau et juste hausser les \u00e9paules. Votre tol\u00e9rance est l\u00e9gendaire."
+        },
+        "chill": {
+            "name": "Assez Cool",
+            "desc": "Vous avez des standards mais vous \u00eates flexible. Quelques trucs vous g\u00eanent, mais la plupart vous laissez passer."
+        },
+        "detector": {
+            "name": "D\u00e9tecteur de Ick",
+            "desc": "Votre radar \u00e0 ick est parfaitement calibr\u00e9. Vous remarquez ce que les autres ratent mais vous n'\u00eates pas d\u00e9raisonnable."
+        },
+        "magnet": {
+            "name": "Aimant \u00e0 Ick",
+            "desc": "Vous rep\u00e9rez des icks partout. Vos amis ont appris \u00e0 faire attention autour de vous."
+        },
+        "overlord": {
+            "name": "Overlord du Ick",
+            "desc": "Vos standards sont astronomiques. Presque tout vous donne le ick. Vivre avec vous doit \u00eatre un sport extr\u00eame."
+        }
+    },
+    "result": {
+        "icks": "Icks !",
+        "breakdown": "R\u00e9partition par Cat\u00e9gorie",
+        "yourIcks": "Vos Icks",
+        "noIcks": "Rien ne vous donne le ick ! Vraiment imperturbable.",
+        "retake": "Refaire le Test"
+    },
+    "share": {
+        "title": "Partagez Votre Ick",
+        "text": "J'ai eu {count}/20 icks ! Ma sensibilit\u00e9 : \"{tier}\" \ud83e\udd22 Fais le tien :",
+        "twitter": "Partager sur X",
+        "copyUrl": "Copier le Lien",
+        "copied": "Copi\u00e9 !"
+    },
+    "nav": {
+        "back": "DopaBrain Accueil"
+    }
+}

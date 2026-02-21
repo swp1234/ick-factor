@@ -1,0 +1,89 @@
+{
+    "meta": {
+        "title": "Ick Factor Test | DopaBrain",
+        "description": "Swipe through 20 behaviors to discover your ick sensitivity level! Are you an Unbothered Legend or an Ick Overlord?"
+    },
+    "a11y": {
+        "skip": "Skip to content"
+    },
+    "app": {
+        "title": "Ick Factor Test",
+        "subtitle": "How sensitive is your ick radar?",
+        "description": "Swipe through 20 everyday behaviors. Swipe right if it gives you the ick, left if you're fine with it. How picky are you really?",
+        "start": "Find My Ick Factor"
+    },
+    "swipe": {
+        "ick": "ICK!",
+        "fine": "FINE",
+        "ickBtn": "Ick!",
+        "fineBtn": "Fine",
+        "hint": "\u2190 Fine | Ick \u2192 (or use arrow keys)"
+    },
+    "categories": {
+        "hygiene": "Hygiene",
+        "social": "Social",
+        "personality": "Personality",
+        "dating": "Dating"
+    },
+    "cards": {
+        "c1": "Chews with mouth open",
+        "c2": "Doesn't wash hands after bathroom",
+        "c3": "Wears same clothes 3 days straight",
+        "c4": "Leaves dishes in the sink for days",
+        "c5": "Clips nails in public",
+        "c6": "Replies 'K' to long messages",
+        "c7": "Talks about ex constantly",
+        "c8": "Posts every meal on social media",
+        "c9": "Laughs at their own jokes loudly",
+        "c10": "Leaves you on read for days",
+        "c11": "Says 'I'm not like other people'",
+        "c12": "One-ups every story you tell",
+        "c13": "Baby talks to their partner in public",
+        "c14": "Uses astrology to justify bad behavior",
+        "c15": "Humble-brags constantly",
+        "c16": "Checks phone during dinner",
+        "c17": "Orders for you without asking",
+        "c18": "Sends voice messages instead of texts",
+        "c19": "Uses too many emojis in texts",
+        "c20": "Slow walks in the middle of the sidewalk"
+    },
+    "tiers": {
+        "unbothered": {
+            "name": "Unbothered Legend",
+            "desc": "Nothing fazes you. You could watch someone eat cereal with water and just shrug. Your tolerance is legendary."
+        },
+        "chill": {
+            "name": "Pretty Chill",
+            "desc": "You have standards but you're flexible about it. A few things bug you, but mostly you let things slide."
+        },
+        "detector": {
+            "name": "Ick Detector",
+            "desc": "Your ick radar is perfectly calibrated. You notice things others miss but you're not unreasonable about it."
+        },
+        "magnet": {
+            "name": "Ick Magnet",
+            "desc": "You spot icks everywhere you go. Your friends have learned to tread carefully around you."
+        },
+        "overlord": {
+            "name": "Ick Overlord",
+            "desc": "Your standards are astronomical. Almost everything gives you the ick. Living with you must be an extreme sport."
+        }
+    },
+    "result": {
+        "icks": "Icks!",
+        "breakdown": "Category Breakdown",
+        "yourIcks": "Your Icks",
+        "noIcks": "Nothing gives you the ick! Truly unbothered.",
+        "retake": "Retake Test"
+    },
+    "share": {
+        "title": "Share Your Ick Factor",
+        "text": "I got {count}/20 icks! My ick sensitivity: \"{tier}\" \ud83e\udd22 Check yours:",
+        "twitter": "Share on X",
+        "copyUrl": "Copy Link",
+        "copied": "Copied!"
+    },
+    "nav": {
+        "back": "DopaBrain Home"
+    }
+}
