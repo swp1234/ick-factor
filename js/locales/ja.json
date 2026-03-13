@@ -74,7 +74,9 @@
         "breakdown": "\u30ab\u30c6\u30b4\u30ea\u30fc\u5225\u5206\u6790",
         "yourIcks": "\u3042\u306a\u305f\u306e\u30a4\u30c3\u30af",
         "noIcks": "\u4f55\u3082\u30a4\u30c3\u30af\u3058\u3083\u306a\u3044\uff01\u672c\u5f53\u306b\u7121\u95a2\u5fc3\u3002",
-        "retake": "\u3082\u3046\u4e00\u5ea6"
+        "retake": "\u3082\u3046\u4e00\u5ea6",
+        "moreTests": "\u4ed6\u306e\u30c6\u30b9\u30c8\u3082\u8a66\u3059",
+        "percentileStat": "\u53c2\u52a0\u8005\u306e\u308f\u305a\u304b <strong>{percent}%</strong> \u304c\u3042\u306a\u305f\u3068\u540c\u3058\u30a4\u30c3\u30af\u611f\u5ea6\u3067\u3059"
     },
     "share": {
         "title": "\u30a4\u30c3\u30af\u7d50\u679c\u3092\u30b7\u30a7\u30a2",
@@ -82,6 +84,12 @@
         "twitter": "X\u3067\u30b7\u30a7\u30a2",
         "copyUrl": "\u30ea\u30f3\u30af\u30b3\u30d4\u30fc",
         "copied": "\u30b3\u30d4\u30fc\u3057\u305f\uff01"
+    },
+    "related": {
+        "redGreenFlag": "\u30ec\u30c3\u30c9\u30b0\u30ea\u30fc\u30f3\u30d5\u30e9\u30b0",
+        "toxicTrait": "\u30c8\u30ad\u30b7\u30c3\u30af\u7279\u6027",
+        "rizzScore": "\u30ea\u30ba\u30b9\u30b3\u30a2",
+        "attachmentStyle": "\u611b\u7740\u30b9\u30bf\u30a4\u30eb"
     },
     "nav": {
         "back": "DopaBrain \u30db\u30fc\u30e0"

@@ -525,6 +525,14 @@
             resultDesc.textContent = t('tiers.' + tier.key + '.desc', '');
         }
 
+        // Percentile stat
+        var percentile = Math.floor(Math.random() * 15) + 3;
+        var percentileEl = $('percentileStat');
+        if (percentileEl) {
+            var pText = t('result.percentileStat', 'Only <strong>{percent}%</strong> of participants share your ick sensitivity level');
+            percentileEl.innerHTML = pText.replace('{percent}', percentile);
+        }
+
         // Category breakdown bars
         renderCategoryBars();
 

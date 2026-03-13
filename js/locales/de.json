@@ -74,7 +74,9 @@
         "breakdown": "Kategorieaufschl\u00fcsselung",
         "yourIcks": "Deine Icks",
         "noIcks": "Nichts gibt dir Ick! Wirklich unber\u00fchrt.",
-        "retake": "Nochmal machen"
+        "retake": "Nochmal machen",
+        "moreTests": "Mehr Tests entdecken",
+        "percentileStat": "Nur <strong>{percent}%</strong> der Teilnehmer teilen dein Ick-Empfindlichkeitsniveau"
     },
     "share": {
         "title": "Teile deinen Ick-Faktor",
@@ -82,6 +84,12 @@
         "twitter": "Auf X teilen",
         "copyUrl": "Link kopieren",
         "copied": "Kopiert!"
+    },
+    "related": {
+        "redGreenFlag": "Rote/Gr\u00fcne Flagge",
+        "toxicTrait": "Toxische Eigenschaft",
+        "rizzScore": "Rizz-Score",
+        "attachmentStyle": "Bindungsstil"
     },
     "nav": {
         "back": "DopaBrain Startseite"

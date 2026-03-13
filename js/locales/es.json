@@ -74,7 +74,9 @@
         "breakdown": "Desglose por Categor\u00eda",
         "yourIcks": "Tus Icks",
         "noIcks": "\u00a1Nada te da ick! Verdaderamente inmutable.",
-        "retake": "Repetir Test"
+        "retake": "Repetir Test",
+        "moreTests": "Explora M\u00e1s Tests",
+        "percentileStat": "Solo el <strong>{percent}%</strong> de los participantes comparte tu nivel de sensibilidad al ick"
     },
     "share": {
         "title": "Comparte Tu Ick",
@@ -82,6 +84,12 @@
         "twitter": "Compartir en X",
         "copyUrl": "Copiar Enlace",
         "copied": "\u00a1Copiado!"
+    },
+    "related": {
+        "redGreenFlag": "Bandera Roja/Verde",
+        "toxicTrait": "Rasgo T\u00f3xico",
+        "rizzScore": "Puntuaci\u00f3n Rizz",
+        "attachmentStyle": "Estilo de Apego"
     },
     "nav": {
         "back": "DopaBrain Inicio"

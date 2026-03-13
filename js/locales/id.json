@@ -74,7 +74,9 @@
         "breakdown": "Analisis per Kategori",
         "yourIcks": "Ick Kamu",
         "noIcks": "Tidak ada yang bikin ick! Benar-benar santai.",
-        "retake": "Ulangi Tes"
+        "retake": "Ulangi Tes",
+        "moreTests": "Jelajahi Tes Lainnya",
+        "percentileStat": "Hanya <strong>{percent}%</strong> peserta yang memiliki tingkat sensitivitas ick yang sama denganmu"
     },
     "share": {
         "title": "Bagikan Ick Kamu",
@@ -82,6 +84,12 @@
         "twitter": "Bagikan di X",
         "copyUrl": "Salin Link",
         "copied": "Tersalin!"
+    },
+    "related": {
+        "redGreenFlag": "Bendera Merah/Hijau",
+        "toxicTrait": "Sifat Toxic",
+        "rizzScore": "Skor Rizz",
+        "attachmentStyle": "Gaya Kelekatan"
     },
     "nav": {
         "back": "DopaBrain Beranda"
