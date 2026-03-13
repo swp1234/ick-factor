@@ -17,7 +17,7 @@
         "fine": "OKE",
         "ickBtn": "Ick!",
         "fineBtn": "Oke",
-        "hint": "\u2190 Oke | Ick \u2192 (atau pakai tombol panah)"
+        "hint": "← Oke | Ick → (atau pakai tombol panah)"
     },
     "categories": {
         "hygiene": "Kebersihan",
@@ -80,7 +80,7 @@
     },
     "share": {
         "title": "Bagikan Ick Kamu",
-        "text": "Aku dapat {count}/20 ick! Sensitivitas ick: \"{tier}\" \ud83e\udd22 Coba juga:",
+        "text": "Aku dapat {count}/20 ick! Sensitivitas ick: \"{tier}\" 🤢 Coba juga:",
         "twitter": "Bagikan di X",
         "copyUrl": "Salin Link",
         "copied": "Tersalin!"
@@ -93,5 +93,19 @@
     },
     "nav": {
         "back": "DopaBrain Beranda"
+    },
+    "engage": {
+        "result1": "Unbothered Legend -- 0-5 icks, Nothing Fazes You",
+        "result2": "Chill Vibes -- 6-10 icks, Selective Standards",
+        "result3": "Picky Princess -- 11-15 icks, High Standards",
+        "result4": "Ick Overlord -- 16-20 icks, Everything Is an Ick",
+        "socialProof": "1,450+ people measured their ick factor"
+    },
+    "about": {
+        "toggle": "About the Ick Factor Test",
+        "heading1": "How the Ick Factor Test Works",
+        "text1": "The Ick Factor Test presents 20 common behaviors across categories like dating, hygiene, social media, and communication. Swipe right if the behavior gives you the ick, left if it is fine. Your total count and category breakdown reveal your ick sensitivity profile.",
+        "heading2": "Understanding Your Ick Sensitivity",
+        "text2": "An ick is that sudden feeling of cringe or repulsion toward a behavior. Everyone has different ick triggers. This test helps you discover yours in a fun way and compare with friends to see who is the pickiest!"
     }
 }

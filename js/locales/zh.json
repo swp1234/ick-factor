@@ -1,97 +1,111 @@
 {
     "meta": {
-        "title": "\u53cd\u611f\u6d4b\u8bd5 | DopaBrain",
-        "description": "\u6ed1\u52a820\u79cd\u884c\u4e3a\uff0c\u6d4b\u8bd5\u4f60\u7684\u53cd\u611f\u654f\u611f\u5ea6\uff01"
+        "title": "反感测试 | DopaBrain",
+        "description": "滑动20种行为，测试你的反感敏感度！"
     },
     "a11y": {
-        "skip": "\u8df3\u8f6c\u5230\u6b63\u6587"
+        "skip": "跳转到正文"
     },
     "app": {
-        "title": "\u53cd\u611f\u6d4b\u8bd5",
-        "subtitle": "\u4f60\u7684\u53cd\u611f\u96f7\u8fbe\u6709\u591a\u654f\u611f\uff1f",
-        "description": "\u6ed1\u52a820\u79cd\u65e5\u5e38\u884c\u4e3a\u3002\u53cd\u611f\u5c31\u53f3\u6ed1\uff0c\u6ca1\u95ee\u9898\u5c31\u5de6\u6ed1\uff01\u4f60\u5230\u5e95\u6709\u591a\u6311\u5254\uff1f",
-        "start": "\u5f00\u59cb\u6d4b\u8bd5"
+        "title": "反感测试",
+        "subtitle": "你的反感雷达有多敏感？",
+        "description": "滑动20种日常行为。反感就右滑，没问题就左滑！你到底有多挑剔？",
+        "start": "开始测试"
     },
     "swipe": {
-        "ick": "\u53cd\u611f!",
-        "fine": "\u6ca1\u4e8b",
-        "ickBtn": "\u53cd\u611f!",
-        "fineBtn": "\u6ca1\u4e8b",
-        "hint": "\u2190 \u6ca1\u4e8b | \u53cd\u611f \u2192\uff08\u4e5f\u53ef\u4ee5\u7528\u65b9\u5411\u952e\uff09"
+        "ick": "反感!",
+        "fine": "没事",
+        "ickBtn": "反感!",
+        "fineBtn": "没事",
+        "hint": "← 没事 | 反感 →（也可以用方向键）"
     },
     "categories": {
-        "hygiene": "\u536b\u751f",
-        "social": "\u793e\u4ea4",
-        "personality": "\u6027\u683c",
-        "dating": "\u7ea6\u4f1a"
+        "hygiene": "卫生",
+        "social": "社交",
+        "personality": "性格",
+        "dating": "约会"
     },
     "cards": {
-        "c1": "\u5f20\u5634\u5632\u98df\u7269\u7684\u4eba",
-        "c2": "\u4e0a\u5b8c\u5395\u6240\u4e0d\u6d17\u624b\u7684\u4eba",
-        "c3": "\u540c\u4e00\u5957\u8863\u670d\u8fde\u7a7f3\u5929\u7684\u4eba",
-        "c4": "\u7897\u5728\u6c34\u69fd\u91cc\u653e\u51e0\u5929\u4e0d\u6d17\u7684\u4eba",
-        "c5": "\u5728\u516c\u5171\u573a\u5408\u526a\u6307\u7532\u7684\u4eba",
-        "c6": "\u957f\u6d88\u606f\u53ea\u56de\u4e00\u4e2a\u201c\u563b\u201d\u7684\u4eba",
-        "c7": "\u603b\u662f\u8c08\u524d\u4efb\u7684\u4eba",
-        "c8": "\u6bcf\u987f\u996d\u90fd\u53d1\u793e\u4ea4\u5a92\u4f53\u7684\u4eba",
-        "c9": "\u81ea\u5df1\u8bb2\u7b11\u8bdd\u81ea\u5df1\u5927\u58f0\u7b11\u7684\u4eba",
-        "c10": "\u5df2\u8bfb\u4e0d\u56de\u597d\u51e0\u5929\u7684\u4eba",
-        "c11": "\u8bf4\u201c\u6211\u8ddf\u522b\u4eba\u4e0d\u4e00\u6837\u201d\u7684\u4eba",
-        "c12": "\u6bcf\u4e2a\u6545\u4e8b\u90fd\u8981\u6bd4\u4f60\u66f4\u5389\u5bb3\u7684\u4eba",
-        "c13": "\u5728\u516c\u5171\u573a\u5408\u5bf9\u4f34\u4fa3\u8bf4\u5a03\u5a03\u8bed\u7684\u4eba",
-        "c14": "\u7528\u661f\u5ea7\u4e3a\u574f\u884c\u4e3a\u5f00\u8131\u7684\u4eba",
-        "c15": "\u4e0d\u505c\u51e1\u5c14\u8d5b\u5439\u7684\u4eba",
-        "c16": "\u5403\u996d\u65f6\u770b\u624b\u673a\u7684\u4eba",
-        "c17": "\u4e0d\u95ee\u4f60\u5c31\u4ee3\u4f60\u70b9\u83dc\u7684\u4eba",
-        "c18": "\u53d1\u8bed\u97f3\u6d88\u606f\u800c\u4e0d\u662f\u6253\u5b57\u7684\u4eba",
-        "c19": "\u6d88\u606f\u91cc\u7528\u592a\u591a\u8868\u60c5\u5305\u7684\u4eba",
-        "c20": "\u5728\u4eba\u884c\u9053\u6b63\u4e2d\u95f4\u6162\u6109\u6109\u8d70\u7684\u4eba"
+        "c1": "张嘴嘲食物的人",
+        "c2": "上完厕所不洗手的人",
+        "c3": "同一套衣服连穿3天的人",
+        "c4": "碗在水槽里放几天不洗的人",
+        "c5": "在公共场合剪指甲的人",
+        "c6": "长消息只回一个“嘻”的人",
+        "c7": "总是谈前任的人",
+        "c8": "每顿饭都发社交媒体的人",
+        "c9": "自己讲笑话自己大声笑的人",
+        "c10": "已读不回好几天的人",
+        "c11": "说“我跟别人不一样”的人",
+        "c12": "每个故事都要比你更厉害的人",
+        "c13": "在公共场合对伴侣说娃娃语的人",
+        "c14": "用星座为坏行为开脱的人",
+        "c15": "不停凡尔赛吹的人",
+        "c16": "吃饭时看手机的人",
+        "c17": "不问你就代你点菜的人",
+        "c18": "发语音消息而不是打字的人",
+        "c19": "消息里用太多表情包的人",
+        "c20": "在人行道正中间慢愉愉走的人"
     },
     "tiers": {
         "unbothered": {
-            "name": "\u6de1\u5b9a\u4f20\u5947",
-            "desc": "\u4ec0\u4e48\u90fd\u4e0d\u5f71\u54cd\u4f60\u3002\u770b\u5230\u522b\u4eba\u7528\u6c34\u6ce1\u9ea6\u7247\u90fd\u53ea\u4f1a\u8038\u8038\u80a9\u3002\u4f60\u7684\u5305\u5bb9\u5ea6\u662f\u4f20\u5947\u7ea7\u522b\u7684\u3002"
+            "name": "淡定传奇",
+            "desc": "什么都不影响你。看到别人用水泡麦片都只会耸耸肩。你的包容度是传奇级别的。"
         },
         "chill": {
-            "name": "\u76f8\u5f53\u6dd2\u5b9a",
-            "desc": "\u6709\u6807\u51c6\u4f46\u5f88\u7075\u6d3b\u3002\u6709\u51e0\u4e2a\u8ba9\u4f60\u70e6\u7684\uff0c\u4f46\u5927\u90e8\u5206\u65f6\u5019\u90fd\u80fd\u653e\u8fc7\u3002"
+            "name": "相当淒定",
+            "desc": "有标准但很灵活。有几个让你烦的，但大部分时候都能放过。"
         },
         "detector": {
-            "name": "\u53cd\u611f\u63a2\u6d4b\u5668",
-            "desc": "\u4f60\u7684\u53cd\u611f\u96f7\u8fbe\u8c03\u8282\u5f97\u6070\u5230\u597d\u5904\u3002\u522b\u4eba\u770b\u4e0d\u5230\u7684\u4f60\u90fd\u80fd\u53d1\u73b0\uff0c\u4f46\u4e5f\u4e0d\u4f1a\u592a\u8fc7\u5206\u3002"
+            "name": "反感探测器",
+            "desc": "你的反感雷达调节得恰到好处。别人看不到的你都能发现，但也不会太过分。"
         },
         "magnet": {
-            "name": "\u53cd\u611f\u78c1\u94c1",
-            "desc": "\u8d70\u5230\u54ea\u91cc\u90fd\u80fd\u53d1\u73b0\u53cd\u611f\u7684\u4e8b\u3002\u670b\u53cb\u4eec\u5728\u4f60\u9762\u524d\u90fd\u5b66\u4f1a\u4e86\u5c0f\u5fc3\u7ffc\u7ffc\u3002"
+            "name": "反感磁铁",
+            "desc": "走到哪里都能发现反感的事。朋友们在你面前都学会了小心翼翼。"
         },
         "overlord": {
-            "name": "\u53cd\u611f\u5927\u738b",
-            "desc": "\u4f60\u7684\u6807\u51c6\u9ad8\u5230\u5929\u6587\u6570\u5b57\u3002\u51e0\u4e4e\u6240\u6709\u4e8b\u90fd\u8ba9\u4f60\u53cd\u611f\u3002\u548c\u4f60\u4f4f\u5728\u4e00\u8d77\u80af\u5b9a\u662f\u6781\u9650\u8fd0\u52a8\u3002"
+            "name": "反感大王",
+            "desc": "你的标准高到天文数字。几乎所有事都让你反感。和你住在一起肯定是极限运动。"
         }
     },
     "result": {
-        "icks": "\u4e2a\u53cd\u611f!",
-        "breakdown": "\u5206\u7c7b\u5206\u6790",
-        "yourIcks": "\u4f60\u7684\u53cd\u611f\u9879",
-        "noIcks": "\u4ec0\u4e48\u90fd\u4e0d\u53cd\u611f\uff01\u771f\u6b63\u7684\u6de1\u5b9a\u3002",
-        "retake": "\u91cd\u65b0\u6d4b\u8bd5",
-        "moreTests": "\u63a2\u7d22\u66f4\u591a\u6d4b\u8bd5",
-        "percentileStat": "\u4ec5\u6709 <strong>{percent}%</strong> \u7684\u53c2\u4e0e\u8005\u4e0e\u4f60\u62e5\u6709\u76f8\u540c\u7684\u53cd\u611f\u654f\u611f\u5ea6"
+        "icks": "个反感!",
+        "breakdown": "分类分析",
+        "yourIcks": "你的反感项",
+        "noIcks": "什么都不反感！真正的淡定。",
+        "retake": "重新测试",
+        "moreTests": "探索更多测试",
+        "percentileStat": "仅有 <strong>{percent}%</strong> 的参与者与你拥有相同的反感敏感度"
     },
     "share": {
-        "title": "\u5206\u4eab\u53cd\u611f\u7ed3\u679c",
-        "text": "\u6211\u7684\u53cd\u611f{count}/20\uff01\u53cd\u611f\u654f\u611f\u5ea6\uff1a\u201c{tier}\u201d\ud83e\udd22 \u4f60\u4e5f\u6765\u8bd5\u8bd5\uff1a",
-        "twitter": "\u5206\u4eab\u5230X",
-        "copyUrl": "\u590d\u5236\u94fe\u63a5",
-        "copied": "\u5df2\u590d\u5236\uff01"
+        "title": "分享反感结果",
+        "text": "我的反感{count}/20！反感敏感度：“{tier}”🤢 你也来试试：",
+        "twitter": "分享到X",
+        "copyUrl": "复制链接",
+        "copied": "已复制！"
     },
     "related": {
-        "redGreenFlag": "\u7ea2\u7eff\u65d7",
-        "toxicTrait": "\u6709\u6bd2\u7279\u8d28",
-        "rizzScore": "\u9b45\u529b\u5206\u6570",
-        "attachmentStyle": "\u4f9d\u9644\u7c7b\u578b"
+        "redGreenFlag": "红绿旗",
+        "toxicTrait": "有毒特质",
+        "rizzScore": "魅力分数",
+        "attachmentStyle": "依附类型"
     },
     "nav": {
-        "back": "DopaBrain \u9996\u9875"
+        "back": "DopaBrain 首页"
+    },
+    "engage": {
+        "result1": "Unbothered Legend -- 0-5 icks, Nothing Fazes You",
+        "result2": "Chill Vibes -- 6-10 icks, Selective Standards",
+        "result3": "Picky Princess -- 11-15 icks, High Standards",
+        "result4": "Ick Overlord -- 16-20 icks, Everything Is an Ick",
+        "socialProof": "1,450+ people measured their ick factor"
+    },
+    "about": {
+        "toggle": "About the Ick Factor Test",
+        "heading1": "How the Ick Factor Test Works",
+        "text1": "The Ick Factor Test presents 20 common behaviors across categories like dating, hygiene, social media, and communication. Swipe right if the behavior gives you the ick, left if it is fine. Your total count and category breakdown reveal your ick sensitivity profile.",
+        "heading2": "Understanding Your Ick Sensitivity",
+        "text2": "An ick is that sudden feeling of cringe or repulsion toward a behavior. Everyone has different ick triggers. This test helps you discover yours in a fun way and compare with friends to see who is the pickiest!"
     }
 }

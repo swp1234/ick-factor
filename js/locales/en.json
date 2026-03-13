@@ -1,23 +1,23 @@
 {
     "meta": {
-        "title": "Ick Factor Test | DopaBrain",
-        "description": "Swipe through 20 behaviors to discover your ick sensitivity level! Are you an Unbothered Legend or an Ick Overlord?"
+        "title": "What Is Your Ick Factor? Free Ick Sensitivity Test | DopaBrain",
+        "description": "Swipe through 20 behaviors to discover your ick sensitivity level! Are you an Unbothered Legend or an Ick Overlord? Free test with category breakdown."
     },
     "a11y": {
         "skip": "Skip to content"
     },
     "app": {
-        "title": "Ick Factor Test",
+        "title": "What Is Your Ick Factor? - Ick Sensitivity Test",
         "subtitle": "How sensitive is your ick radar?",
         "description": "Swipe through 20 everyday behaviors. Swipe right if it gives you the ick, left if you're fine with it. How picky are you really?",
-        "start": "Find My Ick Factor"
+        "start": "Find My Ick Factor - Free"
     },
     "swipe": {
         "ick": "ICK!",
         "fine": "FINE",
         "ickBtn": "Ick!",
         "fineBtn": "Fine",
-        "hint": "\u2190 Fine | Ick \u2192 (or use arrow keys)"
+        "hint": "← Fine | Ick → (or use arrow keys)"
     },
     "categories": {
         "hygiene": "Hygiene",
@@ -80,7 +80,7 @@
     },
     "share": {
         "title": "Share Your Ick Factor",
-        "text": "I got {count}/20 icks! My ick sensitivity: \"{tier}\" \ud83e\udd22 Check yours:",
+        "text": "I got {count}/20 icks! My ick sensitivity: \"{tier}\" 🤢 Check yours:",
         "twitter": "Share on X",
         "copyUrl": "Copy Link",
         "copied": "Copied!"
@@ -93,5 +93,19 @@
     },
     "nav": {
         "back": "DopaBrain Home"
+    },
+    "engage": {
+        "result1": "Unbothered Legend -- 0-5 icks, Nothing Fazes You",
+        "result2": "Chill Vibes -- 6-10 icks, Selective Standards",
+        "result3": "Picky Princess -- 11-15 icks, High Standards",
+        "result4": "Ick Overlord -- 16-20 icks, Everything Is an Ick",
+        "socialProof": "1,450+ people measured their ick factor"
+    },
+    "about": {
+        "toggle": "About the Ick Factor Test",
+        "heading1": "How the Ick Factor Test Works",
+        "text1": "The Ick Factor Test presents 20 common behaviors across categories like dating, hygiene, social media, and communication. Swipe right if the behavior gives you the ick, left if it is fine. Your total count and category breakdown reveal your ick sensitivity profile.",
+        "heading2": "Understanding Your Ick Sensitivity",
+        "text2": "An ick is that sudden feeling of cringe or repulsion toward a behavior. Everyone has different ick triggers. This test helps you discover yours in a fun way and compare with friends to see who is the pickiest!"
     }
 }

@@ -9,7 +9,7 @@
     "app": {
         "title": "Ick-Faktor Test",
         "subtitle": "Wie empfindlich ist dein Ick-Radar?",
-        "description": "Wische durch 20 Alltagsverhaltensweisen. Nach rechts wenn es dir Ick gibt, nach links wenn es okay ist. Wie w\u00e4hlerisch bist du wirklich?",
+        "description": "Wische durch 20 Alltagsverhaltensweisen. Nach rechts wenn es dir Ick gibt, nach links wenn es okay ist. Wie wählerisch bist du wirklich?",
         "start": "Meinen Ick finden"
     },
     "swipe": {
@@ -17,52 +17,52 @@
         "fine": "OK",
         "ickBtn": "Ick!",
         "fineBtn": "OK",
-        "hint": "\u2190 OK | Ick \u2192 (oder Pfeiltasten)"
+        "hint": "← OK | Ick → (oder Pfeiltasten)"
     },
     "categories": {
         "hygiene": "Hygiene",
         "social": "Sozial",
-        "personality": "Pers\u00f6nlichkeit",
+        "personality": "Persönlichkeit",
         "dating": "Dating"
     },
     "cards": {
         "c1": "Kaut mit offenem Mund",
-        "c2": "W\u00e4scht sich nach dem Bad nicht die H\u00e4nde",
-        "c3": "Tr\u00e4gt 3 Tage die gleiche Kleidung",
-        "c4": "L\u00e4sst das Geschirr tagelang im Sp\u00fclbecken",
-        "c5": "Schneidet sich in der \u00d6ffentlichkeit die N\u00e4gel",
+        "c2": "Wäscht sich nach dem Bad nicht die Hände",
+        "c3": "Trägt 3 Tage die gleiche Kleidung",
+        "c4": "Lässt das Geschirr tagelang im Spülbecken",
+        "c5": "Schneidet sich in der Öffentlichkeit die Nägel",
         "c6": "Antwortet 'K' auf lange Nachrichten",
-        "c7": "Redet st\u00e4ndig \u00fcber den Ex",
+        "c7": "Redet ständig über den Ex",
         "c8": "Postet jede Mahlzeit in sozialen Medien",
-        "c9": "Lacht laut \u00fcber eigene Witze",
-        "c10": "L\u00e4sst dich tagelang auf gelesen",
+        "c9": "Lacht laut über eigene Witze",
+        "c10": "Lässt dich tagelang auf gelesen",
         "c11": "Sagt 'Ich bin nicht wie andere Leute'",
-        "c12": "\u00dcbertrumpft jede Geschichte die du erz\u00e4hlst",
-        "c13": "Redet in der \u00d6ffentlichkeit Babysprache mit dem Partner",
+        "c12": "Übertrumpft jede Geschichte die du erzählst",
+        "c13": "Redet in der Öffentlichkeit Babysprache mit dem Partner",
         "c14": "Nutzt Astrologie um schlechtes Verhalten zu rechtfertigen",
-        "c15": "Betreibt st\u00e4ndig Humble-Bragging",
+        "c15": "Betreibt ständig Humble-Bragging",
         "c16": "Schaut beim Essen aufs Handy",
-        "c17": "Bestellt f\u00fcr dich ohne zu fragen",
+        "c17": "Bestellt für dich ohne zu fragen",
         "c18": "Schickt Sprachnachrichten statt Textnachrichten",
         "c19": "Benutzt zu viele Emojis in Nachrichten",
-        "c20": "Geht langsam mitten auf dem B\u00fcrgersteig"
+        "c20": "Geht langsam mitten auf dem Bürgersteig"
     },
     "tiers": {
         "unbothered": {
-            "name": "Unber\u00fchrte Legende",
-            "desc": "Nichts bringt dich aus der Ruhe. Du k\u00f6nntest sehen wie jemand M\u00fcsli mit Wasser isst und nur die Achseln zucken. Deine Toleranz ist legend\u00e4r."
+            "name": "Unberührte Legende",
+            "desc": "Nichts bringt dich aus der Ruhe. Du könntest sehen wie jemand Müsli mit Wasser isst und nur die Achseln zucken. Deine Toleranz ist legendär."
         },
         "chill": {
             "name": "Ziemlich Entspannt",
-            "desc": "Du hast Standards aber bist flexibel. Ein paar Dinge st\u00f6ren dich, aber meistens l\u00e4sst du es durchgehen."
+            "desc": "Du hast Standards aber bist flexibel. Ein paar Dinge stören dich, aber meistens lässt du es durchgehen."
         },
         "detector": {
             "name": "Ick-Detektor",
-            "desc": "Dein Ick-Radar ist perfekt kalibriert. Du bemerkst Dinge die andere \u00fcbersehen, bist aber nicht unvern\u00fcnftig."
+            "desc": "Dein Ick-Radar ist perfekt kalibriert. Du bemerkst Dinge die andere übersehen, bist aber nicht unvernünftig."
         },
         "magnet": {
             "name": "Ick-Magnet",
-            "desc": "Du entdeckst \u00fcberall Icks. Deine Freunde haben gelernt, vorsichtig um dich herum zu sein."
+            "desc": "Du entdeckst überall Icks. Deine Freunde haben gelernt, vorsichtig um dich herum zu sein."
         },
         "overlord": {
             "name": "Ick-Overlord",
@@ -71,27 +71,41 @@
     },
     "result": {
         "icks": "Icks!",
-        "breakdown": "Kategorieaufschl\u00fcsselung",
+        "breakdown": "Kategorieaufschlüsselung",
         "yourIcks": "Deine Icks",
-        "noIcks": "Nichts gibt dir Ick! Wirklich unber\u00fchrt.",
+        "noIcks": "Nichts gibt dir Ick! Wirklich unberührt.",
         "retake": "Nochmal machen",
         "moreTests": "Mehr Tests entdecken",
         "percentileStat": "Nur <strong>{percent}%</strong> der Teilnehmer teilen dein Ick-Empfindlichkeitsniveau"
     },
     "share": {
         "title": "Teile deinen Ick-Faktor",
-        "text": "Ich habe {count}/20 Icks! Meine Ick-Empfindlichkeit: \"{tier}\" \ud83e\udd22 Mach deinen:",
+        "text": "Ich habe {count}/20 Icks! Meine Ick-Empfindlichkeit: \"{tier}\" 🤢 Mach deinen:",
         "twitter": "Auf X teilen",
         "copyUrl": "Link kopieren",
         "copied": "Kopiert!"
     },
     "related": {
-        "redGreenFlag": "Rote/Gr\u00fcne Flagge",
+        "redGreenFlag": "Rote/Grüne Flagge",
         "toxicTrait": "Toxische Eigenschaft",
         "rizzScore": "Rizz-Score",
         "attachmentStyle": "Bindungsstil"
     },
     "nav": {
         "back": "DopaBrain Startseite"
+    },
+    "engage": {
+        "result1": "Unbothered Legend -- 0-5 icks, Nothing Fazes You",
+        "result2": "Chill Vibes -- 6-10 icks, Selective Standards",
+        "result3": "Picky Princess -- 11-15 icks, High Standards",
+        "result4": "Ick Overlord -- 16-20 icks, Everything Is an Ick",
+        "socialProof": "1,450+ people measured their ick factor"
+    },
+    "about": {
+        "toggle": "About the Ick Factor Test",
+        "heading1": "How the Ick Factor Test Works",
+        "text1": "The Ick Factor Test presents 20 common behaviors across categories like dating, hygiene, social media, and communication. Swipe right if the behavior gives you the ick, left if it is fine. Your total count and category breakdown reveal your ick sensitivity profile.",
+        "heading2": "Understanding Your Ick Sensitivity",
+        "text2": "An ick is that sudden feeling of cringe or repulsion toward a behavior. Everyone has different ick triggers. This test helps you discover yours in a fun way and compare with friends to see who is the pickiest!"
     }
 }

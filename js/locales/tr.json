@@ -1,15 +1,15 @@
 {
     "meta": {
-        "title": "Ick Fakt\u00f6r Testi | DopaBrain",
-        "description": "20 davran\u0131\u015f\u0131 kayd\u0131rarak ick hassasiyet seviyeni \u00f6\u011fren!"
+        "title": "Ick Faktör Testi | DopaBrain",
+        "description": "20 davranışı kaydırarak ick hassasiyet seviyeni öğren!"
     },
     "a11y": {
-        "skip": "\u0130\u00e7eri\u011fe atla"
+        "skip": "İçeriğe atla"
     },
     "app": {
-        "title": "Ick Fakt\u00f6r Testi",
-        "subtitle": "Ick radar\u0131n ne kadar hassas?",
-        "description": "20 g\u00fcnl\u00fck davran\u0131\u015f\u0131 kayd\u0131r. Ick ise sa\u011fa, tamam ise sola! Ger\u00e7ekte ne kadar se\u00e7icisin?",
+        "title": "Ick Faktör Testi",
+        "subtitle": "Ick radarın ne kadar hassas?",
+        "description": "20 günlük davranışı kaydır. Ick ise sağa, tamam ise sola! Gerçekte ne kadar seçicisin?",
         "start": "Ick'imi Bul"
     },
     "swipe": {
@@ -17,81 +17,95 @@
         "fine": "TAMAM",
         "ickBtn": "Ick!",
         "fineBtn": "Tamam",
-        "hint": "\u2190 Tamam | Ick \u2192 (veya ok tu\u015flar\u0131n\u0131 kullan)"
+        "hint": "← Tamam | Ick → (veya ok tuşlarını kullan)"
     },
     "categories": {
         "hygiene": "Hijyen",
         "social": "Sosyal",
-        "personality": "Ki\u015filik",
-        "dating": "Fl\u00f6rt"
+        "personality": "Kişilik",
+        "dating": "Flört"
     },
     "cards": {
-        "c1": "A\u011fz\u0131 a\u00e7\u0131k \u00e7i\u011fneyen biri",
-        "c2": "Tuvaletten sonra elini y\u0131kamayan biri",
-        "c3": "\u00dc\u00e7 g\u00fcn \u00fcst \u00fcste ayn\u0131 k\u0131yafeti giyen biri",
-        "c4": "Bula\u015f\u0131klar\u0131 g\u00fcnlerce lavaboda b\u0131rakan biri",
-        "c5": "Halka a\u00e7\u0131k yerde t\u0131rnak kesen biri",
+        "c1": "Ağzı açık çiğneyen biri",
+        "c2": "Tuvaletten sonra elini yıkamayan biri",
+        "c3": "Üç gün üst üste aynı kıyafeti giyen biri",
+        "c4": "Bulaşıkları günlerce lavaboda bırakan biri",
+        "c5": "Halka açık yerde tırnak kesen biri",
         "c6": "Uzun mesajlara 'K' diye cevap veren biri",
-        "c7": "S\u00fcrekli eski sevgilisinden bahseden biri",
-        "c8": "Her \u00f6\u011f\u00fcn\u00fc sosyal medyaya atan biri",
-        "c9": "Kendi esprisine y\u00fcksek sesle g\u00fclen biri",
-        "c10": "G\u00fcnlerce okundu yapan biri",
-        "c11": "'Ben di\u011fer insanlar gibi de\u011filim' diyen biri",
-        "c12": "Her hikayeyi \u00fcst\u00fcne atan biri",
-        "c13": "Toplum i\u00e7inde sevgilisine bebek gibi konu\u015fan biri",
-        "c14": "K\u00f6t\u00fc davran\u0131\u015f\u0131 bur\u00e7la a\u00e7\u0131klayan biri",
-        "c15": "S\u00fcrekli al\u00e7ak g\u00f6n\u00fcll\u00fc \u00f6v\u00fcnme yapan biri",
-        "c16": "Yemek s\u0131ras\u0131nda telefona bakan biri",
-        "c17": "Sormadan senin yerine sipari\u015f veren biri",
-        "c18": "Mesaj yerine sesli mesaj g\u00f6nderen biri",
-        "c19": "Mesajlarda \u00e7ok fazla emoji kullanan biri",
-        "c20": "Kald\u0131r\u0131m\u0131n ortas\u0131nda yava\u015f y\u00fcr\u00fcyen biri"
+        "c7": "Sürekli eski sevgilisinden bahseden biri",
+        "c8": "Her öğünü sosyal medyaya atan biri",
+        "c9": "Kendi esprisine yüksek sesle gülen biri",
+        "c10": "Günlerce okundu yapan biri",
+        "c11": "'Ben diğer insanlar gibi değilim' diyen biri",
+        "c12": "Her hikayeyi üstüne atan biri",
+        "c13": "Toplum içinde sevgilisine bebek gibi konuşan biri",
+        "c14": "Kötü davranışı burçla açıklayan biri",
+        "c15": "Sürekli alçak gönüllü övünme yapan biri",
+        "c16": "Yemek sırasında telefona bakan biri",
+        "c17": "Sormadan senin yerine sipariş veren biri",
+        "c18": "Mesaj yerine sesli mesaj gönderen biri",
+        "c19": "Mesajlarda çok fazla emoji kullanan biri",
+        "c20": "Kaldırımın ortasında yavaş yürüyen biri"
     },
     "tiers": {
         "unbothered": {
             "name": "Umursamaz Efsane",
-            "desc": "Hi\u00e7bir \u015fey seni etkilemiyor. Birinin suyla m\u0131s\u0131r gev re\u011fi yedi\u011fini g\u00f6rsen omuz silkersin. Tolerans\u0131n efsanevi."
+            "desc": "Hiçbir şey seni etkilemiyor. Birinin suyla mısır gev reği yediğini görsen omuz silkersin. Toleransın efsanevi."
         },
         "chill": {
-            "name": "Olduk\u00e7a Rahat",
-            "desc": "Standartlar\u0131n var ama esneksin. Birka\u00e7 \u015fey rahats\u0131z ediyor ama \u00e7o\u011funu ge\u00e7iyorsun."
+            "name": "Oldukça Rahat",
+            "desc": "Standartların var ama esneksin. Birkaç şey rahatsız ediyor ama çoğunu geçiyorsun."
         },
         "detector": {
-            "name": "Ick Dedekt\u00f6r\u00fc",
-            "desc": "Ick radar\u0131n m\u00fckemmel kalibre edilmi\u015f. Ba\u015fkalar\u0131n\u0131n ka\u00e7\u0131rd\u0131\u011f\u0131 \u015feyleri fark ediyorsun ama mant\u0131ks\u0131z de\u011filsin."
+            "name": "Ick Dedektörü",
+            "desc": "Ick radarın mükemmel kalibre edilmiş. Başkalarının kaçırdığı şeyleri fark ediyorsun ama mantıksız değilsin."
         },
         "magnet": {
-            "name": "Ick M\u0131knat\u0131s\u0131",
-            "desc": "Her yerde ick buluyorsun. Arkada\u015flar\u0131n senin yan\u0131nda dikkatli olmay\u0131 \u00f6\u011frendi."
+            "name": "Ick Mıknatısı",
+            "desc": "Her yerde ick buluyorsun. Arkadaşların senin yanında dikkatli olmayı öğrendi."
         },
         "overlord": {
             "name": "Ick Overlord",
-            "desc": "Standartlar\u0131n astronomik. Neredeyse her \u015fey sana ick veriyor. Seninle ya\u015famak ekstrem spor olmal\u0131."
+            "desc": "Standartların astronomik. Neredeyse her şey sana ick veriyor. Seninle yaşamak ekstrem spor olmalı."
         }
     },
     "result": {
         "icks": "Ick!",
         "breakdown": "Kategori Analizi",
         "yourIcks": "Senin Ick'lerin",
-        "noIcks": "Hi\u00e7bir \u015fey ick de\u011fil! Ger\u00e7ekten umursamaz.",
+        "noIcks": "Hiçbir şey ick değil! Gerçekten umursamaz.",
         "retake": "Tekrar Yap",
-        "moreTests": "Daha Fazla Test Ke\u015ffet",
-        "percentileStat": "Kat\u0131l\u0131mc\u0131lar\u0131n yaln\u0131zca <strong>{percent}%</strong>'i senin ick hassasiyet seviyene sahip"
+        "moreTests": "Daha Fazla Test Keşfet",
+        "percentileStat": "Katılımcıların yalnızca <strong>{percent}%</strong>'i senin ick hassasiyet seviyene sahip"
     },
     "share": {
-        "title": "Ick'ini Payla\u015f",
-        "text": "{count}/20 ick ald\u0131m! Ick hassasiyetim: \"{tier}\" \ud83e\udd22 Sen de dene:",
-        "twitter": "X'te Payla\u015f",
+        "title": "Ick'ini Paylaş",
+        "text": "{count}/20 ick aldım! Ick hassasiyetim: \"{tier}\" 🤢 Sen de dene:",
+        "twitter": "X'te Paylaş",
         "copyUrl": "Linki Kopyala",
-        "copied": "Kopyaland\u0131!"
+        "copied": "Kopyalandı!"
     },
     "related": {
-        "redGreenFlag": "K\u0131rm\u0131z\u0131/Ye\u015fil Bayrak",
-        "toxicTrait": "Toksik \u00d6zellik",
-        "rizzScore": "Rizz Puan\u0131",
-        "attachmentStyle": "Ba\u011flanma Stili"
+        "redGreenFlag": "Kırmızı/Yeşil Bayrak",
+        "toxicTrait": "Toksik Özellik",
+        "rizzScore": "Rizz Puanı",
+        "attachmentStyle": "Bağlanma Stili"
     },
     "nav": {
         "back": "DopaBrain Ana Sayfa"
+    },
+    "engage": {
+        "result1": "Unbothered Legend -- 0-5 icks, Nothing Fazes You",
+        "result2": "Chill Vibes -- 6-10 icks, Selective Standards",
+        "result3": "Picky Princess -- 11-15 icks, High Standards",
+        "result4": "Ick Overlord -- 16-20 icks, Everything Is an Ick",
+        "socialProof": "1,450+ people measured their ick factor"
+    },
+    "about": {
+        "toggle": "About the Ick Factor Test",
+        "heading1": "How the Ick Factor Test Works",
+        "text1": "The Ick Factor Test presents 20 common behaviors across categories like dating, hygiene, social media, and communication. Swipe right if the behavior gives you the ick, left if it is fine. Your total count and category breakdown reveal your ick sensitivity profile.",
+        "heading2": "Understanding Your Ick Sensitivity",
+        "text2": "An ick is that sudden feeling of cringe or repulsion toward a behavior. Everyone has different ick triggers. This test helps you discover yours in a fun way and compare with friends to see who is the pickiest!"
     }
 }

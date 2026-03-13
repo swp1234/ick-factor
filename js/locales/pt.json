@@ -1,15 +1,15 @@
 {
     "meta": {
         "title": "Teste de Ick | DopaBrain",
-        "description": "Deslize 20 comportamentos para descobrir seu n\u00edvel de sensibilidade ao ick!"
+        "description": "Deslize 20 comportamentos para descobrir seu nível de sensibilidade ao ick!"
     },
     "a11y": {
-        "skip": "Pular para o conte\u00fado"
+        "skip": "Pular para o conteúdo"
     },
     "app": {
         "title": "Teste de Ick",
-        "subtitle": "Qu\u00e3o sens\u00edvel \u00e9 seu radar de ick?",
-        "description": "Deslize 20 comportamentos do dia a dia. Para a direita se d\u00e1 ick, para a esquerda se tudo bem. Qu\u00e3o exigente voc\u00ea realmente \u00e9?",
+        "subtitle": "Quão sensível é seu radar de ick?",
+        "description": "Deslize 20 comportamentos do dia a dia. Para a direita se dá ick, para a esquerda se tudo bem. Quão exigente você realmente é?",
         "start": "Descobrir Meu Ick"
     },
     "swipe": {
@@ -17,7 +17,7 @@
         "fine": "OK",
         "ickBtn": "Ick!",
         "fineBtn": "OK",
-        "hint": "\u2190 OK | Ick \u2192 (ou use as setas)"
+        "hint": "← OK | Ick → (ou use as setas)"
     },
     "categories": {
         "hygiene": "Higiene",
@@ -27,71 +27,85 @@
     },
     "cards": {
         "c1": "Mastiga de boca aberta",
-        "c2": "N\u00e3o lava as m\u00e3os depois do banheiro",
+        "c2": "Não lava as mãos depois do banheiro",
         "c3": "Usa a mesma roupa 3 dias seguidos",
-        "c4": "Deixa a lou\u00e7a na pia por dias",
-        "c5": "Corta as unhas em p\u00fablico",
+        "c4": "Deixa a louça na pia por dias",
+        "c5": "Corta as unhas em público",
         "c6": "Responde 'K' para mensagens longas",
         "c7": "Fala do ex o tempo todo",
-        "c8": "Posta cada refei\u00e7\u00e3o nas redes sociais",
-        "c9": "Ri alto das pr\u00f3prias piadas",
+        "c8": "Posta cada refeição nas redes sociais",
+        "c9": "Ri alto das próprias piadas",
         "c10": "Te deixa no visto por dias",
-        "c11": "Diz 'eu n\u00e3o sou como os outros'",
-        "c12": "Sempre tem uma hist\u00f3ria melhor que a sua",
-        "c13": "Fala como beb\u00ea com o parceiro em p\u00fablico",
+        "c11": "Diz 'eu não sou como os outros'",
+        "c12": "Sempre tem uma história melhor que a sua",
+        "c13": "Fala como bebê com o parceiro em público",
         "c14": "Usa astrologia para justificar mau comportamento",
         "c15": "Faz humilde-brags constantemente",
         "c16": "Mexe no celular durante o jantar",
-        "c17": "Pede por voc\u00ea sem perguntar",
-        "c18": "Manda \u00e1udio em vez de mensagem de texto",
+        "c17": "Pede por você sem perguntar",
+        "c18": "Manda áudio em vez de mensagem de texto",
         "c19": "Usa emojis demais nas mensagens",
-        "c20": "Anda devagar no meio da cal\u00e7ada"
+        "c20": "Anda devagar no meio da calçada"
     },
     "tiers": {
         "unbothered": {
-            "name": "Lenda Impass\u00edvel",
-            "desc": "Nada te afeta. Voc\u00ea veria algu\u00e9m comer cereal com \u00e1gua e s\u00f3 daria de ombros. Sua toler\u00e2ncia \u00e9 lend\u00e1ria."
+            "name": "Lenda Impassível",
+            "desc": "Nada te afeta. Você veria alguém comer cereal com água e só daria de ombros. Sua tolerância é lendária."
         },
         "chill": {
             "name": "Bem Tranquilo",
-            "desc": "Tem padr\u00f5es mas \u00e9 flex\u00edvel. Algumas coisas incomodam, mas a maioria voc\u00ea deixa passar."
+            "desc": "Tem padrões mas é flexível. Algumas coisas incomodam, mas a maioria você deixa passar."
         },
         "detector": {
             "name": "Detector de Ick",
-            "desc": "Seu radar de ick est\u00e1 perfeitamente calibrado. Nota coisas que outros n\u00e3o veem mas n\u00e3o \u00e9 irrazo\u00e1vel."
+            "desc": "Seu radar de ick está perfeitamente calibrado. Nota coisas que outros não veem mas não é irrazoável."
         },
         "magnet": {
-            "name": "\u00cdm\u00e3 de Ick",
-            "desc": "Voc\u00ea detecta icks aonde quer que v\u00e1. Seus amigos aprenderam a pisar com cuidado perto de voc\u00ea."
+            "name": "Ímã de Ick",
+            "desc": "Você detecta icks aonde quer que vá. Seus amigos aprenderam a pisar com cuidado perto de você."
         },
         "overlord": {
             "name": "Overlord do Ick",
-            "desc": "Seus padr\u00f5es s\u00e3o astron\u00f4micos. Quase tudo te d\u00e1 ick. Morar com voc\u00ea deve ser um esporte radical."
+            "desc": "Seus padrões são astronômicos. Quase tudo te dá ick. Morar com você deve ser um esporte radical."
         }
     },
     "result": {
         "icks": "Icks!",
-        "breakdown": "An\u00e1lise por Categoria",
+        "breakdown": "Análise por Categoria",
         "yourIcks": "Seus Icks",
-        "noIcks": "Nada te d\u00e1 ick! Verdadeiramente impass\u00edvel.",
+        "noIcks": "Nada te dá ick! Verdadeiramente impassível.",
         "retake": "Refazer Teste",
         "moreTests": "Explore Mais Testes",
-        "percentileStat": "Apenas <strong>{percent}%</strong> dos participantes compartilham seu n\u00edvel de sensibilidade ao ick"
+        "percentileStat": "Apenas <strong>{percent}%</strong> dos participantes compartilham seu nível de sensibilidade ao ick"
     },
     "share": {
         "title": "Compartilhe Seu Ick",
-        "text": "Eu tenho {count}/20 icks! Minha sensibilidade: \"{tier}\" \ud83e\udd22 Fa\u00e7a o seu:",
+        "text": "Eu tenho {count}/20 icks! Minha sensibilidade: \"{tier}\" 🤢 Faça o seu:",
         "twitter": "Compartilhar no X",
         "copyUrl": "Copiar Link",
         "copied": "Copiado!"
     },
     "related": {
         "redGreenFlag": "Bandeira Vermelha/Verde",
-        "toxicTrait": "Tra\u00e7o T\u00f3xico",
-        "rizzScore": "Pontua\u00e7\u00e3o Rizz",
+        "toxicTrait": "Traço Tóxico",
+        "rizzScore": "Pontuação Rizz",
         "attachmentStyle": "Estilo de Apego"
     },
     "nav": {
-        "back": "DopaBrain In\u00edcio"
+        "back": "DopaBrain Início"
+    },
+    "engage": {
+        "result1": "Unbothered Legend -- 0-5 icks, Nothing Fazes You",
+        "result2": "Chill Vibes -- 6-10 icks, Selective Standards",
+        "result3": "Picky Princess -- 11-15 icks, High Standards",
+        "result4": "Ick Overlord -- 16-20 icks, Everything Is an Ick",
+        "socialProof": "1,450+ people measured their ick factor"
+    },
+    "about": {
+        "toggle": "About the Ick Factor Test",
+        "heading1": "How the Ick Factor Test Works",
+        "text1": "The Ick Factor Test presents 20 common behaviors across categories like dating, hygiene, social media, and communication. Swipe right if the behavior gives you the ick, left if it is fine. Your total count and category breakdown reveal your ick sensitivity profile.",
+        "heading2": "Understanding Your Ick Sensitivity",
+        "text2": "An ick is that sudden feeling of cringe or repulsion toward a behavior. Everyone has different ick triggers. This test helps you discover yours in a fun way and compare with friends to see who is the pickiest!"
     }
 }

@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
-    <title data-i18n="meta.title">Ick Factor Test | DopaBrain</title>
-    <meta name="description" data-i18n="meta.description" content="Swipe through 20 behaviors to discover your ick sensitivity level! Are you an Unbothered Legend or an Ick Overlord?">
+    <title data-i18n="meta.title">What Is Your Ick Factor? Free Ick Sensitivity Test | DopaBrain</title>
+    <meta name="description" data-i18n="meta.description" content="Swipe through 20 behaviors to discover your ick sensitivity level! Are you an Unbothered Legend or an Ick Overlord? Free test with category breakdown.">
     <meta name="robots" content="max-image-preview:large">
 
     <meta property="og:title" content="What's Your Ick Factor? | DopaBrain">
@@ -66,6 +66,53 @@
     }
 }
     </script>
+    <!-- BreadcrumbList -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://dopabrain.com/" },
+            { "@type": "ListItem", "position": 2, "name": "Tests", "item": "https://dopabrain.com/portal/" },
+            { "@type": "ListItem", "position": 3, "name": "Relationship Tests", "item": "https://dopabrain.com/portal/" },
+            { "@type": "ListItem", "position": 4, "name": "Ick Factor Test", "item": "https://dopabrain.com/ick-factor/" }
+        ]
+    }
+    </script>
+    <!-- FAQPage -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+            {
+                "@type": "Question",
+                "name": "What is an ick factor test?",
+                "acceptedAnswer": { "@type": "Answer", "text": "An ick factor test measures your sensitivity to common behaviors that people find cringeworthy or off-putting. By swiping through 20 different behaviors across categories like dating, hygiene, and social media, the test determines your ick sensitivity level from Unbothered Legend to Ick Overlord." }
+            },
+            {
+                "@type": "Question",
+                "name": "What does 'the ick' mean?",
+                "acceptedAnswer": { "@type": "Answer", "text": "The ick is that sudden feeling of cringe or repulsion you get when someone does something that turns you off. It is often used in dating contexts but can apply to any behavior that makes you uncomfortable, from how someone eats to how they text." }
+            },
+            {
+                "@type": "Question",
+                "name": "How does the swipe mechanic work?",
+                "acceptedAnswer": { "@type": "Answer", "text": "Each behavior appears on a card. Swipe right (or tap the Ick button) if the behavior gives you the ick. Swipe left (or tap Fine) if it does not bother you. You can also use arrow keys on desktop. Your total ick count and category breakdown reveal your sensitivity profile." }
+            },
+            {
+                "@type": "Question",
+                "name": "What are the ick categories?",
+                "acceptedAnswer": { "@type": "Answer", "text": "The test covers multiple ick categories including dating behaviors, personal hygiene habits, social media etiquette, communication style, and public behavior. Your category breakdown shows which types of behaviors bother you most." }
+            },
+            {
+                "@type": "Question",
+                "name": "Can I compare my ick factor with friends?",
+                "acceptedAnswer": { "@type": "Answer", "text": "Yes! After completing the test, you can share your ick factor score and complete ick list on X (Twitter) or copy the link to compare with friends. Seeing who is the pickiest makes for great group conversations!" }
+            }
+        ]
+    }
+    </script>
 
     <link rel="manifest" href="manifest.json">
     <link rel="icon" href="icon-192.svg" type="image/svg+xml">
@@ -101,7 +148,7 @@
 
     <main id="main-content">
         <header>
-            <h1 class="app-title" data-i18n="app.title">😬 Ick Factor Test</h1>
+            <h1 class="app-title" data-i18n="app.title">What Is Your Ick Factor? - Ick Sensitivity Test</h1>
             <p class="app-subtitle" data-i18n="app.subtitle">How sensitive is your ick radar?</p>
         </header>
 
@@ -113,7 +160,21 @@
                         <div class="orb-inner">😬</div>
                     </div>
                     <p class="start-desc" data-i18n="app.description">Swipe through 20 behaviors. Swipe right if it's an ick, left if it's fine. How picky are you really?</p>
-                    <button class="btn btn-start" id="startBtn" data-i18n="app.start">Find My Ick Factor</button>
+
+                    <!-- Result Preview Carousel -->
+                    <div class="result-carousel" aria-live="polite">
+                        <div class="carousel-track">
+                            <div class="carousel-item" data-i18n="engage.result1">Unbothered Legend -- 0-5 icks, Nothing Fazes You</div>
+                            <div class="carousel-item" data-i18n="engage.result2">Chill Vibes -- 6-10 icks, Selective Standards</div>
+                            <div class="carousel-item" data-i18n="engage.result3">Picky Princess -- 11-15 icks, High Standards</div>
+                            <div class="carousel-item" data-i18n="engage.result4">Ick Overlord -- 16-20 icks, Everything Is an Ick</div>
+                        </div>
+                    </div>
+
+                    <!-- Social Proof Badge -->
+                    <div class="social-proof-badge" data-i18n="engage.socialProof">1,450+ people measured their ick factor</div>
+
+                    <button class="btn btn-start btn-pulse" id="startBtn" data-i18n="app.start">Find My Ick Factor - Free</button>
                 </div>
             </section>
 
@@ -208,8 +269,21 @@
         </div>
     </main>
 
+    <!-- About Section -->
+    <section class="about-section collapsible-section" id="about-section">
+      <details>
+        <summary data-i18n="about.toggle">About the Ick Factor Test</summary>
+        <div class="about-content">
+          <h2 data-i18n="about.heading1">How the Ick Factor Test Works</h2>
+          <p data-i18n="about.text1">The Ick Factor Test presents 20 common behaviors across categories like dating, hygiene, social media, and communication. Swipe right if the behavior gives you the ick, left if it is fine. Your total count and category breakdown reveal your ick sensitivity profile.</p>
+          <h2 data-i18n="about.heading2">Understanding Your Ick Sensitivity</h2>
+          <p data-i18n="about.text2">An ick is that sudden feeling of cringe or repulsion toward a behavior. Everyone has different ick triggers. This test helps you discover yours in a fun way and compare with friends to see who is the pickiest!</p>
+        </div>
+      </details>
+    </section>
+
     <footer>
-        <a href="/portal/" data-i18n="nav.back">🏠 DopaBrain Home</a>
+        <a href="/portal/" data-i18n="nav.back">DopaBrain Home</a>
     </footer>
 
     <script src="js/app.js"></script>

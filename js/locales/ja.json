@@ -1,97 +1,111 @@
 {
     "meta": {
-        "title": "\u30a4\u30c3\u30af\u30c6\u30b9\u30c8 | DopaBrain",
-        "description": "20\u306e\u884c\u52d5\u3092\u30b9\u30ef\u30a4\u30d7\u3057\u3066\u3001\u3042\u306a\u305f\u306e\u30a4\u30c3\u30af\u611f\u5ea6\u3092\u6e2c\u5b9a\uff01"
+        "title": "イックテスト | DopaBrain",
+        "description": "20の行動をスワイプして、あなたのイック感度を測定！"
     },
     "a11y": {
-        "skip": "\u672c\u6587\u3078\u30b9\u30ad\u30c3\u30d7"
+        "skip": "本文へスキップ"
     },
     "app": {
-        "title": "\u30a4\u30c3\u30af\u30c6\u30b9\u30c8",
-        "subtitle": "\u3042\u306a\u305f\u306e\u30a4\u30c3\u30af\u30ec\u30fc\u30c0\u30fc\u306f\u3069\u308c\u304f\u3089\u3044\u654f\u611f\uff1f",
-        "description": "20\u306e\u65e5\u5e38\u884c\u52d5\u3092\u30b9\u30ef\u30a4\u30d7\u3057\u3088\u3046\u3002\u30a4\u30c3\u30af\u306a\u3089\u53f3\u3001\u5927\u4e08\u592b\u306a\u3089\u5de6\u3078\uff01\u3042\u306a\u305f\u306f\u3069\u308c\u304f\u3089\u3044\u3046\u308b\u3055\u3044\uff1f",
-        "start": "\u30a4\u30c3\u30af\u30c6\u30b9\u30c8\u958b\u59cb"
+        "title": "イックテスト",
+        "subtitle": "あなたのイックレーダーはどれくらい敏感？",
+        "description": "20の日常行動をスワイプしよう。イックなら右、大丈夫なら左へ！あなたはどれくらいうるさい？",
+        "start": "イックテスト開始"
     },
     "swipe": {
-        "ick": "\u30a4\u30c3\u30af!",
+        "ick": "イック!",
         "fine": "OK",
-        "ickBtn": "\u30a4\u30c3\u30af!",
+        "ickBtn": "イック!",
         "fineBtn": "OK",
-        "hint": "\u2190 OK | \u30a4\u30c3\u30af \u2192\uff08\u77e2\u5370\u30ad\u30fc\u3082\u4f7f\u3048\u307e\u3059\uff09"
+        "hint": "← OK | イック →（矢印キーも使えます）"
     },
     "categories": {
-        "hygiene": "\u885b\u751f",
-        "social": "\u793e\u4ea4",
-        "personality": "\u6027\u683c",
-        "dating": "\u30c7\u30fc\u30c8"
+        "hygiene": "衛生",
+        "social": "社交",
+        "personality": "性格",
+        "dating": "デート"
     },
     "cards": {
-        "c1": "\u53e3\u3092\u958b\u3051\u3066\u54ac\u3080\u4eba",
-        "c2": "\u30c8\u30a4\u30ec\u5f8c\u306b\u624b\u3092\u6d17\u308f\u306a\u3044\u4eba",
-        "c3": "\u540c\u3058\u670d\u30923\u65e5\u9023\u7d9a\u3067\u7740\u308b\u4eba",
-        "c4": "\u4f55\u65e5\u3082\u6d17\u3044\u7269\u3092\u30b7\u30f3\u30af\u306b\u653e\u7f6e\u3059\u308b\u4eba",
-        "c5": "\u516c\u5171\u306e\u5834\u3067\u722a\u3092\u5207\u308b\u4eba",
-        "c6": "\u9577\u3044\u30e1\u30c3\u30bb\u30fc\u30b8\u306b\u300c\u304a\u304b\u300d\u3068\u3060\u3051\u8fd4\u3059\u4eba",
-        "c7": "\u3044\u3064\u3082\u5143\u30ab\u30ce\u306e\u8a71\u3070\u304b\u308a\u3059\u308b\u4eba",
-        "c8": "\u6bce\u98df SNS\u306b\u30a2\u30c3\u30d7\u3059\u308b\u4eba",
-        "c9": "\u81ea\u5206\u306e\u30ae\u30e3\u30b0\u306b\u5927\u58f0\u3067\u7b11\u3046\u4eba",
-        "c10": "\u4f55\u65e5\u3082\u65e2\u8aad\u30b9\u30eb\u30fc\u3059\u308b\u4eba",
-        "c11": "\u300c\u79c1\u306f\u4ed6\u306e\u4eba\u3068\u9055\u3046\u300d\u3068\u8a00\u3046\u4eba",
-        "c12": "\u3069\u3093\u306a\u8a71\u3082\u30de\u30a6\u30f3\u30c8\u53d6\u308b\u4eba",
-        "c13": "\u516c\u5171\u306e\u5834\u3067\u604b\u4eba\u306b\u8d64\u3061\u3083\u3093\u8a00\u8449\u3092\u4f7f\u3046\u4eba",
-        "c14": "\u661f\u5ea7\u3067\u60aa\u3044\u884c\u52d5\u3092\u6b63\u5f53\u5316\u3059\u308b\u4eba",
-        "c15": "\u3044\u3064\u3082\u8b19\u905c\u81ea\u6162\u3059\u308b\u4eba",
-        "c16": "\u98df\u4e8b\u4e2d\u306b\u30b9\u30de\u30db\u3092\u898b\u308b\u4eba",
-        "c17": "\u805e\u304b\u305a\u306b\u52dd\u624b\u306b\u6ce8\u6587\u3059\u308b\u4eba",
-        "c18": "\u30c6\u30ad\u30b9\u30c8\u3067\u306f\u306a\u304f\u30dc\u30a4\u30b9\u30e1\u30c3\u30bb\u30fc\u30b8\u3092\u9001\u308b\u4eba",
-        "c19": "\u30e1\u30c3\u30bb\u30fc\u30b8\u306b\u7d75\u6587\u5b57\u3092\u4f7f\u3044\u3059\u304e\u308b\u4eba",
-        "c20": "\u6b69\u9053\u306e\u771f\u3093\u4e2d\u3067\u30ce\u30ed\u30ce\u30ed\u6b69\u304f\u4eba"
+        "c1": "口を開けて咬む人",
+        "c2": "トイレ後に手を洗わない人",
+        "c3": "同じ服を3日連続で着る人",
+        "c4": "何日も洗い物をシンクに放置する人",
+        "c5": "公共の場で爪を切る人",
+        "c6": "長いメッセージに「おか」とだけ返す人",
+        "c7": "いつも元カノの話ばかりする人",
+        "c8": "毎食 SNSにアップする人",
+        "c9": "自分のギャグに大声で笑う人",
+        "c10": "何日も既読スルーする人",
+        "c11": "「私は他の人と違う」と言う人",
+        "c12": "どんな話もマウント取る人",
+        "c13": "公共の場で恋人に赤ちゃん言葉を使う人",
+        "c14": "星座で悪い行動を正当化する人",
+        "c15": "いつも謙遜自慢する人",
+        "c16": "食事中にスマホを見る人",
+        "c17": "聞かずに勝手に注文する人",
+        "c18": "テキストではなくボイスメッセージを送る人",
+        "c19": "メッセージに絵文字を使いすぎる人",
+        "c20": "歩道の真ん中でノロノロ歩く人"
     },
     "tiers": {
         "unbothered": {
-            "name": "\u7121\u95a2\u5fc3\u30ec\u30b8\u30a7\u30f3\u30c9",
-            "desc": "\u4f55\u3082\u6c17\u306b\u306a\u3089\u306a\u3044\u3002\u8ab0\u304b\u304c\u6c34\u3067\u30b7\u30ea\u30a2\u30eb\u3092\u98df\u3079\u3066\u3082\u80a9\u3092\u3059\u304f\u3081\u308b\u3060\u3051\u3002\u3042\u306a\u305f\u306e\u5bdb\u5bb9\u3055\u306f\u4f1d\u8aac\u7d1a\u3002"
+            "name": "無関心レジェンド",
+            "desc": "何も気にならない。誰かが水でシリアルを食べても肩をすくめるだけ。あなたの寛容さは伝説級。"
         },
         "chill": {
-            "name": "\u7d50\u69cb\u30ea\u30e9\u30c3\u30af\u30b9",
-            "desc": "\u57fa\u6e96\u306f\u3042\u308b\u3051\u3069\u67d4\u8edf\u3002\u3044\u304f\u3064\u304b\u6c17\u306b\u306a\u308b\u3051\u3069\u3001\u307b\u3068\u3093\u3069\u306f\u6d41\u3059\u30bf\u30a4\u30d7\u3002"
+            "name": "結構リラックス",
+            "desc": "基準はあるけど柔軟。いくつか気になるけど、ほとんどは流すタイプ。"
         },
         "detector": {
-            "name": "\u30a4\u30c3\u30af\u63a2\u77e5\u6a5f",
-            "desc": "\u30a4\u30c3\u30af\u30ec\u30fc\u30c0\u30fc\u304c\u5b8c\u74a7\u306b\u8abf\u6574\u3055\u308c\u3066\u3044\u308b\u3002\u4ed6\u306e\u4eba\u304c\u898b\u901a\u3059\u3053\u3068\u3082\u30ad\u30e3\u30c3\u30c1\u3059\u308b\u3051\u3069\u3001\u7121\u7406\u306f\u3057\u306a\u3044\u3002"
+            "name": "イック探知機",
+            "desc": "イックレーダーが完璧に調整されている。他の人が見通すこともキャッチするけど、無理はしない。"
         },
         "magnet": {
-            "name": "\u30a4\u30c3\u30af\u30de\u30b0\u30cd\u30c3\u30c8",
-            "desc": "\u3069\u3053\u306b\u884c\u3063\u3066\u3082\u30a4\u30c3\u30af\u3092\u767a\u898b\u3059\u308b\u3002\u53cb\u9054\u306f\u3042\u306a\u305f\u306e\u524d\u3067\u306f\u6c17\u3092\u3064\u3051\u308b\u3053\u3068\u3092\u5b66\u3093\u3060\u306f\u305a\u3002"
+            "name": "イックマグネット",
+            "desc": "どこに行ってもイックを発見する。友達はあなたの前では気をつけることを学んだはず。"
         },
         "overlord": {
-            "name": "\u30a4\u30c3\u30af\u30aa\u30fc\u30d0\u30fc\u30ed\u30fc\u30c9",
-            "desc": "\u57fa\u6e96\u304c\u5929\u6587\u5b66\u7684\u306b\u9ad8\u3044\u3002\u307b\u307c\u3059\u3079\u3066\u304c\u30a4\u30c3\u30af\u3002\u3042\u306a\u305f\u3068\u4e00\u7dd2\u306b\u4f4f\u3080\u306e\u306f\u30a8\u30af\u30b9\u30c8\u30ea\u30fc\u30e0\u30b9\u30dd\u30fc\u30c4\u306b\u9055\u3044\u306a\u3044\u3002"
+            "name": "イックオーバーロード",
+            "desc": "基準が天文学的に高い。ほぼすべてがイック。あなたと一緒に住むのはエクストリームスポーツに違いない。"
         }
     },
     "result": {
-        "icks": "\u30a4\u30c3\u30af!",
-        "breakdown": "\u30ab\u30c6\u30b4\u30ea\u30fc\u5225\u5206\u6790",
-        "yourIcks": "\u3042\u306a\u305f\u306e\u30a4\u30c3\u30af",
-        "noIcks": "\u4f55\u3082\u30a4\u30c3\u30af\u3058\u3083\u306a\u3044\uff01\u672c\u5f53\u306b\u7121\u95a2\u5fc3\u3002",
-        "retake": "\u3082\u3046\u4e00\u5ea6",
-        "moreTests": "\u4ed6\u306e\u30c6\u30b9\u30c8\u3082\u8a66\u3059",
-        "percentileStat": "\u53c2\u52a0\u8005\u306e\u308f\u305a\u304b <strong>{percent}%</strong> \u304c\u3042\u306a\u305f\u3068\u540c\u3058\u30a4\u30c3\u30af\u611f\u5ea6\u3067\u3059"
+        "icks": "イック!",
+        "breakdown": "カテゴリー別分析",
+        "yourIcks": "あなたのイック",
+        "noIcks": "何もイックじゃない！本当に無関心。",
+        "retake": "もう一度",
+        "moreTests": "他のテストも試す",
+        "percentileStat": "参加者のわずか <strong>{percent}%</strong> があなたと同じイック感度です"
     },
     "share": {
-        "title": "\u30a4\u30c3\u30af\u7d50\u679c\u3092\u30b7\u30a7\u30a2",
-        "text": "\u79c1\u306e\u30a4\u30c3\u30af\u306f{count}/20\uff01\u30a4\u30c3\u30af\u611f\u5ea6: \u300c{tier}\u300d\ud83e\udd22 \u3042\u306a\u305f\u3082\u3084\u3063\u3066\u307f\u3066:",
-        "twitter": "X\u3067\u30b7\u30a7\u30a2",
-        "copyUrl": "\u30ea\u30f3\u30af\u30b3\u30d4\u30fc",
-        "copied": "\u30b3\u30d4\u30fc\u3057\u305f\uff01"
+        "title": "イック結果をシェア",
+        "text": "私のイックは{count}/20！イック感度: 「{tier}」🤢 あなたもやってみて:",
+        "twitter": "Xでシェア",
+        "copyUrl": "リンクコピー",
+        "copied": "コピーした！"
     },
     "related": {
-        "redGreenFlag": "\u30ec\u30c3\u30c9\u30b0\u30ea\u30fc\u30f3\u30d5\u30e9\u30b0",
-        "toxicTrait": "\u30c8\u30ad\u30b7\u30c3\u30af\u7279\u6027",
-        "rizzScore": "\u30ea\u30ba\u30b9\u30b3\u30a2",
-        "attachmentStyle": "\u611b\u7740\u30b9\u30bf\u30a4\u30eb"
+        "redGreenFlag": "レッドグリーンフラグ",
+        "toxicTrait": "トキシック特性",
+        "rizzScore": "リズスコア",
+        "attachmentStyle": "愛着スタイル"
     },
     "nav": {
-        "back": "DopaBrain \u30db\u30fc\u30e0"
+        "back": "DopaBrain ホーム"
+    },
+    "engage": {
+        "result1": "Unbothered Legend -- 0-5 icks, Nothing Fazes You",
+        "result2": "Chill Vibes -- 6-10 icks, Selective Standards",
+        "result3": "Picky Princess -- 11-15 icks, High Standards",
+        "result4": "Ick Overlord -- 16-20 icks, Everything Is an Ick",
+        "socialProof": "1,450+ people measured their ick factor"
+    },
+    "about": {
+        "toggle": "About the Ick Factor Test",
+        "heading1": "How the Ick Factor Test Works",
+        "text1": "The Ick Factor Test presents 20 common behaviors across categories like dating, hygiene, social media, and communication. Swipe right if the behavior gives you the ick, left if it is fine. Your total count and category breakdown reveal your ick sensitivity profile.",
+        "heading2": "Understanding Your Ick Sensitivity",
+        "text2": "An ick is that sudden feeling of cringe or repulsion toward a behavior. Everyone has different ick triggers. This test helps you discover yours in a fun way and compare with friends to see who is the pickiest!"
     }
 }
