@@ -129,6 +129,10 @@ body::before {
   position: absolute;
   top: -100%;
   left: 16px;
+  min-height: 44px;
+  display: inline-flex;
+  align-items: center;
+  box-sizing: border-box;
   background: var(--primary);
   color: #fff;
   padding: 12px 24px;
@@ -1208,6 +1212,10 @@ footer a:hover {
 
   .lang-btn {
     padding: 8px 10px;
+    min-width: 44px;
+    min-height: 44px;
+    justify-content: center;
+    box-sizing: border-box;
     font-size: 0.8rem;
   }
 
