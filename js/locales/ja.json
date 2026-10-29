@@ -1,111 +1,112 @@
 {
-    "meta": {
-        "title": "イックテスト | DopaBrain",
-        "description": "20の行動をスワイプして、あなたのイック感度を測定！"
+  "meta": {
+    "title": "イックテスト | DopaBrain",
+    "description": "20の行動をスワイプして、あなたのイック感度を測定！"
+  },
+  "a11y": {
+    "skip": "本文へスキップ"
+  },
+  "app": {
+    "title": "イックテスト",
+    "subtitle": "あなたのイックレーダーはどれくらい敏感？",
+    "description": "20の日常行動をスワイプしよう。イックなら右、大丈夫なら左へ！あなたはどれくらいうるさい？",
+    "start": "イックテスト開始"
+  },
+  "swipe": {
+    "ick": "イック!",
+    "fine": "OK",
+    "ickBtn": "イック!",
+    "fineBtn": "OK",
+    "hint": "← OK | イック →（矢印キーも使えます）"
+  },
+  "categories": {
+    "hygiene": "衛生",
+    "social": "社交",
+    "personality": "性格",
+    "dating": "デート"
+  },
+  "cards": {
+    "c1": "口を開けて咬む人",
+    "c2": "トイレ後に手を洗わない人",
+    "c3": "同じ服を3日連続で着る人",
+    "c4": "何日も洗い物をシンクに放置する人",
+    "c5": "公共の場で爪を切る人",
+    "c6": "長いメッセージに「おか」とだけ返す人",
+    "c7": "いつも元カノの話ばかりする人",
+    "c8": "毎食 SNSにアップする人",
+    "c9": "自分のギャグに大声で笑う人",
+    "c10": "何日も既読スルーする人",
+    "c11": "「私は他の人と違う」と言う人",
+    "c12": "どんな話もマウント取る人",
+    "c13": "公共の場で恋人に赤ちゃん言葉を使う人",
+    "c14": "星座で悪い行動を正当化する人",
+    "c15": "いつも謙遜自慢する人",
+    "c16": "食事中にスマホを見る人",
+    "c17": "聞かずに勝手に注文する人",
+    "c18": "テキストではなくボイスメッセージを送る人",
+    "c19": "メッセージに絵文字を使いすぎる人",
+    "c20": "歩道の真ん中でノロノロ歩く人"
+  },
+  "tiers": {
+    "unbothered": {
+      "name": "無関心レジェンド",
+      "desc": "何も気にならない。誰かが水でシリアルを食べても肩をすくめるだけ。あなたの寛容さは伝説級。"
     },
-    "a11y": {
-        "skip": "本文へスキップ"
+    "chill": {
+      "name": "結構リラックス",
+      "desc": "基準はあるけど柔軟。いくつか気になるけど、ほとんどは流すタイプ。"
     },
-    "app": {
-        "title": "イックテスト",
-        "subtitle": "あなたのイックレーダーはどれくらい敏感？",
-        "description": "20の日常行動をスワイプしよう。イックなら右、大丈夫なら左へ！あなたはどれくらいうるさい？",
-        "start": "イックテスト開始"
+    "detector": {
+      "name": "イック探知機",
+      "desc": "イックレーダーが完璧に調整されている。他の人が見通すこともキャッチするけど、無理はしない。"
     },
-    "swipe": {
-        "ick": "イック!",
-        "fine": "OK",
-        "ickBtn": "イック!",
-        "fineBtn": "OK",
-        "hint": "← OK | イック →（矢印キーも使えます）"
+    "magnet": {
+      "name": "イックマグネット",
+      "desc": "どこに行ってもイックを発見する。友達はあなたの前では気をつけることを学んだはず。"
     },
-    "categories": {
-        "hygiene": "衛生",
-        "social": "社交",
-        "personality": "性格",
-        "dating": "デート"
-    },
-    "cards": {
-        "c1": "口を開けて咬む人",
-        "c2": "トイレ後に手を洗わない人",
-        "c3": "同じ服を3日連続で着る人",
-        "c4": "何日も洗い物をシンクに放置する人",
-        "c5": "公共の場で爪を切る人",
-        "c6": "長いメッセージに「おか」とだけ返す人",
-        "c7": "いつも元カノの話ばかりする人",
-        "c8": "毎食 SNSにアップする人",
-        "c9": "自分のギャグに大声で笑う人",
-        "c10": "何日も既読スルーする人",
-        "c11": "「私は他の人と違う」と言う人",
-        "c12": "どんな話もマウント取る人",
-        "c13": "公共の場で恋人に赤ちゃん言葉を使う人",
-        "c14": "星座で悪い行動を正当化する人",
-        "c15": "いつも謙遜自慢する人",
-        "c16": "食事中にスマホを見る人",
-        "c17": "聞かずに勝手に注文する人",
-        "c18": "テキストではなくボイスメッセージを送る人",
-        "c19": "メッセージに絵文字を使いすぎる人",
-        "c20": "歩道の真ん中でノロノロ歩く人"
-    },
-    "tiers": {
-        "unbothered": {
-            "name": "無関心レジェンド",
-            "desc": "何も気にならない。誰かが水でシリアルを食べても肩をすくめるだけ。あなたの寛容さは伝説級。"
-        },
-        "chill": {
-            "name": "結構リラックス",
-            "desc": "基準はあるけど柔軟。いくつか気になるけど、ほとんどは流すタイプ。"
-        },
-        "detector": {
-            "name": "イック探知機",
-            "desc": "イックレーダーが完璧に調整されている。他の人が見通すこともキャッチするけど、無理はしない。"
-        },
-        "magnet": {
-            "name": "イックマグネット",
-            "desc": "どこに行ってもイックを発見する。友達はあなたの前では気をつけることを学んだはず。"
-        },
-        "overlord": {
-            "name": "イックオーバーロード",
-            "desc": "基準が天文学的に高い。ほぼすべてがイック。あなたと一緒に住むのはエクストリームスポーツに違いない。"
-        }
-    },
-    "result": {
-        "icks": "イック!",
-        "breakdown": "カテゴリー別分析",
-        "yourIcks": "あなたのイック",
-        "noIcks": "何もイックじゃない！本当に無関心。",
-        "retake": "もう一度",
-        "moreTests": "他のテストも試す",
-        "percentileStat": "参加者のわずか <strong>{percent}%</strong> があなたと同じイック感度です"
-    },
-    "share": {
-        "title": "イック結果をシェア",
-        "text": "私のイックは{count}/20！イック感度: 「{tier}」🤢 あなたもやってみて:",
-        "twitter": "Xでシェア",
-        "copyUrl": "リンクコピー",
-        "copied": "コピーした！"
-    },
-    "related": {
-        "redGreenFlag": "レッドグリーンフラグ",
-        "toxicTrait": "トキシック特性",
-        "rizzScore": "リズスコア",
-        "attachmentStyle": "愛着スタイル"
-    },
-    "nav": {
-        "back": "DopaBrain ホーム"
-    },
-    "engage": {
-        "result1": "Unbothered Legend -- 0-5 icks, Nothing Fazes You",
-        "result2": "Chill Vibes -- 6-10 icks, Selective Standards",
-        "result3": "Picky Princess -- 11-15 icks, High Standards",
-        "result4": "Ick Overlord -- 16-20 icks, Everything Is an Ick",
-        "socialProof": "1,450+ people measured their ick factor"
-    },
-    "about": {
-        "toggle": "About the Ick Factor Test",
-        "heading1": "How the Ick Factor Test Works",
-        "text1": "The Ick Factor Test presents 20 common behaviors across categories like dating, hygiene, social media, and communication. Swipe right if the behavior gives you the ick, left if it is fine. Your total count and category breakdown reveal your ick sensitivity profile.",
-        "heading2": "Understanding Your Ick Sensitivity",
-        "text2": "An ick is that sudden feeling of cringe or repulsion toward a behavior. Everyone has different ick triggers. This test helps you discover yours in a fun way and compare with friends to see who is the pickiest!"
+    "overlord": {
+      "name": "イックオーバーロード",
+      "desc": "基準が天文学的に高い。ほぼすべてがイック。あなたと一緒に住むのはエクストリームスポーツに違いない。"
     }
+  },
+  "result": {
+    "icks": "イック!",
+    "breakdown": "カテゴリー別分析",
+    "yourIcks": "あなたのイック",
+    "noIcks": "何もイックじゃない！本当に無関心。",
+    "retake": "もう一度",
+    "moreTests": "他のテストも試す",
+    "percentileStat": "あなたのイック感度スコアは20の日常的な場面における個人的な反応パターンを表しています。",
+    "profileStat": "あなたのイック感度スコアは20の日常的な場面における個人的な反応パターンを表しています。"
+  },
+  "share": {
+    "title": "イック結果をシェア",
+    "text": "私のイックは{count}/20！イック感度: 「{tier}」🤢 あなたもやってみて:",
+    "twitter": "Xでシェア",
+    "copyUrl": "リンクコピー",
+    "copied": "コピーした！"
+  },
+  "related": {
+    "redGreenFlag": "レッドグリーンフラグ",
+    "toxicTrait": "トキシック特性",
+    "rizzScore": "リズスコア",
+    "attachmentStyle": "愛着スタイル"
+  },
+  "nav": {
+    "back": "DopaBrain ホーム"
+  },
+  "engage": {
+    "result1": "Unbothered Legend -- 0-5 icks, Nothing Fazes You",
+    "result2": "Chill Vibes -- 6-10 icks, Selective Standards",
+    "result3": "Picky Princess -- 11-15 icks, High Standards",
+    "result4": "Ick Overlord -- 16-20 icks, Everything Is an Ick",
+    "socialProof": "20の行動シナリオ · 100%プライベート自己診断"
+  },
+  "about": {
+    "toggle": "About the Ick Factor Test",
+    "heading1": "How the Ick Factor Test Works",
+    "text1": "The Ick Factor Test presents 20 common behaviors across categories like dating, hygiene, social media, and communication. Swipe right if the behavior gives you the ick, left if it is fine. Your total count and category breakdown reveal your ick sensitivity profile.",
+    "heading2": "Understanding Your Ick Sensitivity",
+    "text2": "An ick is that sudden feeling of cringe or repulsion toward a behavior. Everyone has different ick triggers. This test helps you discover yours in a fun way and compare with friends to see who is the pickiest!"
+  }
 }

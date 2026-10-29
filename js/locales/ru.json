@@ -1,111 +1,112 @@
 {
-    "meta": {
-        "title": "Тест на Кринж | DopaBrain",
-        "description": "Пролистай 20 привычек и узнай свой уровень чувствительности к кринжу!"
+  "meta": {
+    "title": "Тест на Кринж | DopaBrain",
+    "description": "Пролистай 20 привычек и узнай свой уровень чувствительности к кринжу!"
+  },
+  "a11y": {
+    "skip": "Перейти к содержанию"
+  },
+  "app": {
+    "title": "Тест на Кринж",
+    "subtitle": "Насколько чувствителен ваш радар кринжа?",
+    "description": "Пролистай 20 повседневных привычек. Кринж — вправо, ок — влево. Насколько вы придирчивы?",
+    "start": "Начать тест"
+  },
+  "swipe": {
+    "ick": "КРИНЖ!",
+    "fine": "ОК",
+    "ickBtn": "Кринж!",
+    "fineBtn": "Ок",
+    "hint": "← Ок | Кринж → (или стрелки)"
+  },
+  "categories": {
+    "hygiene": "Гигиена",
+    "social": "Социальное",
+    "personality": "Характер",
+    "dating": "Свидания"
+  },
+  "cards": {
+    "c1": "Жуёт с открытым ртом",
+    "c2": "Не моет руки после туалета",
+    "c3": "Носит одну одежду 3 дня подряд",
+    "c4": "Оставляет посуду в раковине на дни",
+    "c5": "Стрижёт ногти на публике",
+    "c6": "Отвечает 'ок' на длинные сообщения",
+    "c7": "Постоянно говорит о бывшем/бывшей",
+    "c8": "Выкладывает каждую еду в соцсети",
+    "c9": "Громко смеётся над собственными шутками",
+    "c10": "Читает и не отвечает днями",
+    "c11": "Говорит 'я не такой как все'",
+    "c12": "Всегда перебивает своей более крутой историей",
+    "c13": "Сюсюкает с партнёром на публике",
+    "c14": "Оправдывает плохое поведение знаком зодиака",
+    "c15": "Постоянно скромно хвастается",
+    "c16": "Смотрит в телефон во время ужина",
+    "c17": "Заказывает за вас не спросив",
+    "c18": "Отправляет голосовые вместо текстовых",
+    "c19": "Слишком много эмодзи в сообщениях",
+    "c20": "Медленно идёт посередине тротуара"
+  },
+  "tiers": {
+    "unbothered": {
+      "name": "Непробиваемая Легенда",
+      "desc": "Ничто вас не беспокоит. Увидите как кто-то ест кашу с водой и просто пожмёте плечами. Ваша терпимость легендарна."
     },
-    "a11y": {
-        "skip": "Перейти к содержанию"
+    "chill": {
+      "name": "Довольно Расслаблен",
+      "desc": "У вас есть стандарты, но вы гибкий. Кое-что раздражает, но в основном пропускаете."
     },
-    "app": {
-        "title": "Тест на Кринж",
-        "subtitle": "Насколько чувствителен ваш радар кринжа?",
-        "description": "Пролистай 20 повседневных привычек. Кринж — вправо, ок — влево. Насколько вы придирчивы?",
-        "start": "Начать тест"
+    "detector": {
+      "name": "Детектор Кринжа",
+      "desc": "Ваш радар кринжа идеально настроен. Вы замечаете то, что другие пропускают, но вы не переборщик."
     },
-    "swipe": {
-        "ick": "КРИНЖ!",
-        "fine": "ОК",
-        "ickBtn": "Кринж!",
-        "fineBtn": "Ок",
-        "hint": "← Ок | Кринж → (или стрелки)"
+    "magnet": {
+      "name": "Магнит Кринжа",
+      "desc": "Вы находите кринж везде. Ваши друзья научились быть осторожными рядом с вами."
     },
-    "categories": {
-        "hygiene": "Гигиена",
-        "social": "Социальное",
-        "personality": "Характер",
-        "dating": "Свидания"
-    },
-    "cards": {
-        "c1": "Жуёт с открытым ртом",
-        "c2": "Не моет руки после туалета",
-        "c3": "Носит одну одежду 3 дня подряд",
-        "c4": "Оставляет посуду в раковине на дни",
-        "c5": "Стрижёт ногти на публике",
-        "c6": "Отвечает 'ок' на длинные сообщения",
-        "c7": "Постоянно говорит о бывшем/бывшей",
-        "c8": "Выкладывает каждую еду в соцсети",
-        "c9": "Громко смеётся над собственными шутками",
-        "c10": "Читает и не отвечает днями",
-        "c11": "Говорит 'я не такой как все'",
-        "c12": "Всегда перебивает своей более крутой историей",
-        "c13": "Сюсюкает с партнёром на публике",
-        "c14": "Оправдывает плохое поведение знаком зодиака",
-        "c15": "Постоянно скромно хвастается",
-        "c16": "Смотрит в телефон во время ужина",
-        "c17": "Заказывает за вас не спросив",
-        "c18": "Отправляет голосовые вместо текстовых",
-        "c19": "Слишком много эмодзи в сообщениях",
-        "c20": "Медленно идёт посередине тротуара"
-    },
-    "tiers": {
-        "unbothered": {
-            "name": "Непробиваемая Легенда",
-            "desc": "Ничто вас не беспокоит. Увидите как кто-то ест кашу с водой и просто пожмёте плечами. Ваша терпимость легендарна."
-        },
-        "chill": {
-            "name": "Довольно Расслаблен",
-            "desc": "У вас есть стандарты, но вы гибкий. Кое-что раздражает, но в основном пропускаете."
-        },
-        "detector": {
-            "name": "Детектор Кринжа",
-            "desc": "Ваш радар кринжа идеально настроен. Вы замечаете то, что другие пропускают, но вы не переборщик."
-        },
-        "magnet": {
-            "name": "Магнит Кринжа",
-            "desc": "Вы находите кринж везде. Ваши друзья научились быть осторожными рядом с вами."
-        },
-        "overlord": {
-            "name": "Оверлорд Кринжа",
-            "desc": "Ваши стандарты космически высокие. Почти всё вызывает кринж. Жить с вами — это экстремальный спорт."
-        }
-    },
-    "result": {
-        "icks": "кринжов!",
-        "breakdown": "Разбор по Категориям",
-        "yourIcks": "Ваши Кринжи",
-        "noIcks": "Ничто не вызывает кринж! Истинно непробиваемый.",
-        "retake": "Пройти снова",
-        "moreTests": "Другие тесты",
-        "percentileStat": "Только <strong>{percent}%</strong> участников имеют такой же уровень чувствительности к кринжу"
-    },
-    "share": {
-        "title": "Поделиться Результатом",
-        "text": "У меня {count}/20 кринжов! Моя чувствительность: \"{tier}\" 🤢 Проверь свой:",
-        "twitter": "Поделиться в X",
-        "copyUrl": "Копировать ссылку",
-        "copied": "Скопировано!"
-    },
-    "related": {
-        "redGreenFlag": "Красный/Зелёный Флаг",
-        "toxicTrait": "Токсичная Черта",
-        "rizzScore": "Очки Обаяния",
-        "attachmentStyle": "Тип Привязанности"
-    },
-    "nav": {
-        "back": "DopaBrain Главная"
-    },
-    "engage": {
-        "result1": "Unbothered Legend -- 0-5 icks, Nothing Fazes You",
-        "result2": "Chill Vibes -- 6-10 icks, Selective Standards",
-        "result3": "Picky Princess -- 11-15 icks, High Standards",
-        "result4": "Ick Overlord -- 16-20 icks, Everything Is an Ick",
-        "socialProof": "1,450+ people measured their ick factor"
-    },
-    "about": {
-        "toggle": "About the Ick Factor Test",
-        "heading1": "How the Ick Factor Test Works",
-        "text1": "The Ick Factor Test presents 20 common behaviors across categories like dating, hygiene, social media, and communication. Swipe right if the behavior gives you the ick, left if it is fine. Your total count and category breakdown reveal your ick sensitivity profile.",
-        "heading2": "Understanding Your Ick Sensitivity",
-        "text2": "An ick is that sudden feeling of cringe or repulsion toward a behavior. Everyone has different ick triggers. This test helps you discover yours in a fun way and compare with friends to see who is the pickiest!"
+    "overlord": {
+      "name": "Оверлорд Кринжа",
+      "desc": "Ваши стандарты космически высокие. Почти всё вызывает кринж. Жить с вами — это экстремальный спорт."
     }
+  },
+  "result": {
+    "icks": "кринжов!",
+    "breakdown": "Разбор по Категориям",
+    "yourIcks": "Ваши Кринжи",
+    "noIcks": "Ничто не вызывает кринж! Истинно непробиваемый.",
+    "retake": "Пройти снова",
+    "moreTests": "Другие тесты",
+    "percentileStat": "Ваш балл чувствительности отражает личные реакции в 20 повседневных ситуациях.",
+    "profileStat": "Ваш балл чувствительности отражает личные реакции в 20 повседневных ситуациях."
+  },
+  "share": {
+    "title": "Поделиться Результатом",
+    "text": "У меня {count}/20 кринжов! Моя чувствительность: \"{tier}\" 🤢 Проверь свой:",
+    "twitter": "Поделиться в X",
+    "copyUrl": "Копировать ссылку",
+    "copied": "Скопировано!"
+  },
+  "related": {
+    "redGreenFlag": "Красный/Зелёный Флаг",
+    "toxicTrait": "Токсичная Черта",
+    "rizzScore": "Очки Обаяния",
+    "attachmentStyle": "Тип Привязанности"
+  },
+  "nav": {
+    "back": "DopaBrain Главная"
+  },
+  "engage": {
+    "result1": "Unbothered Legend -- 0-5 icks, Nothing Fazes You",
+    "result2": "Chill Vibes -- 6-10 icks, Selective Standards",
+    "result3": "Picky Princess -- 11-15 icks, High Standards",
+    "result4": "Ick Overlord -- 16-20 icks, Everything Is an Ick",
+    "socialProof": "20 сценариев поведения · 100% приватная рефлексия"
+  },
+  "about": {
+    "toggle": "About the Ick Factor Test",
+    "heading1": "How the Ick Factor Test Works",
+    "text1": "The Ick Factor Test presents 20 common behaviors across categories like dating, hygiene, social media, and communication. Swipe right if the behavior gives you the ick, left if it is fine. Your total count and category breakdown reveal your ick sensitivity profile.",
+    "heading2": "Understanding Your Ick Sensitivity",
+    "text2": "An ick is that sudden feeling of cringe or repulsion toward a behavior. Everyone has different ick triggers. This test helps you discover yours in a fun way and compare with friends to see who is the pickiest!"
+  }
 }

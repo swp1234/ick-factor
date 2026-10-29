@@ -1,111 +1,112 @@
 {
-    "meta": {
-        "title": "इक फैक्टर टेस्ट | DopaBrain",
-        "description": "20 व्यवहारों को स्वाइप करके अपनी इक संवेदनशीलता का पता लगाएं!"
+  "meta": {
+    "title": "इक फैक्टर टेस्ट | DopaBrain",
+    "description": "20 व्यवहारों को स्वाइप करके अपनी इक संवेदनशीलता का पता लगाएं!"
+  },
+  "a11y": {
+    "skip": "सामग्री पर जाएं"
+  },
+  "app": {
+    "title": "इक फैक्टर टेस्ट",
+    "subtitle": "आपका इक रडार कितना संवेदनशील है?",
+    "description": "20 रोज़मर्रा व्यवहारों को स्वाइप करें। इक है तो दाएं, ठीक है तो बाएं। आप वास्तव में कितने चुनिंदा हैं?",
+    "start": "मेरा इक खोजें"
+  },
+  "swipe": {
+    "ick": "इक!",
+    "fine": "ठीक",
+    "ickBtn": "इक!",
+    "fineBtn": "ठीक",
+    "hint": "← ठीक | इक → (या एरो की का उपयोग करें)"
+  },
+  "categories": {
+    "hygiene": "स्वच्छता",
+    "social": "सामाजिक",
+    "personality": "व्यक्तित्व",
+    "dating": "डेटिंग"
+  },
+  "cards": {
+    "c1": "मुंह खोलकर खाना खाता है",
+    "c2": "बाथरूम के बाद हाथ नहीं धोता",
+    "c3": "एक ही कपड़े लगातार 3 दिन पहनता है",
+    "c4": "कई दिनों तक सिंक में बर्तन छोड़ देता है",
+    "c5": "सार्वजनिक जगह पर नाखून काटता है",
+    "c6": "लंबे मैसेज का जवाब 'क' से देता है",
+    "c7": "हमेशा एक्स की बात करता है",
+    "c8": "हर खाना सोशल मीडिया पर डालता है",
+    "c9": "अपने ही चुटकुलों पर जोर से हंसता है",
+    "c10": "कई दिनों तक मैसेज पढ़कर जवाब नहीं देता",
+    "c11": "'मैं दूसरों से अलग हूं' कहता है",
+    "c12": "हर कहानी में अपनी बड़ी कहानी बताता है",
+    "c13": "सार्वजनिक जगह पर पार्टनर से बेबी टॉक करता है",
+    "c14": "बुरे व्यवहार को राशि से सही ठहराता है",
+    "c15": "लगातार नकली तारीफ करता है",
+    "c16": "खाने के दौरान फोन चेक करता है",
+    "c17": "पूछे बिना आपके लिए ऑर्डर करता है",
+    "c18": "टेक्स्ट की जगह वॉइस मैसेज भेजता है",
+    "c19": "मैसेज में बहुत ज्यादा इमोजी इस्तेमाल करता है",
+    "c20": "फुटपाथ के बीच में धीरे-धीरे चलता है"
+  },
+  "tiers": {
+    "unbothered": {
+      "name": "बेपरवाह लेजेंड",
+      "desc": "कुछ भी आपको परेशान नहीं करता। कोई पानी से सीरियल खाए तो भी बस कंधे उचका देंगे। आपकी सहनशीलता लेजेंडरी है।"
     },
-    "a11y": {
-        "skip": "सामग्री पर जाएं"
+    "chill": {
+      "name": "काफी कूल",
+      "desc": "आपके मानक हैं लेकिन लचीले हैं। कुछ चीजें परेशान करती हैं लेकिन ज्यादातर छोड़ देते हैं।"
     },
-    "app": {
-        "title": "इक फैक्टर टेस्ट",
-        "subtitle": "आपका इक रडार कितना संवेदनशील है?",
-        "description": "20 रोज़मर्रा व्यवहारों को स्वाइप करें। इक है तो दाएं, ठीक है तो बाएं। आप वास्तव में कितने चुनिंदा हैं?",
-        "start": "मेरा इक खोजें"
+    "detector": {
+      "name": "इक डिटेक्टर",
+      "desc": "आपका इक रडार परफेक्टली कैलिब्रेटेड है। दूसरों को जो नहीं दिखता वो आपको दिखता है लेकिन आप अनुचित नहीं हैं।"
     },
-    "swipe": {
-        "ick": "इक!",
-        "fine": "ठीक",
-        "ickBtn": "इक!",
-        "fineBtn": "ठीक",
-        "hint": "← ठीक | इक → (या एरो की का उपयोग करें)"
+    "magnet": {
+      "name": "इक मैग्नेट",
+      "desc": "आप जहां भी जाएं इक ढूंढ लेते हैं। आपके दोस्तों ने आपके आसपास सावधान रहना सीख लिया है।"
     },
-    "categories": {
-        "hygiene": "स्वच्छता",
-        "social": "सामाजिक",
-        "personality": "व्यक्तित्व",
-        "dating": "डेटिंग"
-    },
-    "cards": {
-        "c1": "मुंह खोलकर खाना खाता है",
-        "c2": "बाथरूम के बाद हाथ नहीं धोता",
-        "c3": "एक ही कपड़े लगातार 3 दिन पहनता है",
-        "c4": "कई दिनों तक सिंक में बर्तन छोड़ देता है",
-        "c5": "सार्वजनिक जगह पर नाखून काटता है",
-        "c6": "लंबे मैसेज का जवाब 'क' से देता है",
-        "c7": "हमेशा एक्स की बात करता है",
-        "c8": "हर खाना सोशल मीडिया पर डालता है",
-        "c9": "अपने ही चुटकुलों पर जोर से हंसता है",
-        "c10": "कई दिनों तक मैसेज पढ़कर जवाब नहीं देता",
-        "c11": "'मैं दूसरों से अलग हूं' कहता है",
-        "c12": "हर कहानी में अपनी बड़ी कहानी बताता है",
-        "c13": "सार्वजनिक जगह पर पार्टनर से बेबी टॉक करता है",
-        "c14": "बुरे व्यवहार को राशि से सही ठहराता है",
-        "c15": "लगातार नकली तारीफ करता है",
-        "c16": "खाने के दौरान फोन चेक करता है",
-        "c17": "पूछे बिना आपके लिए ऑर्डर करता है",
-        "c18": "टेक्स्ट की जगह वॉइस मैसेज भेजता है",
-        "c19": "मैसेज में बहुत ज्यादा इमोजी इस्तेमाल करता है",
-        "c20": "फुटपाथ के बीच में धीरे-धीरे चलता है"
-    },
-    "tiers": {
-        "unbothered": {
-            "name": "बेपरवाह लेजेंड",
-            "desc": "कुछ भी आपको परेशान नहीं करता। कोई पानी से सीरियल खाए तो भी बस कंधे उचका देंगे। आपकी सहनशीलता लेजेंडरी है।"
-        },
-        "chill": {
-            "name": "काफी कूल",
-            "desc": "आपके मानक हैं लेकिन लचीले हैं। कुछ चीजें परेशान करती हैं लेकिन ज्यादातर छोड़ देते हैं।"
-        },
-        "detector": {
-            "name": "इक डिटेक्टर",
-            "desc": "आपका इक रडार परफेक्टली कैलिब्रेटेड है। दूसरों को जो नहीं दिखता वो आपको दिखता है लेकिन आप अनुचित नहीं हैं।"
-        },
-        "magnet": {
-            "name": "इक मैग्नेट",
-            "desc": "आप जहां भी जाएं इक ढूंढ लेते हैं। आपके दोस्तों ने आपके आसपास सावधान रहना सीख लिया है।"
-        },
-        "overlord": {
-            "name": "इक ओवरलॉर्ड",
-            "desc": "आपके मानक खगोलीय हैं। लगभग सबकुछ आपको इक देता है। आपके साथ रहना एक एक्सट्रीम स्पोर्ट होगा।"
-        }
-    },
-    "result": {
-        "icks": "इक!",
-        "breakdown": "श्रेणी विश्लेषण",
-        "yourIcks": "आपके इक",
-        "noIcks": "कुछ भी इक नहीं देता! सचमुच बेपरवाह।",
-        "retake": "दोबारा करें",
-        "moreTests": "और टेस्ट खोजें",
-        "percentileStat": "केवल <strong>{percent}%</strong> प्रतिभागियों की इक संवेदनशीलता आपसे मिलती है"
-    },
-    "share": {
-        "title": "अपना इक शेयर करें",
-        "text": "मुझे {count}/20 इक मिले! मेरी इक संवेदनशीलता: \"{tier}\" 🤢 आप भी करें:",
-        "twitter": "X पर शेयर करें",
-        "copyUrl": "लिंक कॉपी करें",
-        "copied": "कॉपी हो गया!"
-    },
-    "related": {
-        "redGreenFlag": "रेड ग्रीन फ्लैग",
-        "toxicTrait": "जहरीला गुण",
-        "rizzScore": "रिज़ स्कोर",
-        "attachmentStyle": "लगाव शैली"
-    },
-    "nav": {
-        "back": "DopaBrain होम"
-    },
-    "engage": {
-        "result1": "Unbothered Legend -- 0-5 icks, Nothing Fazes You",
-        "result2": "Chill Vibes -- 6-10 icks, Selective Standards",
-        "result3": "Picky Princess -- 11-15 icks, High Standards",
-        "result4": "Ick Overlord -- 16-20 icks, Everything Is an Ick",
-        "socialProof": "1,450+ people measured their ick factor"
-    },
-    "about": {
-        "toggle": "About the Ick Factor Test",
-        "heading1": "How the Ick Factor Test Works",
-        "text1": "The Ick Factor Test presents 20 common behaviors across categories like dating, hygiene, social media, and communication. Swipe right if the behavior gives you the ick, left if it is fine. Your total count and category breakdown reveal your ick sensitivity profile.",
-        "heading2": "Understanding Your Ick Sensitivity",
-        "text2": "An ick is that sudden feeling of cringe or repulsion toward a behavior. Everyone has different ick triggers. This test helps you discover yours in a fun way and compare with friends to see who is the pickiest!"
+    "overlord": {
+      "name": "इक ओवरलॉर्ड",
+      "desc": "आपके मानक खगोलीय हैं। लगभग सबकुछ आपको इक देता है। आपके साथ रहना एक एक्सट्रीम स्पोर्ट होगा।"
     }
+  },
+  "result": {
+    "icks": "इक!",
+    "breakdown": "श्रेणी विश्लेषण",
+    "yourIcks": "आपके इक",
+    "noIcks": "कुछ भी इक नहीं देता! सचमुच बेपरवाह।",
+    "retake": "दोबारा करें",
+    "moreTests": "और टेस्ट खोजें",
+    "percentileStat": "आपका संवेदनशीलता स्कोर 20 दैनिक परिदृश्यों में आपकी व्यक्तिगत प्रतिक्रिया को दर्शाता है।",
+    "profileStat": "आपका संवेदनशीलता स्कोर 20 दैनिक परिदृश्यों में आपकी व्यक्तिगत प्रतिक्रिया को दर्शाता है।"
+  },
+  "share": {
+    "title": "अपना इक शेयर करें",
+    "text": "मुझे {count}/20 इक मिले! मेरी इक संवेदनशीलता: \"{tier}\" 🤢 आप भी करें:",
+    "twitter": "X पर शेयर करें",
+    "copyUrl": "लिंक कॉपी करें",
+    "copied": "कॉपी हो गया!"
+  },
+  "related": {
+    "redGreenFlag": "रेड ग्रीन फ्लैग",
+    "toxicTrait": "जहरीला गुण",
+    "rizzScore": "रिज़ स्कोर",
+    "attachmentStyle": "लगाव शैली"
+  },
+  "nav": {
+    "back": "DopaBrain होम"
+  },
+  "engage": {
+    "result1": "Unbothered Legend -- 0-5 icks, Nothing Fazes You",
+    "result2": "Chill Vibes -- 6-10 icks, Selective Standards",
+    "result3": "Picky Princess -- 11-15 icks, High Standards",
+    "result4": "Ick Overlord -- 16-20 icks, Everything Is an Ick",
+    "socialProof": "20 व्यवहार परिदृश्य · 100% निजी आत्म-प्रतिबिंब"
+  },
+  "about": {
+    "toggle": "About the Ick Factor Test",
+    "heading1": "How the Ick Factor Test Works",
+    "text1": "The Ick Factor Test presents 20 common behaviors across categories like dating, hygiene, social media, and communication. Swipe right if the behavior gives you the ick, left if it is fine. Your total count and category breakdown reveal your ick sensitivity profile.",
+    "heading2": "Understanding Your Ick Sensitivity",
+    "text2": "An ick is that sudden feeling of cringe or repulsion toward a behavior. Everyone has different ick triggers. This test helps you discover yours in a fun way and compare with friends to see who is the pickiest!"
+  }
 }

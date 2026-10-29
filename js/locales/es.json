@@ -1,111 +1,112 @@
 {
-    "meta": {
-        "title": "Test de Ick | DopaBrain",
-        "description": "Desliza 20 comportamientos para descubrir tu nivel de sensibilidad al ick."
+  "meta": {
+    "title": "Test de Ick | DopaBrain",
+    "description": "Desliza 20 comportamientos para descubrir tu nivel de sensibilidad al ick."
+  },
+  "a11y": {
+    "skip": "Saltar al contenido"
+  },
+  "app": {
+    "title": "Test de Ick",
+    "subtitle": "¿Qué tan sensible es tu radar de ick?",
+    "description": "Desliza 20 comportamientos cotidianos. Derecha si te da ick, izquierda si está bien. ¿Qué tan exigente eres realmente?",
+    "start": "Descubrir Mi Ick"
+  },
+  "swipe": {
+    "ick": "¡ICK!",
+    "fine": "BIEN",
+    "ickBtn": "¡Ick!",
+    "fineBtn": "Bien",
+    "hint": "← Bien | Ick → (o usa las flechas)"
+  },
+  "categories": {
+    "hygiene": "Higiene",
+    "social": "Social",
+    "personality": "Personalidad",
+    "dating": "Citas"
+  },
+  "cards": {
+    "c1": "Mastica con la boca abierta",
+    "c2": "No se lava las manos después del baño",
+    "c3": "Usa la misma ropa 3 días seguidos",
+    "c4": "Deja los platos en el fregadero por días",
+    "c5": "Se corta las uñas en público",
+    "c6": "Responde 'K' a mensajes largos",
+    "c7": "Habla de su ex constantemente",
+    "c8": "Publica cada comida en redes sociales",
+    "c9": "Se ríe fuerte de sus propios chistes",
+    "c10": "Te deja en visto por días",
+    "c11": "Dice 'no soy como los demás'",
+    "c12": "Siempre tiene una historia mejor que la tuya",
+    "c13": "Habla como bebé con su pareja en público",
+    "c14": "Usa la astrología para justificar mal comportamiento",
+    "c15": "Presume con falsa modestia constantemente",
+    "c16": "Mira el celular durante la cena",
+    "c17": "Pide por ti sin preguntarte",
+    "c18": "Envía mensajes de voz en vez de texto",
+    "c19": "Usa demasiados emojis en los mensajes",
+    "c20": "Camina lento en medio de la acera"
+  },
+  "tiers": {
+    "unbothered": {
+      "name": "Leyenda Inmutable",
+      "desc": "Nada te afecta. Podrías ver a alguien comer cereal con agua y solo encogerte de hombros. Tu tolerancia es legendaria."
     },
-    "a11y": {
-        "skip": "Saltar al contenido"
+    "chill": {
+      "name": "Bastante Tranquilo",
+      "desc": "Tienes estándares pero eres flexible. Algunas cosas te molestan, pero la mayoría las dejas pasar."
     },
-    "app": {
-        "title": "Test de Ick",
-        "subtitle": "¿Qué tan sensible es tu radar de ick?",
-        "description": "Desliza 20 comportamientos cotidianos. Derecha si te da ick, izquierda si está bien. ¿Qué tan exigente eres realmente?",
-        "start": "Descubrir Mi Ick"
+    "detector": {
+      "name": "Detector de Ick",
+      "desc": "Tu radar de ick está perfectamente calibrado. Notas cosas que otros no ven pero no eres irrazonable."
     },
-    "swipe": {
-        "ick": "¡ICK!",
-        "fine": "BIEN",
-        "ickBtn": "¡Ick!",
-        "fineBtn": "Bien",
-        "hint": "← Bien | Ick → (o usa las flechas)"
+    "magnet": {
+      "name": "Imán de Ick",
+      "desc": "Detectas icks donde vayas. Tus amigos han aprendido a tener cuidado a tu alrededor."
     },
-    "categories": {
-        "hygiene": "Higiene",
-        "social": "Social",
-        "personality": "Personalidad",
-        "dating": "Citas"
-    },
-    "cards": {
-        "c1": "Mastica con la boca abierta",
-        "c2": "No se lava las manos después del baño",
-        "c3": "Usa la misma ropa 3 días seguidos",
-        "c4": "Deja los platos en el fregadero por días",
-        "c5": "Se corta las uñas en público",
-        "c6": "Responde 'K' a mensajes largos",
-        "c7": "Habla de su ex constantemente",
-        "c8": "Publica cada comida en redes sociales",
-        "c9": "Se ríe fuerte de sus propios chistes",
-        "c10": "Te deja en visto por días",
-        "c11": "Dice 'no soy como los demás'",
-        "c12": "Siempre tiene una historia mejor que la tuya",
-        "c13": "Habla como bebé con su pareja en público",
-        "c14": "Usa la astrología para justificar mal comportamiento",
-        "c15": "Presume con falsa modestia constantemente",
-        "c16": "Mira el celular durante la cena",
-        "c17": "Pide por ti sin preguntarte",
-        "c18": "Envía mensajes de voz en vez de texto",
-        "c19": "Usa demasiados emojis en los mensajes",
-        "c20": "Camina lento en medio de la acera"
-    },
-    "tiers": {
-        "unbothered": {
-            "name": "Leyenda Inmutable",
-            "desc": "Nada te afecta. Podrías ver a alguien comer cereal con agua y solo encogerte de hombros. Tu tolerancia es legendaria."
-        },
-        "chill": {
-            "name": "Bastante Tranquilo",
-            "desc": "Tienes estándares pero eres flexible. Algunas cosas te molestan, pero la mayoría las dejas pasar."
-        },
-        "detector": {
-            "name": "Detector de Ick",
-            "desc": "Tu radar de ick está perfectamente calibrado. Notas cosas que otros no ven pero no eres irrazonable."
-        },
-        "magnet": {
-            "name": "Imán de Ick",
-            "desc": "Detectas icks donde vayas. Tus amigos han aprendido a tener cuidado a tu alrededor."
-        },
-        "overlord": {
-            "name": "Overlord del Ick",
-            "desc": "Tus estándares son astronómicos. Casi todo te da ick. Vivir contigo debe ser un deporte extremo."
-        }
-    },
-    "result": {
-        "icks": "Icks!",
-        "breakdown": "Desglose por Categoría",
-        "yourIcks": "Tus Icks",
-        "noIcks": "¡Nada te da ick! Verdaderamente inmutable.",
-        "retake": "Repetir Test",
-        "moreTests": "Explora Más Tests",
-        "percentileStat": "Solo el <strong>{percent}%</strong> de los participantes comparte tu nivel de sensibilidad al ick"
-    },
-    "share": {
-        "title": "Comparte Tu Ick",
-        "text": "¡Tengo {count}/20 icks! Mi sensibilidad: \"{tier}\" 🤢 Prueba el tuyo:",
-        "twitter": "Compartir en X",
-        "copyUrl": "Copiar Enlace",
-        "copied": "¡Copiado!"
-    },
-    "related": {
-        "redGreenFlag": "Bandera Roja/Verde",
-        "toxicTrait": "Rasgo Tóxico",
-        "rizzScore": "Puntuación Rizz",
-        "attachmentStyle": "Estilo de Apego"
-    },
-    "nav": {
-        "back": "DopaBrain Inicio"
-    },
-    "engage": {
-        "result1": "Unbothered Legend -- 0-5 icks, Nothing Fazes You",
-        "result2": "Chill Vibes -- 6-10 icks, Selective Standards",
-        "result3": "Picky Princess -- 11-15 icks, High Standards",
-        "result4": "Ick Overlord -- 16-20 icks, Everything Is an Ick",
-        "socialProof": "1,450+ people measured their ick factor"
-    },
-    "about": {
-        "toggle": "About the Ick Factor Test",
-        "heading1": "How the Ick Factor Test Works",
-        "text1": "The Ick Factor Test presents 20 common behaviors across categories like dating, hygiene, social media, and communication. Swipe right if the behavior gives you the ick, left if it is fine. Your total count and category breakdown reveal your ick sensitivity profile.",
-        "heading2": "Understanding Your Ick Sensitivity",
-        "text2": "An ick is that sudden feeling of cringe or repulsion toward a behavior. Everyone has different ick triggers. This test helps you discover yours in a fun way and compare with friends to see who is the pickiest!"
+    "overlord": {
+      "name": "Overlord del Ick",
+      "desc": "Tus estándares son astronómicos. Casi todo te da ick. Vivir contigo debe ser un deporte extremo."
     }
+  },
+  "result": {
+    "icks": "Icks!",
+    "breakdown": "Desglose por Categoría",
+    "yourIcks": "Tus Icks",
+    "noIcks": "¡Nada te da ick! Verdaderamente inmutable.",
+    "retake": "Repetir Test",
+    "moreTests": "Explora Más Tests",
+    "percentileStat": "Tu puntuación de sensibilidad refleja tus patrones de reacción en 20 situaciones cotidianas.",
+    "profileStat": "Tu puntuación de sensibilidad refleja tus patrones de reacción en 20 situaciones cotidianas."
+  },
+  "share": {
+    "title": "Comparte Tu Ick",
+    "text": "¡Tengo {count}/20 icks! Mi sensibilidad: \"{tier}\" 🤢 Prueba el tuyo:",
+    "twitter": "Compartir en X",
+    "copyUrl": "Copiar Enlace",
+    "copied": "¡Copiado!"
+  },
+  "related": {
+    "redGreenFlag": "Bandera Roja/Verde",
+    "toxicTrait": "Rasgo Tóxico",
+    "rizzScore": "Puntuación Rizz",
+    "attachmentStyle": "Estilo de Apego"
+  },
+  "nav": {
+    "back": "DopaBrain Inicio"
+  },
+  "engage": {
+    "result1": "Unbothered Legend -- 0-5 icks, Nothing Fazes You",
+    "result2": "Chill Vibes -- 6-10 icks, Selective Standards",
+    "result3": "Picky Princess -- 11-15 icks, High Standards",
+    "result4": "Ick Overlord -- 16-20 icks, Everything Is an Ick",
+    "socialProof": "20 comportamientos · Reflexión 100% privada"
+  },
+  "about": {
+    "toggle": "About the Ick Factor Test",
+    "heading1": "How the Ick Factor Test Works",
+    "text1": "The Ick Factor Test presents 20 common behaviors across categories like dating, hygiene, social media, and communication. Swipe right if the behavior gives you the ick, left if it is fine. Your total count and category breakdown reveal your ick sensitivity profile.",
+    "heading2": "Understanding Your Ick Sensitivity",
+    "text2": "An ick is that sudden feeling of cringe or repulsion toward a behavior. Everyone has different ick triggers. This test helps you discover yours in a fun way and compare with friends to see who is the pickiest!"
+  }
 }

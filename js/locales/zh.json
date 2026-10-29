@@ -1,111 +1,112 @@
 {
-    "meta": {
-        "title": "反感测试 | DopaBrain",
-        "description": "滑动20种行为，测试你的反感敏感度！"
+  "meta": {
+    "title": "反感测试 | DopaBrain",
+    "description": "滑动20种行为，测试你的反感敏感度！"
+  },
+  "a11y": {
+    "skip": "跳转到正文"
+  },
+  "app": {
+    "title": "反感测试",
+    "subtitle": "你的反感雷达有多敏感？",
+    "description": "滑动20种日常行为。反感就右滑，没问题就左滑！你到底有多挑剔？",
+    "start": "开始测试"
+  },
+  "swipe": {
+    "ick": "反感!",
+    "fine": "没事",
+    "ickBtn": "反感!",
+    "fineBtn": "没事",
+    "hint": "← 没事 | 反感 →（也可以用方向键）"
+  },
+  "categories": {
+    "hygiene": "卫生",
+    "social": "社交",
+    "personality": "性格",
+    "dating": "约会"
+  },
+  "cards": {
+    "c1": "张嘴嘲食物的人",
+    "c2": "上完厕所不洗手的人",
+    "c3": "同一套衣服连穿3天的人",
+    "c4": "碗在水槽里放几天不洗的人",
+    "c5": "在公共场合剪指甲的人",
+    "c6": "长消息只回一个“嘻”的人",
+    "c7": "总是谈前任的人",
+    "c8": "每顿饭都发社交媒体的人",
+    "c9": "自己讲笑话自己大声笑的人",
+    "c10": "已读不回好几天的人",
+    "c11": "说“我跟别人不一样”的人",
+    "c12": "每个故事都要比你更厉害的人",
+    "c13": "在公共场合对伴侣说娃娃语的人",
+    "c14": "用星座为坏行为开脱的人",
+    "c15": "不停凡尔赛吹的人",
+    "c16": "吃饭时看手机的人",
+    "c17": "不问你就代你点菜的人",
+    "c18": "发语音消息而不是打字的人",
+    "c19": "消息里用太多表情包的人",
+    "c20": "在人行道正中间慢愉愉走的人"
+  },
+  "tiers": {
+    "unbothered": {
+      "name": "淡定传奇",
+      "desc": "什么都不影响你。看到别人用水泡麦片都只会耸耸肩。你的包容度是传奇级别的。"
     },
-    "a11y": {
-        "skip": "跳转到正文"
+    "chill": {
+      "name": "相当淒定",
+      "desc": "有标准但很灵活。有几个让你烦的，但大部分时候都能放过。"
     },
-    "app": {
-        "title": "反感测试",
-        "subtitle": "你的反感雷达有多敏感？",
-        "description": "滑动20种日常行为。反感就右滑，没问题就左滑！你到底有多挑剔？",
-        "start": "开始测试"
+    "detector": {
+      "name": "反感探测器",
+      "desc": "你的反感雷达调节得恰到好处。别人看不到的你都能发现，但也不会太过分。"
     },
-    "swipe": {
-        "ick": "反感!",
-        "fine": "没事",
-        "ickBtn": "反感!",
-        "fineBtn": "没事",
-        "hint": "← 没事 | 反感 →（也可以用方向键）"
+    "magnet": {
+      "name": "反感磁铁",
+      "desc": "走到哪里都能发现反感的事。朋友们在你面前都学会了小心翼翼。"
     },
-    "categories": {
-        "hygiene": "卫生",
-        "social": "社交",
-        "personality": "性格",
-        "dating": "约会"
-    },
-    "cards": {
-        "c1": "张嘴嘲食物的人",
-        "c2": "上完厕所不洗手的人",
-        "c3": "同一套衣服连穿3天的人",
-        "c4": "碗在水槽里放几天不洗的人",
-        "c5": "在公共场合剪指甲的人",
-        "c6": "长消息只回一个“嘻”的人",
-        "c7": "总是谈前任的人",
-        "c8": "每顿饭都发社交媒体的人",
-        "c9": "自己讲笑话自己大声笑的人",
-        "c10": "已读不回好几天的人",
-        "c11": "说“我跟别人不一样”的人",
-        "c12": "每个故事都要比你更厉害的人",
-        "c13": "在公共场合对伴侣说娃娃语的人",
-        "c14": "用星座为坏行为开脱的人",
-        "c15": "不停凡尔赛吹的人",
-        "c16": "吃饭时看手机的人",
-        "c17": "不问你就代你点菜的人",
-        "c18": "发语音消息而不是打字的人",
-        "c19": "消息里用太多表情包的人",
-        "c20": "在人行道正中间慢愉愉走的人"
-    },
-    "tiers": {
-        "unbothered": {
-            "name": "淡定传奇",
-            "desc": "什么都不影响你。看到别人用水泡麦片都只会耸耸肩。你的包容度是传奇级别的。"
-        },
-        "chill": {
-            "name": "相当淒定",
-            "desc": "有标准但很灵活。有几个让你烦的，但大部分时候都能放过。"
-        },
-        "detector": {
-            "name": "反感探测器",
-            "desc": "你的反感雷达调节得恰到好处。别人看不到的你都能发现，但也不会太过分。"
-        },
-        "magnet": {
-            "name": "反感磁铁",
-            "desc": "走到哪里都能发现反感的事。朋友们在你面前都学会了小心翼翼。"
-        },
-        "overlord": {
-            "name": "反感大王",
-            "desc": "你的标准高到天文数字。几乎所有事都让你反感。和你住在一起肯定是极限运动。"
-        }
-    },
-    "result": {
-        "icks": "个反感!",
-        "breakdown": "分类分析",
-        "yourIcks": "你的反感项",
-        "noIcks": "什么都不反感！真正的淡定。",
-        "retake": "重新测试",
-        "moreTests": "探索更多测试",
-        "percentileStat": "仅有 <strong>{percent}%</strong> 的参与者与你拥有相同的反感敏感度"
-    },
-    "share": {
-        "title": "分享反感结果",
-        "text": "我的反感{count}/20！反感敏感度：“{tier}”🤢 你也来试试：",
-        "twitter": "分享到X",
-        "copyUrl": "复制链接",
-        "copied": "已复制！"
-    },
-    "related": {
-        "redGreenFlag": "红绿旗",
-        "toxicTrait": "有毒特质",
-        "rizzScore": "魅力分数",
-        "attachmentStyle": "依附类型"
-    },
-    "nav": {
-        "back": "DopaBrain 首页"
-    },
-    "engage": {
-        "result1": "Unbothered Legend -- 0-5 icks, Nothing Fazes You",
-        "result2": "Chill Vibes -- 6-10 icks, Selective Standards",
-        "result3": "Picky Princess -- 11-15 icks, High Standards",
-        "result4": "Ick Overlord -- 16-20 icks, Everything Is an Ick",
-        "socialProof": "1,450+ people measured their ick factor"
-    },
-    "about": {
-        "toggle": "About the Ick Factor Test",
-        "heading1": "How the Ick Factor Test Works",
-        "text1": "The Ick Factor Test presents 20 common behaviors across categories like dating, hygiene, social media, and communication. Swipe right if the behavior gives you the ick, left if it is fine. Your total count and category breakdown reveal your ick sensitivity profile.",
-        "heading2": "Understanding Your Ick Sensitivity",
-        "text2": "An ick is that sudden feeling of cringe or repulsion toward a behavior. Everyone has different ick triggers. This test helps you discover yours in a fun way and compare with friends to see who is the pickiest!"
+    "overlord": {
+      "name": "反感大王",
+      "desc": "你的标准高到天文数字。几乎所有事都让你反感。和你住在一起肯定是极限运动。"
     }
+  },
+  "result": {
+    "icks": "个反感!",
+    "breakdown": "分类分析",
+    "yourIcks": "你的反感项",
+    "noIcks": "什么都不反感！真正的淡定。",
+    "retake": "重新测试",
+    "moreTests": "探索更多测试",
+    "percentileStat": "你的反感度分数反映了你在20个日常情境下的个人反应模式。",
+    "profileStat": "你的反感度分数反映了你在20个日常情境下的个人反应模式。"
+  },
+  "share": {
+    "title": "分享反感结果",
+    "text": "我的反感{count}/20！反感敏感度：“{tier}”🤢 你也来试试：",
+    "twitter": "分享到X",
+    "copyUrl": "复制链接",
+    "copied": "已复制！"
+  },
+  "related": {
+    "redGreenFlag": "红绿旗",
+    "toxicTrait": "有毒特质",
+    "rizzScore": "魅力分数",
+    "attachmentStyle": "依附类型"
+  },
+  "nav": {
+    "back": "DopaBrain 首页"
+  },
+  "engage": {
+    "result1": "Unbothered Legend -- 0-5 icks, Nothing Fazes You",
+    "result2": "Chill Vibes -- 6-10 icks, Selective Standards",
+    "result3": "Picky Princess -- 11-15 icks, High Standards",
+    "result4": "Ick Overlord -- 16-20 icks, Everything Is an Ick",
+    "socialProof": "20种日常行为 · 100%私密自省"
+  },
+  "about": {
+    "toggle": "About the Ick Factor Test",
+    "heading1": "How the Ick Factor Test Works",
+    "text1": "The Ick Factor Test presents 20 common behaviors across categories like dating, hygiene, social media, and communication. Swipe right if the behavior gives you the ick, left if it is fine. Your total count and category breakdown reveal your ick sensitivity profile.",
+    "heading2": "Understanding Your Ick Sensitivity",
+    "text2": "An ick is that sudden feeling of cringe or repulsion toward a behavior. Everyone has different ick triggers. This test helps you discover yours in a fun way and compare with friends to see who is the pickiest!"
+  }
 }

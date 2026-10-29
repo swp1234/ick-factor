@@ -1,111 +1,112 @@
 {
-    "meta": {
-        "title": "Ick Faktör Testi | DopaBrain",
-        "description": "20 davranışı kaydırarak ick hassasiyet seviyeni öğren!"
+  "meta": {
+    "title": "Ick Faktör Testi | DopaBrain",
+    "description": "20 davranışı kaydırarak ick hassasiyet seviyeni öğren!"
+  },
+  "a11y": {
+    "skip": "İçeriğe atla"
+  },
+  "app": {
+    "title": "Ick Faktör Testi",
+    "subtitle": "Ick radarın ne kadar hassas?",
+    "description": "20 günlük davranışı kaydır. Ick ise sağa, tamam ise sola! Gerçekte ne kadar seçicisin?",
+    "start": "Ick'imi Bul"
+  },
+  "swipe": {
+    "ick": "ICK!",
+    "fine": "TAMAM",
+    "ickBtn": "Ick!",
+    "fineBtn": "Tamam",
+    "hint": "← Tamam | Ick → (veya ok tuşlarını kullan)"
+  },
+  "categories": {
+    "hygiene": "Hijyen",
+    "social": "Sosyal",
+    "personality": "Kişilik",
+    "dating": "Flört"
+  },
+  "cards": {
+    "c1": "Ağzı açık çiğneyen biri",
+    "c2": "Tuvaletten sonra elini yıkamayan biri",
+    "c3": "Üç gün üst üste aynı kıyafeti giyen biri",
+    "c4": "Bulaşıkları günlerce lavaboda bırakan biri",
+    "c5": "Halka açık yerde tırnak kesen biri",
+    "c6": "Uzun mesajlara 'K' diye cevap veren biri",
+    "c7": "Sürekli eski sevgilisinden bahseden biri",
+    "c8": "Her öğünü sosyal medyaya atan biri",
+    "c9": "Kendi esprisine yüksek sesle gülen biri",
+    "c10": "Günlerce okundu yapan biri",
+    "c11": "'Ben diğer insanlar gibi değilim' diyen biri",
+    "c12": "Her hikayeyi üstüne atan biri",
+    "c13": "Toplum içinde sevgilisine bebek gibi konuşan biri",
+    "c14": "Kötü davranışı burçla açıklayan biri",
+    "c15": "Sürekli alçak gönüllü övünme yapan biri",
+    "c16": "Yemek sırasında telefona bakan biri",
+    "c17": "Sormadan senin yerine sipariş veren biri",
+    "c18": "Mesaj yerine sesli mesaj gönderen biri",
+    "c19": "Mesajlarda çok fazla emoji kullanan biri",
+    "c20": "Kaldırımın ortasında yavaş yürüyen biri"
+  },
+  "tiers": {
+    "unbothered": {
+      "name": "Umursamaz Efsane",
+      "desc": "Hiçbir şey seni etkilemiyor. Birinin suyla mısır gev reği yediğini görsen omuz silkersin. Toleransın efsanevi."
     },
-    "a11y": {
-        "skip": "İçeriğe atla"
+    "chill": {
+      "name": "Oldukça Rahat",
+      "desc": "Standartların var ama esneksin. Birkaç şey rahatsız ediyor ama çoğunu geçiyorsun."
     },
-    "app": {
-        "title": "Ick Faktör Testi",
-        "subtitle": "Ick radarın ne kadar hassas?",
-        "description": "20 günlük davranışı kaydır. Ick ise sağa, tamam ise sola! Gerçekte ne kadar seçicisin?",
-        "start": "Ick'imi Bul"
+    "detector": {
+      "name": "Ick Dedektörü",
+      "desc": "Ick radarın mükemmel kalibre edilmiş. Başkalarının kaçırdığı şeyleri fark ediyorsun ama mantıksız değilsin."
     },
-    "swipe": {
-        "ick": "ICK!",
-        "fine": "TAMAM",
-        "ickBtn": "Ick!",
-        "fineBtn": "Tamam",
-        "hint": "← Tamam | Ick → (veya ok tuşlarını kullan)"
+    "magnet": {
+      "name": "Ick Mıknatısı",
+      "desc": "Her yerde ick buluyorsun. Arkadaşların senin yanında dikkatli olmayı öğrendi."
     },
-    "categories": {
-        "hygiene": "Hijyen",
-        "social": "Sosyal",
-        "personality": "Kişilik",
-        "dating": "Flört"
-    },
-    "cards": {
-        "c1": "Ağzı açık çiğneyen biri",
-        "c2": "Tuvaletten sonra elini yıkamayan biri",
-        "c3": "Üç gün üst üste aynı kıyafeti giyen biri",
-        "c4": "Bulaşıkları günlerce lavaboda bırakan biri",
-        "c5": "Halka açık yerde tırnak kesen biri",
-        "c6": "Uzun mesajlara 'K' diye cevap veren biri",
-        "c7": "Sürekli eski sevgilisinden bahseden biri",
-        "c8": "Her öğünü sosyal medyaya atan biri",
-        "c9": "Kendi esprisine yüksek sesle gülen biri",
-        "c10": "Günlerce okundu yapan biri",
-        "c11": "'Ben diğer insanlar gibi değilim' diyen biri",
-        "c12": "Her hikayeyi üstüne atan biri",
-        "c13": "Toplum içinde sevgilisine bebek gibi konuşan biri",
-        "c14": "Kötü davranışı burçla açıklayan biri",
-        "c15": "Sürekli alçak gönüllü övünme yapan biri",
-        "c16": "Yemek sırasında telefona bakan biri",
-        "c17": "Sormadan senin yerine sipariş veren biri",
-        "c18": "Mesaj yerine sesli mesaj gönderen biri",
-        "c19": "Mesajlarda çok fazla emoji kullanan biri",
-        "c20": "Kaldırımın ortasında yavaş yürüyen biri"
-    },
-    "tiers": {
-        "unbothered": {
-            "name": "Umursamaz Efsane",
-            "desc": "Hiçbir şey seni etkilemiyor. Birinin suyla mısır gev reği yediğini görsen omuz silkersin. Toleransın efsanevi."
-        },
-        "chill": {
-            "name": "Oldukça Rahat",
-            "desc": "Standartların var ama esneksin. Birkaç şey rahatsız ediyor ama çoğunu geçiyorsun."
-        },
-        "detector": {
-            "name": "Ick Dedektörü",
-            "desc": "Ick radarın mükemmel kalibre edilmiş. Başkalarının kaçırdığı şeyleri fark ediyorsun ama mantıksız değilsin."
-        },
-        "magnet": {
-            "name": "Ick Mıknatısı",
-            "desc": "Her yerde ick buluyorsun. Arkadaşların senin yanında dikkatli olmayı öğrendi."
-        },
-        "overlord": {
-            "name": "Ick Overlord",
-            "desc": "Standartların astronomik. Neredeyse her şey sana ick veriyor. Seninle yaşamak ekstrem spor olmalı."
-        }
-    },
-    "result": {
-        "icks": "Ick!",
-        "breakdown": "Kategori Analizi",
-        "yourIcks": "Senin Ick'lerin",
-        "noIcks": "Hiçbir şey ick değil! Gerçekten umursamaz.",
-        "retake": "Tekrar Yap",
-        "moreTests": "Daha Fazla Test Keşfet",
-        "percentileStat": "Katılımcıların yalnızca <strong>{percent}%</strong>'i senin ick hassasiyet seviyene sahip"
-    },
-    "share": {
-        "title": "Ick'ini Paylaş",
-        "text": "{count}/20 ick aldım! Ick hassasiyetim: \"{tier}\" 🤢 Sen de dene:",
-        "twitter": "X'te Paylaş",
-        "copyUrl": "Linki Kopyala",
-        "copied": "Kopyalandı!"
-    },
-    "related": {
-        "redGreenFlag": "Kırmızı/Yeşil Bayrak",
-        "toxicTrait": "Toksik Özellik",
-        "rizzScore": "Rizz Puanı",
-        "attachmentStyle": "Bağlanma Stili"
-    },
-    "nav": {
-        "back": "DopaBrain Ana Sayfa"
-    },
-    "engage": {
-        "result1": "Unbothered Legend -- 0-5 icks, Nothing Fazes You",
-        "result2": "Chill Vibes -- 6-10 icks, Selective Standards",
-        "result3": "Picky Princess -- 11-15 icks, High Standards",
-        "result4": "Ick Overlord -- 16-20 icks, Everything Is an Ick",
-        "socialProof": "1,450+ people measured their ick factor"
-    },
-    "about": {
-        "toggle": "About the Ick Factor Test",
-        "heading1": "How the Ick Factor Test Works",
-        "text1": "The Ick Factor Test presents 20 common behaviors across categories like dating, hygiene, social media, and communication. Swipe right if the behavior gives you the ick, left if it is fine. Your total count and category breakdown reveal your ick sensitivity profile.",
-        "heading2": "Understanding Your Ick Sensitivity",
-        "text2": "An ick is that sudden feeling of cringe or repulsion toward a behavior. Everyone has different ick triggers. This test helps you discover yours in a fun way and compare with friends to see who is the pickiest!"
+    "overlord": {
+      "name": "Ick Overlord",
+      "desc": "Standartların astronomik. Neredeyse her şey sana ick veriyor. Seninle yaşamak ekstrem spor olmalı."
     }
+  },
+  "result": {
+    "icks": "Ick!",
+    "breakdown": "Kategori Analizi",
+    "yourIcks": "Senin Ick'lerin",
+    "noIcks": "Hiçbir şey ick değil! Gerçekten umursamaz.",
+    "retake": "Tekrar Yap",
+    "moreTests": "Daha Fazla Test Keşfet",
+    "percentileStat": "Hassasiyet puanın 20 günlük senaryodaki kişisel tepkilerini yansıtır.",
+    "profileStat": "Hassasiyet puanın 20 günlük senaryodaki kişisel tepkilerini yansıtır."
+  },
+  "share": {
+    "title": "Ick'ini Paylaş",
+    "text": "{count}/20 ick aldım! Ick hassasiyetim: \"{tier}\" 🤢 Sen de dene:",
+    "twitter": "X'te Paylaş",
+    "copyUrl": "Linki Kopyala",
+    "copied": "Kopyalandı!"
+  },
+  "related": {
+    "redGreenFlag": "Kırmızı/Yeşil Bayrak",
+    "toxicTrait": "Toksik Özellik",
+    "rizzScore": "Rizz Puanı",
+    "attachmentStyle": "Bağlanma Stili"
+  },
+  "nav": {
+    "back": "DopaBrain Ana Sayfa"
+  },
+  "engage": {
+    "result1": "Unbothered Legend -- 0-5 icks, Nothing Fazes You",
+    "result2": "Chill Vibes -- 6-10 icks, Selective Standards",
+    "result3": "Picky Princess -- 11-15 icks, High Standards",
+    "result4": "Ick Overlord -- 16-20 icks, Everything Is an Ick",
+    "socialProof": "20 davranış senaryosu · %100 kişisel ve gizli"
+  },
+  "about": {
+    "toggle": "About the Ick Factor Test",
+    "heading1": "How the Ick Factor Test Works",
+    "text1": "The Ick Factor Test presents 20 common behaviors across categories like dating, hygiene, social media, and communication. Swipe right if the behavior gives you the ick, left if it is fine. Your total count and category breakdown reveal your ick sensitivity profile.",
+    "heading2": "Understanding Your Ick Sensitivity",
+    "text2": "An ick is that sudden feeling of cringe or repulsion toward a behavior. Everyone has different ick triggers. This test helps you discover yours in a fun way and compare with friends to see who is the pickiest!"
+  }
 }

@@ -141,6 +141,24 @@
         window.scrollTo({ top: 0, behavior: prefersReducedMotion ? 'auto' : 'smooth' });
     }
 
+
+    function preserveLanguageLinks() {
+        try {
+            var params = new URLSearchParams(window.location.search);
+            var lang = params.get('lang');
+            if (!lang) return;
+            document.querySelectorAll('a[href^="/"]').forEach(function(a) {
+                var href = a.getAttribute('href');
+                if (!href) return;
+                var url = new URL(href, window.location.origin);
+                if (!url.searchParams.has('lang')) {
+                    url.searchParams.set('lang', lang);
+                    a.setAttribute('href', url.pathname + url.search + url.hash);
+                }
+            });
+        } catch (e) {}
+    }
+
     // --- Theme toggle ---
     function initTheme() {
         var saved = localStorage.getItem('theme');
@@ -525,16 +543,16 @@
             resultDesc.textContent = t('tiers.' + tier.key + '.desc', '');
         }
 
-        // Percentile stat
-        var percentile = Math.floor(Math.random() * 15) + 3;
+        // Profile reflection stat
         var percentileEl = $('percentileStat');
         if (percentileEl) {
-            var pText = t('result.percentileStat', 'Only <strong>{percent}%</strong> of participants share your ick sensitivity level');
-            percentileEl.innerHTML = pText.replace('{percent}', percentile);
+            var pText = t('result.profileStat', 'Your sensitivity score reflects personal reaction patterns across 20 everyday scenarios.');
+            percentileEl.textContent = pText;
         }
 
         // Category breakdown bars
         renderCategoryBars();
+        preserveLanguageLinks();
 
         // Ick list
         renderIckList();
