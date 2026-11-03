@@ -89,8 +89,8 @@
   "related": {
     "redGreenFlag": "Красный/Зелёный Флаг",
     "toxicTrait": "Токсичная Черта",
-    "rizzScore": "Очки Обаяния",
-    "attachmentStyle": "Тип Привязанности"
+    "attachmentStyle": "Тип Привязанности",
+    "loveFrequency": "Частота любви"
   },
   "nav": {
     "back": "DopaBrain Главная"

@@ -89,8 +89,8 @@
   "related": {
     "redGreenFlag": "레드 그린 플래그",
     "toxicTrait": "독성 특성",
-    "rizzScore": "리즈 점수",
-    "attachmentStyle": "애착 유형"
+    "attachmentStyle": "애착 유형",
+    "loveFrequency": "사랑 주파수 테스트"
   },
   "nav": {
     "back": "DopaBrain 홈"

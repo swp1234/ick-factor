@@ -89,8 +89,8 @@
   "related": {
     "redGreenFlag": "Bendera Merah/Hijau",
     "toxicTrait": "Sifat Toxic",
-    "rizzScore": "Skor Rizz",
-    "attachmentStyle": "Gaya Kelekatan"
+    "attachmentStyle": "Gaya Kelekatan",
+    "loveFrequency": "Frekuensi Cinta"
   },
   "nav": {
     "back": "DopaBrain Beranda"

@@ -89,8 +89,8 @@
   "related": {
     "redGreenFlag": "红绿旗",
     "toxicTrait": "有毒特质",
-    "rizzScore": "魅力分数",
-    "attachmentStyle": "依附类型"
+    "attachmentStyle": "依附类型",
+    "loveFrequency": "爱情频率测试"
   },
   "nav": {
     "back": "DopaBrain 首页"

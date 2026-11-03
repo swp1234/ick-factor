@@ -89,8 +89,8 @@
   "related": {
     "redGreenFlag": "レッドグリーンフラグ",
     "toxicTrait": "トキシック特性",
-    "rizzScore": "リズスコア",
-    "attachmentStyle": "愛着スタイル"
+    "attachmentStyle": "愛着スタイル",
+    "loveFrequency": "恋愛周波数テスト"
   },
   "nav": {
     "back": "DopaBrain ホーム"

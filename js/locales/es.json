@@ -89,8 +89,8 @@
   "related": {
     "redGreenFlag": "Bandera Roja/Verde",
     "toxicTrait": "Rasgo Tóxico",
-    "rizzScore": "Puntuación Rizz",
-    "attachmentStyle": "Estilo de Apego"
+    "attachmentStyle": "Estilo de Apego",
+    "loveFrequency": "Frecuencia del Amor"
   },
   "nav": {
     "back": "DopaBrain Inicio"

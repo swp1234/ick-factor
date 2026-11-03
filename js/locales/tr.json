@@ -89,8 +89,8 @@
   "related": {
     "redGreenFlag": "Kırmızı/Yeşil Bayrak",
     "toxicTrait": "Toksik Özellik",
-    "rizzScore": "Rizz Puanı",
-    "attachmentStyle": "Bağlanma Stili"
+    "attachmentStyle": "Bağlanma Stili",
+    "loveFrequency": "Aşk Frekansı"
   },
   "nav": {
     "back": "DopaBrain Ana Sayfa"
