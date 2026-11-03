@@ -145,15 +145,31 @@
     function preserveLanguageLinks() {
         try {
             var params = new URLSearchParams(window.location.search);
-            var lang = params.get('lang');
-            if (!lang) return;
-            document.querySelectorAll('a[href^="/"]').forEach(function(a) {
-                var href = a.getAttribute('href');
-                if (!href) return;
-                var url = new URL(href, window.location.origin);
-                if (!url.searchParams.has('lang')) {
-                    url.searchParams.set('lang', lang);
-                    a.setAttribute('href', url.pathname + url.search + url.hash);
+            var inst = getI18n();
+            var lang = params.get('lang') || (inst && inst.currentLang ? inst.currentLang : 'ko') || 'ko';
+            var base = (window.location.origin && window.location.origin !== 'null') ? window.location.origin : 'https://dopabrain.com';
+            document.querySelectorAll('.related-grid a, footer a').forEach(function(a) {
+                var href = a.getAttribute('data-base-href') || a.getAttribute('href');
+                if (!href || href.startsWith('http') || href.startsWith('#')) return;
+                var url = new URL(href, base);
+                url.searchParams.set('lang', lang);
+                if (a.closest('.related-grid') && !url.searchParams.has('source')) {
+                    url.searchParams.set('source', 'ick_factor_result');
+                }
+                a.setAttribute('href', url.pathname + url.search + url.hash);
+
+                if (a.closest('.related-grid') && !a.dataset.trackedCta) {
+                    a.dataset.trackedCta = 'true';
+                    a.addEventListener('click', function() {
+                        if (typeof gtag === 'function') {
+                            gtag('event', 'content_cta_click', {
+                                cta_surface: 'ick_factor_related',
+                                destination: a.getAttribute('href'),
+                                source: 'ick_factor',
+                                lang: lang
+                            });
+                        }
+                    });
                 }
             });
         } catch (e) {}
@@ -742,6 +758,7 @@
         initTheme();
         initLangSelector();
         bindEvents();
+        preserveLanguageLinks();
 
         var inst = getI18n();
         if (inst && typeof inst.loadTranslations === 'function') {
