@@ -103,10 +103,19 @@
     "socialProof": "20 Verhaltensweisen · 100% private Reflexion"
   },
   "about": {
-    "toggle": "About the Ick Factor Test",
-    "heading1": "How the Ick Factor Test Works",
-    "text1": "The Ick Factor Test presents 20 common behaviors across categories like dating, hygiene, social media, and communication. Swipe right if the behavior gives you the ick, left if it is fine. Your total count and category breakdown reveal your ick sensitivity profile.",
-    "heading2": "Understanding Your Ick Sensitivity",
-    "text2": "An ick is that sudden feeling of cringe or repulsion toward a behavior. Everyone has different ick triggers. This test helps you discover yours in a fun way and compare with friends to see who is the pickiest!"
+    "toggle": "Über den Ick-Faktor-Test & Beziehungspsychologie",
+    "heading1": "Evolutionspsychologie des \"Ick\"-Phänomens",
+    "text1": "Der plötzliche Ekel oder die Abneigung (\"the Ick\") beruht auf evolutionspsychologischen Grundlagen des Verhaltens-Immunsystems (Paul Rozin, Mark Schaller). Instinktiver Ekel schützte ursprünglich vor Kontamination. Beim Dating fungiert dieser plötzliche Reflex als unbewusste Heuristik, die potenzielle Grenzverletzungen und Inkompatibilitäten signalisiert.",
+    "heading2": "Vier Dimensionen zwischenmenschlicher Mikrogrenzen",
+    "text2": "Die 20 Alltagsszenarien decken vier Kernbereiche ab: Körperhygiene (sensorische Schutzreflexe), gesellschaftliche Etikette (Rücksichtnahme im Alltag), zwischenmenschlicher Respekt (Aufmerksamkeit und Balance im Gespräch) sowie authentische Kommunikation (Echtheit statt Selbstdarstellung).",
+    "faqTitle": "Häufig gestellte Fragen (FAQ)",
+    "faq1Q": "Was unterscheidet einen \"Ick\" von einer echten \"Red Flag\"?",
+    "faq1A": "Ein \"Ick\" ist eine spontane, viszerale Abneigung gegen eine Marotte oder Eigenheit. Eine \"Red Flag\" hingegen signalisiert schädliche Verhaltensmuster wie Täuschung, Respektlosigkeit oder emotionale Manipulation. Icks spiegeln Vorlieben wider, Red Flags verletzen moralische Grenzen.",
+    "faq2Q": "Kann ein Ick in einer aufkeimenden Beziehung überwunden werden?",
+    "faq2A": "Ja. Oftmals sind Icks Ausdruck anfänglicher Verunsicherung oder unbewusster Bindungsängste. Durch wachsende emotionale Sicherheit und tiefere Gespräche relativieren sich oberflächliche Abneigungen häufig.",
+    "faq3Q": "Werden meine Swipe-Daten oder Ergebnisse auf externen Servern gespeichert?",
+    "faq3A": "Niemals. Der Test wird vollständig lokal in Ihrem Webbrowser verarbeitet. Keine Ihrer Antworten oder Bewertungen verlässt Ihr Gerät.",
+    "reviewDate": "Redaktionelle Prüfung: November 2026",
+    "reviewTeam": "DopaBrain Beziehungspsychologie & Sozialkognition"
   }
 }

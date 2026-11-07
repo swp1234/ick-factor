@@ -103,10 +103,19 @@
     "socialProof": "20 comportements · Réflexion 100% privée"
   },
   "about": {
-    "toggle": "About the Ick Factor Test",
-    "heading1": "How the Ick Factor Test Works",
-    "text1": "The Ick Factor Test presents 20 common behaviors across categories like dating, hygiene, social media, and communication. Swipe right if the behavior gives you the ick, left if it is fine. Your total count and category breakdown reveal your ick sensitivity profile.",
-    "heading2": "Understanding Your Ick Sensitivity",
-    "text2": "An ick is that sudden feeling of cringe or repulsion toward a behavior. Everyone has different ick triggers. This test helps you discover yours in a fun way and compare with friends to see who is the pickiest!"
+    "toggle": "À propos du Test du Facteur Ick & Psychologie Relationnelle",
+    "heading1": "Psychologie Évolutive du Dégoût Soudain (\"Ick\")",
+    "text1": "Le concept contemporain de \"l'ick\" (dégoût ou désamour soudain) prend sa source dans la psychologie évolutive et le système immunitaire comportemental (Paul Rozin, Mark Schaller). Le dégoût viscéral a d'abord évolué pour nous prémunir des pathogènes. Dans les relations amoureuses, ce réflexe instinctif opère comme une heuristique inconsciente signalant une friction de frontières personnelles.",
+    "heading2": "Quatre Domaines de Micro-Frontières Comportementales",
+    "text2": "Nos 20 situations explorent quatre piliers : l'Hygiène Corporelle (alertes sensorielles), la Courtoisie Sociale (savoir-vivre et égards), le Respect Interpersonnel (réciprocité d'écoute et d'attention) et la Communication Authentique (vulnérabilité sincère face aux postures artificielles).",
+    "faqTitle": "Foire Aux Questions (FAQ)",
+    "faq1Q": "Quelle est la différence entre un \"ick\" et un véritable \"red flag\" ?",
+    "faq1A": "Un \"ick\" est une répulsion immédiate et viscérale face à une habitude anodine ou une manie. Un \"red flag\" désigne des schémas nuisibles tels que le mensonge, la manipulation ou le mépris. Les icks relèvent de la sensibilité personnelle, les red flags de la sécurité émotionnelle.",
+    "faq2Q": "Peut-on surmonter ou désamorcer un ick avec le temps ?",
+    "faq2A": "Oui. De nombreux icks proviennent d'une hypervigilance défensive liée à l'attachement évitant. À mesure que la confiance mutuelle et la sécurité affective grandissent, ces aversions superficielles ont tendance à s'estomper.",
+    "faq3Q": "Mes données de swipe ou mon score de sensibilité sont-ils enregistrés ?",
+    "faq3A": "Absolument pas. Tout le test fonctionne à 100% localement dans votre navigateur. Aucune donnée personnelle ni résultat n'est transmis à des serveurs tiers.",
+    "reviewDate": "Revue Éditoriale : Novembre 2026",
+    "reviewTeam": "DopaBrain Psychologie Relationnelle & Cognition Sociale"
   }
 }

@@ -103,10 +103,19 @@
     "socialProof": "20の行動シナリオ · 100%プライベート自己診断"
   },
   "about": {
-    "toggle": "About the Ick Factor Test",
-    "heading1": "How the Ick Factor Test Works",
-    "text1": "The Ick Factor Test presents 20 common behaviors across categories like dating, hygiene, social media, and communication. Swipe right if the behavior gives you the ick, left if it is fine. Your total count and category breakdown reveal your ick sensitivity profile.",
-    "heading2": "Understanding Your Ick Sensitivity",
-    "text2": "An ick is that sudden feeling of cringe or repulsion toward a behavior. Everyone has different ick triggers. This test helps you discover yours in a fun way and compare with friends to see who is the pickiest!"
+    "toggle": "カエル化現象・嫌悪感（Ick）テストと関係心理学",
+    "heading1": "「Ick（急な嫌悪感）」の進化心理学的背景",
+    "text1": "相手の些細な行動で急激に気持ちが冷める「Ick（カエル化現象）」は、進化心理学と行動免疫システム（ポール・ロジン、マーク・シャラー）に深く根ざしています。本能的な嫌悪感は病原体感染を防ぐ生存適応として進化し、恋愛においては価値観の不一致や対人境界の摩擦を瞬時に警告する無意識のフィルターとして機能します。",
+    "heading2": "4つの対人境界領域",
+    "text2": "本診断の20のシナリオは、清潔感・衛生（感覚的警戒）、社会的マナー（公共の配慮）、相互尊重（対話と傾聴のバランス）、真実味のある自己表現（素直さと見栄）の4領域に分類されます。それぞれの領域が個人の許容基準と関係性の優先順位を映し出します。",
+    "faqTitle": "よくある質問 (FAQ)",
+    "faq1Q": "単なる「Ick（冷め・違和感）」と本物の「レッドフラ그（危険信号）」の違いは何ですか？",
+    "faq1A": "Ickは食べ方や癖などに対する個人的・直感的な感覚の違和感です。一方、レッドフラグは嘘、モラハラ、不誠実など、関係を脅かす重大な行動パターンを指します。Ickは個人の好みですが、レッドフラグは境界線侵害です。",
+    "faq2Q": "一度感じたIckを克服したり、慣れたりすることはできますか？",
+    "faq2A": "はい、可能です。初期の警戒心や回避的な防衛本能から生じるIckは、信頼関係と心理的安心感が深まるにつれて気にならなくなるケースが多く報告されています。",
+    "faq3Q": "スワイプした回答や結果データは外部サーバーに保存されますか？",
+    "faq3A": "一切保存されません。すべての診断および集計はユーザーのブラウザ内で100%ローカルに実行され、外部に送信されることはありません。",
+    "reviewDate": "監修・編集レビュー: 2026年11月",
+    "reviewTeam": "DopaBrain 関係心理学＆社会認知研究チーム"
   }
 }

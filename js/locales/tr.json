@@ -103,10 +103,19 @@
     "socialProof": "20 davranış senaryosu · %100 kişisel ve gizli"
   },
   "about": {
-    "toggle": "About the Ick Factor Test",
-    "heading1": "How the Ick Factor Test Works",
-    "text1": "The Ick Factor Test presents 20 common behaviors across categories like dating, hygiene, social media, and communication. Swipe right if the behavior gives you the ick, left if it is fine. Your total count and category breakdown reveal your ick sensitivity profile.",
-    "heading2": "Understanding Your Ick Sensitivity",
-    "text2": "An ick is that sudden feeling of cringe or repulsion toward a behavior. Everyone has different ick triggers. This test helps you discover yours in a fun way and compare with friends to see who is the pickiest!"
+    "toggle": "Ick Faktörü Testi & İlişki Psikolojisi Hakkında",
+    "heading1": "'Ick' (Ani Soğuma) Hissinin Evrimsel Psikolojisi",
+    "text1": "Birinin aniden yaptığı küçük bir hareketten ötürü duyulan soğuma ve tiksinti ('ick'), evrimsel psikoloji ve davranışsal bağışıklık sistemine (Paul Rozin, Mark Schaller) dayanır. İçgüdüsel tiksinme patojenlerden korunma refleksi olarak evrilmiştir. İlişkilerde ise bu ani refleks, kişisel sınır uyuşmazlığını sezen bilinçdışı bir filtre olarak işler.",
+    "heading2": "Dört Mikro-Sınır Davranış Alanı",
+    "text2": "20 senaryoluk testimiz dört alanı inceler: Fiziksel Hijyen (duyusal arınma), Sosyal Görgü (toplumsal nezaket), Karşılıklı Saygı (dinleme ve sohbet dengesi) ve Özgün İletişim (samimiyete karşı yapmacık gösteriş). Her alan bireysel tolerans eşiklerinizi belirler.",
+    "faqTitle": "Sıkça Sorulan Sorular (FAQ)",
+    "faq1Q": "'Ick' ile gerçek bir 'Kırmızı Bayrak (Red Flag)' arasındaki fark nedir?",
+    "faq1A": "Ick, ufak bir alışkanlığa veya harekete verilen anlık duyusal bir tepkidir. Kırmızı bayrak ise yalan, manipülasyon veya saygısızlık gibi temel karakter kusurlarını gösterir. Ick kişisel zevk meselesiyken kırmızı bayrak açık bir sınır ihlalidir.",
+    "faq2Q": "İlişki ilerledikçe bir 'ick' hissi aşılabilir mi?",
+    "faq2A": "Evet. Çoğu ick hissi flörtün başındaki savunmacı tedirginlikten kaynaklanır. Duygusal güven ve derin yakınlık sağlandığında yüzeysel hoşnutsuzluklar genellikle anlamını yitirir.",
+    "faq3Q": "Kaydırma yanıtlarım veya hassasiyet puanım sunucularda saklanıyor mu?",
+    "faq3A": "Kesinlikle hayır. Test tamamen tarayıcınızda yerel olarak çalışır; hiçbir veriniz harici sunuculara iletilmez veya kaydedilmez.",
+    "reviewDate": "Editoryal İnceleme: Kasım 2026",
+    "reviewTeam": "DopaBrain İlişki Psikolojisi ve Sosyal Biliş Serisi"
   }
 }

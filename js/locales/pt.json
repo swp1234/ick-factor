@@ -103,10 +103,19 @@
     "socialProof": "20 comportamentos · Reflexão 100% privada"
   },
   "about": {
-    "toggle": "About the Ick Factor Test",
-    "heading1": "How the Ick Factor Test Works",
-    "text1": "The Ick Factor Test presents 20 common behaviors across categories like dating, hygiene, social media, and communication. Swipe right if the behavior gives you the ick, left if it is fine. Your total count and category breakdown reveal your ick sensitivity profile.",
-    "heading2": "Understanding Your Ick Sensitivity",
-    "text2": "An ick is that sudden feeling of cringe or repulsion toward a behavior. Everyone has different ick triggers. This test helps you discover yours in a fun way and compare with friends to see who is the pickiest!"
+    "toggle": "Sobre o Teste do Fator Ick e Psicologia Relacional",
+    "heading1": "Psicologia Evolutiva do Sentimento \"Ick\"",
+    "text1": "A sensação repentina de repulsa ou desconforto (\"ick\") apoia-se na psicologia evolutiva e no sistema imunológico comportamental (Paul Rozin, Mark Schaller). O nojo visceral evoluiu como mecanismo de defesa contra patógenos. No namoro, esse recuo instintivo atua como uma heurística inconsciente que aponta atritos nos limites interpessoais.",
+    "heading2": "Quatro Domínios de Micro-Limites de Convivência",
+    "text2": "Os 20 cenários abrangem quatro áreas essenciais: Higiene Física (alertas sensoriais), Convivência Social (etiqueta pública e consideração), Respeito Mútuo (atenção e reciprocidade na conversa) e Comunicação Autêntica (genuinidade versus ostentação performática).",
+    "faqTitle": "Perguntas Frequentes (FAQ)",
+    "faq1Q": "Qual é a diferença entre um \"ick\" e uma \"red flag\" de verdade?",
+    "faq1A": "Um \"ick\" é uma aversão imediata e espontânea a um detalhe ou trejeito específico. Já uma \"red flag\" envolve sinais graves de falsidade, manipulação, desrespeito ou toxicidade emocional. O ick reflete gostos particulares; a red flag aponta riscos éticos.",
+    "faq2Q": "É possível superar um ick no decorrer de um relacionamento?",
+    "faq2A": "Sim. Muitas vezes o ick surge de uma hipervigilância protetora ou apego evitativo inicial. À medida que a segurança afetiva e a intimidade se aprofundam, essas aversões superficiais costumam perder força.",
+    "faq3Q": "Minhas respostas ou minha pontuação são enviadas a servidores externos?",
+    "faq3A": "Nunca. O teste roda 100% no seu navegador de forma estritamente local. Nenhuma escolha ou resultado é registrado fora do seu dispositivo.",
+    "reviewDate": "Revisão Editorial: Novembro 2026",
+    "reviewTeam": "DopaBrain Série de Psicologia Relacional e Cognição Social"
   }
 }

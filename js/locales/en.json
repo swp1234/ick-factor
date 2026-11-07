@@ -103,10 +103,19 @@
     "socialProof": "20 Behaviors · 100% Private Reflection"
   },
   "about": {
-    "toggle": "About the Ick Factor Test",
-    "heading1": "How the Ick Factor Test Works",
-    "text1": "The Ick Factor Test presents 20 common behaviors across categories like dating, hygiene, social media, and communication. Swipe right if the behavior gives you the ick, left if it is fine. Your total count and category breakdown reveal your ick sensitivity profile.",
-    "heading2": "Understanding Your Ick Sensitivity",
-    "text2": "An ick is that sudden feeling of cringe or repulsion toward a behavior. Everyone has different ick triggers. This test helps you discover yours in a fun way and compare with friends to see who is the pickiest!"
+    "toggle": "About the Ick Factor Test & Relationship Psychology",
+    "heading1": "Evolutionary Psychology of the \"Ick\"",
+    "text1": "The modern cultural concept of the \"ick\" is deeply rooted in evolutionary psychology and the behavioral immune system (Paul Rozin, Mark Schaller). Visceral disgust originally evolved as a survival mechanism to prevent contamination and pathogen exposure. In dating, this instinctive emotional recoil functions as an unconscious filtering heuristic signaling personal boundary friction.",
+    "heading2": "Four Behavioral Micro-Boundary Domains",
+    "text2": "Our 20-scenario inventory spans four foundational domains: Physical Hygiene (sensory-pathogen alerts), Social Courtesy (public etiquette and consideration), Interpersonal Respect (conversational reciprocity and attentiveness), and Authentic Communication (vulnerability versus performative posturing). Each domain reflects distinct personal values and relational tolerance thresholds.",
+    "faqTitle": "Frequently Asked Questions",
+    "faq1Q": "What is the difference between an ick and a relationship red flag?",
+    "faq1A": "An ick is typically an immediate, visceral emotional reaction to a specific quirk, habit, or social mannerism. A red flag represents substantive patterns of deceit, manipulation, disrespect, or emotional unavailability. While icks can highlight personal preferences, they are distinct from ethical boundary violations.",
+    "faq2Q": "Can an ick be overcome or unlearned in a developing relationship?",
+    "faq2A": "Yes. Because icks frequently stem from early dating hypervigilance or anxiety-driven fault-finding (avoidant attachment defenses), building emotional safety and deeper conversational intimacy often diminishes initial superficial aversions as genuine partner attunement increases.",
+    "faq3Q": "Is my swipe data or ick sensitivity score stored on external servers?",
+    "faq3A": "Never. The Ick Factor Test runs entirely client-side inside your web browser. None of your swipe responses, behavioral ratings, or calculated sensitivity tiers are transmitted, tracked, or stored on any external server.",
+    "reviewDate": "Editorial Review: November 2026",
+    "reviewTeam": "DopaBrain Relational Psychology & Social Cognition Series"
   }
 }

@@ -103,10 +103,19 @@
     "socialProof": "20种日常行为 · 100%私密自省"
   },
   "about": {
-    "toggle": "About the Ick Factor Test",
-    "heading1": "How the Ick Factor Test Works",
-    "text1": "The Ick Factor Test presents 20 common behaviors across categories like dating, hygiene, social media, and communication. Swipe right if the behavior gives you the ick, left if it is fine. Your total count and category breakdown reveal your ick sensitivity profile.",
-    "heading2": "Understanding Your Ick Sensitivity",
-    "text2": "An ick is that sudden feeling of cringe or repulsion toward a behavior. Everyone has different ick triggers. This test helps you discover yours in a fun way and compare with friends to see who is the pickiest!"
+    "toggle": "关于瞬间祛魅（Ick）测试与亲密关系心理学",
+    "heading1": "“瞬间下头（Ick）”的进化心理学基础",
+    "text1": "在社交与约会中突然因细节而反感、下头的“Ick”现象，根植于进化心理学与行为免疫系统理论（Paul Rozin、Mark Schaller）。本能的厌恶感最初是为了规避病原体与污染。在现代亲密关系中，这种本能的情感抽离充当了潜意识的快速筛选启发式，提醒我们潜在的个人边界摩擦。",
+    "heading2": "四大微观边界维度",
+    "text2": "本测试涵盖20个真实情境，归纳为四大核心维度：个人卫生（感官清洁警戒）、公共礼仪（社交考虑与教养）、相互尊重（对话倾听与对等性）以及真实沟通（真诚坦率对比虚荣矫饰）。每个维度都反映了独特的亲密界限与心理容忍阈值。",
+    "faqTitle": "常见问题解答 (FAQ)",
+    "faq1Q": "瞬间反感（Ick）与真正的关系危险信号（Red Flag）有何区别？",
+    "faq1A": "Ick通常是对某种特定习惯或小动作（如大声嚼食、过度炫耀）的即时生理性反感，多属个人偏好。而Red Flag则是关于欺骗、操控、缺乏尊重等严重的品格与关系安全问题。",
+    "faq2Q": "在发展中的亲密关系中，Ick可以被克服或理解吗？",
+    "faq2A": "可以。许多Ick源于初期的过度警惕或回避型依恋防御。随着双方建立深厚的情感安全感与深度沟通，许多表层的轻微反感往往会自然消退。",
+    "faq3Q": "我的滑动数据和敏感度分数会被上传至外部服务器吗？",
+    "faq3A": "绝不。Ick测试全程在您的浏览器本地进行运算，不收集、传输或存储任何个人互动数据。",
+    "reviewDate": "学术与编辑审阅：2026年11月",
+    "reviewTeam": "DopaBrain 关系心理学与社会认知研究组"
   }
 }

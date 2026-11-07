@@ -103,10 +103,19 @@
     "socialProof": "20 skenario perilaku · Refleksi 100% pribadi"
   },
   "about": {
-    "toggle": "About the Ick Factor Test",
-    "heading1": "How the Ick Factor Test Works",
-    "text1": "The Ick Factor Test presents 20 common behaviors across categories like dating, hygiene, social media, and communication. Swipe right if the behavior gives you the ick, left if it is fine. Your total count and category breakdown reveal your ick sensitivity profile.",
-    "heading2": "Understanding Your Ick Sensitivity",
-    "text2": "An ick is that sudden feeling of cringe or repulsion toward a behavior. Everyone has different ick triggers. This test helps you discover yours in a fun way and compare with friends to see who is the pickiest!"
+    "toggle": "Tentang Tes Ick Factor & Psikologi Hubungan",
+    "heading1": "Psikologi Evolusioner di Balik Rasa 'Ick'",
+    "text1": "Rasa ilfeel tiba-tiba ('ick') berakar kuat pada psikologi evolusioner dan sistem imun perilaku (Paul Rozin, Mark Schaller). Rasa jijik naluriah awalnya berkembang untuk menghindari patogen dan kontaminasi. Dalam hubungan asmara, reaksi spontan ini berfungsi sebagai heuristik bawah sadar yang mendeteksi ketidaksesuaian batasan personal.",
+    "heading2": "Empat Domain Batasan Mikro Perilaku",
+    "text2": "20 skenario kami mencakup empat pilar: Kebersihan Fisik (kepekaan sensorik), Etika Sosial (tata krama publik), Rasa Hormat Interpersonal (keseimbangan mendengarkan), dan Komunikasi Autentik (kejujuran versus pamer semu). Masing-masing mencerminkan toleransi relasional unik Anda.",
+    "faqTitle": "Pertanyaan yang Sering Diajukan (FAQ)",
+    "faq1Q": "Apa perbedaan antara 'ick' dan 'red flag' nyata dalam hubungan?",
+    "faq1A": "Ick biasanya merupakan reaksi spontan terhadap kebiasaan sepele atau keanehan kecil. Red flag adalah tanda bahaya nyata seperti kebohongan, manipulasi, kekerasan verbal, atau ketidakhormatan moral. Ick adalah soal selera, sedangkan red flag adalah soal etika dan keselamatan emosional.",
+    "faq2Q": "Bisakah rasa 'ick' dihilangkan atau diatasi seiring berjalannya waktu?",
+    "faq2A": "Bisa. Banyak ick timbul dari kecemasan awal kencan atau pertahanan kelekatan menghindar (avoidant). Ketika rasa aman dan kedekatan emosional bertambah, rasa ilfeel superfisial sering kali memudar.",
+    "faq3Q": "Apakah data gesekan atau skor sensitivitas saya disimpan di server eksternal?",
+    "faq3A": "Sama sekali tidak. Tes ini berjalan 100% di browser perangkat Anda. Tidak ada pilihan jawaban yang dikirim ke server luar mana pun.",
+    "reviewDate": "Tinjauan Editorial: November 2026",
+    "reviewTeam": "DopaBrain Seri Psikologi Relasional & Kognisi Sosial"
   }
 }

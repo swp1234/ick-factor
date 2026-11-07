@@ -103,10 +103,19 @@
     "socialProof": "20 comportamientos · Reflexión 100% privada"
   },
   "about": {
-    "toggle": "About the Ick Factor Test",
-    "heading1": "How the Ick Factor Test Works",
-    "text1": "The Ick Factor Test presents 20 common behaviors across categories like dating, hygiene, social media, and communication. Swipe right if the behavior gives you the ick, left if it is fine. Your total count and category breakdown reveal your ick sensitivity profile.",
-    "heading2": "Understanding Your Ick Sensitivity",
-    "text2": "An ick is that sudden feeling of cringe or repulsion toward a behavior. Everyone has different ick triggers. This test helps you discover yours in a fun way and compare with friends to see who is the pickiest!"
+    "toggle": "Acerca del Test del Factor Ick y Psicología Relacional",
+    "heading1": "Psicología Evolutiva del Sentimiento \"Ick\"",
+    "text1": "El concepto cultural del \"ick\" (rechazo repentino) tiene sus raíces en la psicología evolutiva y el sistema inmunológico conductual (Paul Rozin, Mark Schaller). El asco visceral evolucionó originalmente como un mecanismo de supervivencia para prevenir contaminantes. En las citas, este rechazo instintivo opera como una heurística inconsciente que alerta sobre fricciones en los límites personales.",
+    "heading2": "Cuatro Dominios de Micro-Límites Conductuales",
+    "text2": "Nuestro inventario de 20 escenarios evalúa cuatro áreas fundamentales: Higiene Personal (alertas sensoriales), Cortesía Social (etiqueta pública y consideración), Respeto Interpersonal (reciprocidad y escucha en la conversación) y Comunicación Auténtica (vulnerabilidad frente a poses superficiales).",
+    "faqTitle": "Preguntas Frecuentes (FAQ)",
+    "faq1Q": "¿Cuál es la diferencia entre un \"ick\" y una verdadera \"red flag\" en una relación?",
+    "faq1A": "Un \"ick\" suele ser una reacción visceral e inmediata ante un hábito o peculiaridad específica. Una \"red flag\" representa patrones perjudiciales de engaño, manipulación, falta de respeto o toxicidad. Los icks reflejan preferencias sensoriales; las red flags son violaciones éticas.",
+    "faq2Q": "¿Se puede superar o disipar un \"ick\" a medida que avanza la relación?",
+    "faq2A": "Sí. A menudo los icks surgen de una hipervigilancia inicial o mecanismos de defensa de apego evitativo. Al fomentar la seguridad emocional y la intimidad profunda, muchas aversiones superficiales tienden a desvanecerse.",
+    "faq3Q": "¿Se guardan mis respuestas o puntuaciones en servidores externos?",
+    "faq3A": "Nunca. El test se ejecuta 100% en tu navegador de forma local. Ninguna de tus elecciones o resultados se transmite ni se almacena en el exterior.",
+    "reviewDate": "Revisión Editorial: Noviembre 2026",
+    "reviewTeam": "DopaBrain Serie de Psicología Relacional y Cognición Social"
   }
 }
