@@ -75,16 +75,17 @@
     "yourIcks": "Ick Kamu",
     "noIcks": "Tidak ada yang bikin ick! Benar-benar santai.",
     "retake": "Ulangi Tes",
-    "moreTests": "Jelajahi Tes Lainnya",
-    "percentileStat": "Skor sensitivitasmu mencerminkan pola reaksi pribadi terhadap 20 situasi sehari-hari.",
-    "profileStat": "Skor sensitivitasmu mencerminkan pola reaksi pribadi terhadap 20 situasi sehari-hari."
+    "moreTests": "Jelajahi Tes Lainnya"
   },
   "share": {
     "title": "Bagikan Ick Kamu",
     "text": "Aku dapat {count}/20 ick! Sensitivitas ick: \"{tier}\" 🤢 Coba juga:",
     "twitter": "Bagikan di X",
     "copyUrl": "Salin Link",
-    "copied": "Tersalin!"
+    "copied": "Tersalin!",
+    "saveCard": "Simpan Kartu Hasil",
+    "saved": "Kartu Tersimpan!",
+    "saveFailed": "Gagal menyimpan kartu."
   },
   "related": {
     "redGreenFlag": "Bendera Merah/Hijau",
@@ -117,5 +118,15 @@
     "faq3A": "Sama sekali tidak. Tes ini berjalan 100% di browser perangkat Anda. Tidak ada pilihan jawaban yang dikirim ke server luar mana pun.",
     "reviewDate": "Tinjauan Editorial: November 2026",
     "reviewTeam": "DopaBrain Seri Psikologi Relasional & Kognisi Sosial"
+  },
+  "curated": {
+    "title": "Panduan Hubungan Pilihan",
+    "disclosure": "Tautan afiliasi",
+    "subtitle": "Bacaan berbasis riset tentang pola kelekatan, batasan personal, dan kedekatan jangka panjang.",
+    "cta": "Lihat Panduan ->",
+    "attachedTitle": "Attached: Ilmu Baru Kelekatan Dewasa",
+    "attachedDesc": "Amir Levine & Rachel Heller — Pahami pemicu kewaspadaan berlebih dan rasa ilfeel saat PDKT.",
+    "eightDatesTitle": "Eight Dates: Percakapan Penting Cinta",
+    "eightDatesDesc": "John & Julie Schwartz Gottman — Ubah gesekan kecil menjadi kecocokan yang lebih kuat."
   }
 }

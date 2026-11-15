@@ -75,16 +75,17 @@
     "yourIcks": "Seus Icks",
     "noIcks": "Nada te dá ick! Verdadeiramente impassível.",
     "retake": "Refazer Teste",
-    "moreTests": "Explore Mais Testes",
-    "percentileStat": "Sua pontuação de sensibilidade reflete seus padrões de reação em 20 situações cotidianas.",
-    "profileStat": "Sua pontuação de sensibilidade reflete seus padrões de reação em 20 situações cotidianas."
+    "moreTests": "Explore Mais Testes"
   },
   "share": {
     "title": "Compartilhe Seu Ick",
     "text": "Eu tenho {count}/20 icks! Minha sensibilidade: \"{tier}\" 🤢 Faça o seu:",
     "twitter": "Compartilhar no X",
     "copyUrl": "Copiar Link",
-    "copied": "Copiado!"
+    "copied": "Copiado!",
+    "saveCard": "Salvar Cartão",
+    "saved": "Cartão Salvo!",
+    "saveFailed": "Não foi possível salvar."
   },
   "related": {
     "redGreenFlag": "Bandeira Vermelha/Verde",
@@ -117,5 +118,15 @@
     "faq3A": "Nunca. O teste roda 100% no seu navegador de forma estritamente local. Nenhuma escolha ou resultado é registrado fora do seu dispositivo.",
     "reviewDate": "Revisão Editorial: Novembro 2026",
     "reviewTeam": "DopaBrain Série de Psicologia Relacional e Cognição Social"
+  },
+  "curated": {
+    "title": "Guias de Relacionamento Recomendados",
+    "disclosure": "Links de afiliado",
+    "subtitle": "Leituras baseadas em evidências sobre apego adulto, limites e intimidade real.",
+    "cta": "Ver Guia ->",
+    "attachedTitle": "Attached (Maneiras de Amar)",
+    "attachedDesc": "Amir Levine e Rachel Heller — Entenda os gatilhos de hipervigilância e antipatia no início do namoro.",
+    "eightDatesTitle": "Eight Dates: Conversas Essenciais",
+    "eightDatesDesc": "John e Julie Schwartz Gottman — Transforme atritos cotidianos em conexão duradoura."
   }
 }

@@ -109,8 +109,11 @@
     var categoryBars = $('categoryBars');
     var ickItems = $('ickItems');
     var retakeBtn = $('retakeBtn');
+    var saveCardBtn = $('saveCardBtn');
     var shareTwitterBtn = $('shareTwitter');
     var shareCopyBtn = $('shareCopy');
+    var shareCanvas = $('shareCanvas');
+    var curatedContainer = $('curated-resources-card');
     var themeToggle = $('themeToggle');
     var themeIcon = $('themeIcon');
     var langBtn = $('langBtn');
@@ -343,7 +346,10 @@
         updateProgress();
 
         if (typeof gtag === 'function') {
-            gtag('event', 'quiz_start', { event_category: 'ick-factor' });
+            gtag('event', 'test_start', {
+                event_category: 'ick-factor',
+                app_name: 'ick-factor'
+            });
         }
     }
 
@@ -559,26 +565,20 @@
             resultDesc.textContent = t('tiers.' + tier.key + '.desc', '');
         }
 
-        // Profile reflection stat
-        var percentileEl = $('percentileStat');
-        if (percentileEl) {
-            var pText = t('result.profileStat', 'Your sensitivity score reflects personal reaction patterns across 20 everyday scenarios.');
-            percentileEl.textContent = pText;
-        }
-
         // Category breakdown bars
         renderCategoryBars();
+        renderCuratedResources(tier);
         preserveLanguageLinks();
 
         // Ick list
         renderIckList();
 
-        // GA4
+        // GA4 (clean taxonomy without raw numeric score leak)
         if (typeof gtag === 'function') {
-            gtag('event', 'quiz_complete', {
+            gtag('event', 'test_complete', {
                 event_category: 'ick-factor',
-                event_label: tier.key,
-                value: totalIcks
+                app_name: 'ick-factor',
+                result_type: tier.key
             });
         }
     }
@@ -649,6 +649,212 @@
         }
     }
 
+    function getCurrentLocale() {
+        var inst = getI18n();
+        return (inst && inst.currentLang) ? inst.currentLang : 'en';
+    }
+
+    function getShareUrl() {
+        return 'https://dopabrain.com/ick-factor/?lang=' + encodeURIComponent(getCurrentLocale()) + '&utm_source=share';
+    }
+
+    function getAmazonDomain(lang) {
+        var map = {
+            ja: 'amazon.co.jp',
+            de: 'amazon.de',
+            fr: 'amazon.fr',
+            es: 'amazon.es',
+            hi: 'amazon.in'
+        };
+        return map[lang] || 'amazon.com';
+    }
+
+    function renderCuratedResources(tier) {
+        if (!curatedContainer) return;
+        var lang = getCurrentLocale();
+        var domain = getAmazonDomain(lang);
+        var items = [
+            {
+                key: 'attached',
+                asin: '1585429139',
+                title: t('curated.attachedTitle', 'Attached: The New Science of Adult Attachment'),
+                desc: t('curated.attachedDesc', 'Understand why early hypervigilance and icks flare up in dating.')
+            },
+            {
+                key: 'eightDates',
+                asin: '1523504463',
+                title: t('curated.eightDatesTitle', 'Eight Dates: Essential Conversations for a Lifetime of Love'),
+                desc: t('curated.eightDatesDesc', 'Turn everyday friction into deeper compatibility.')
+            }
+        ];
+
+        var html = '<div class="curated-resources-header">' +
+            '<h3 class="curated-resources-title">' + t('curated.title', 'Recommended Relationship Guides') + '</h3>' +
+            '<span class="curated-disclosure">' + t('curated.disclosure', 'Affiliate links') + '</span>' +
+            '</div>' +
+            '<p class="curated-resources-subtitle">' + t('curated.subtitle', 'Evidence-based reads on attachment patterns and micro-boundaries.') + '</p>' +
+            '<div class="curated-list">';
+
+        items.forEach(function(item) {
+            var href = 'https://www.' + domain + '/dp/' + item.asin + '?tag=dopabrain-20';
+            html += '<a class="curated-item" href="' + href + '" target="_blank" rel="noopener sponsored nofollow" data-resource-key="' + item.key + '">' +
+                '<div class="curated-item-top">' +
+                '<span class="curated-item-title">' + item.title + '</span>' +
+                '<span class="curated-item-cta">' + t('curated.cta', 'View Guide ->') + '</span>' +
+                '</div>' +
+                '<span class="curated-item-desc">' + item.desc + '</span>' +
+                '</a>';
+        });
+
+        html += '</div>';
+        curatedContainer.innerHTML = html;
+
+        curatedContainer.querySelectorAll('.curated-item').forEach(function(link) {
+            link.addEventListener('click', function() {
+                var key = link.getAttribute('data-resource-key');
+                var dest = link.getAttribute('href');
+                if (typeof gtag === 'function') {
+                    gtag('event', 'curated_resource_click', {
+                        app_name: 'ick-factor',
+                        resource_key: key,
+                        result_type: tier ? tier.key : '',
+                        content_locale: lang,
+                        cta_surface: 'curated_resources'
+                    });
+                    gtag('event', 'content_cta_click', {
+                        cta_type: 'curated_book',
+                        destination: dest,
+                        source: 'ick_factor'
+                    });
+                }
+            });
+        });
+    }
+
+    function wrapCanvasLines(ctx, text, maxWidth) {
+        var words = String(text || '').split(/\s+/);
+        var lines = [];
+        var current = '';
+        words.forEach(function(w) {
+            var test = current ? current + ' ' + w : w;
+            if (ctx.measureText(test).width > maxWidth && current) {
+                lines.push(current);
+                current = w;
+            } else {
+                current = test;
+            }
+        });
+        if (current) lines.push(current);
+        return lines;
+    }
+
+    function saveResultCard() {
+        if (!shareCanvas) return;
+        var totalIcks = 0;
+        for (var i = 0; i < ickChoices.length; i++) {
+            if (ickChoices[i]) totalIcks++;
+        }
+        var tier = getTier(totalIcks);
+        var tierLabel = t('tiers.' + tier.key + '.name', tier.key);
+        var tierDesc = t('tiers.' + tier.key + '.desc', '');
+        var lang = getCurrentLocale();
+
+        var ctx = shareCanvas.getContext('2d');
+        shareCanvas.width = 1080;
+        shareCanvas.height = 1920;
+
+        var grad = ctx.createLinearGradient(0, 0, 1080, 1920);
+        grad.addColorStop(0, '#071a14');
+        grad.addColorStop(0.5, '#0d2b22');
+        grad.addColorStop(1, '#09111e');
+        ctx.fillStyle = grad;
+        ctx.fillRect(0, 0, 1080, 1920);
+
+        ctx.fillStyle = 'rgba(16, 185, 129, 0.14)';
+        ctx.beginPath();
+        ctx.arc(540, 520, 320, 0, Math.PI * 2);
+        ctx.fill();
+
+        ctx.fillStyle = '#34d399';
+        ctx.font = 'bold 34px system-ui, -apple-system, sans-serif';
+        ctx.textAlign = 'center';
+        ctx.fillText('DOPABRAIN · ICK FACTOR TEST', 540, 170);
+
+        ctx.font = '180px system-ui, sans-serif';
+        ctx.fillText(tier.emoji, 540, 480);
+
+        ctx.fillStyle = '#10b981';
+        ctx.font = 'bold 110px system-ui, -apple-system, sans-serif';
+        ctx.fillText(totalIcks + ' / 20', 540, 660);
+
+        ctx.fillStyle = '#f8fafc';
+        ctx.font = 'bold 64px system-ui, -apple-system, sans-serif';
+        ctx.fillText(tierLabel, 540, 770);
+
+        ctx.fillStyle = '#cbd5e1';
+        ctx.font = '38px system-ui, -apple-system, sans-serif';
+        var descLines = wrapCanvasLines(ctx, tierDesc, 860).slice(0, 4);
+        descLines.forEach(function(line, idx) {
+            ctx.fillText(line, 540, 870 + idx * 54);
+        });
+
+        var counts = getCategoryCounts();
+        var startY = 1160;
+        catKeys.forEach(function(cat, idx) {
+            var y = startY + idx * 120;
+            var label = t('categories.' + cat, cat);
+            var cnt = counts[cat] || 0;
+            ctx.textAlign = 'left';
+            ctx.fillStyle = '#e2e8f0';
+            ctx.font = 'bold 32px system-ui, -apple-system, sans-serif';
+            ctx.fillText(label, 120, y);
+
+            ctx.textAlign = 'right';
+            ctx.fillStyle = '#34d399';
+            ctx.fillText(cnt + ' / 5', 960, y);
+
+            ctx.fillStyle = 'rgba(255, 255, 255, 0.12)';
+            ctx.fillRect(120, y + 20, 840, 26);
+
+            ctx.fillStyle = '#10b981';
+            ctx.fillRect(120, y + 20, Math.round((cnt / 5) * 840), 26);
+        });
+
+        ctx.textAlign = 'center';
+        ctx.fillStyle = '#94a3b8';
+        ctx.font = '30px system-ui, -apple-system, sans-serif';
+        ctx.fillText('dopabrain.com/ick-factor/?lang=' + lang, 540, 1780);
+
+        try {
+            var dataUrl = shareCanvas.toDataURL('image/png');
+            var a = document.createElement('a');
+            a.href = dataUrl;
+            a.download = 'ick-factor-' + tier.key + '.png';
+            document.body.appendChild(a);
+            a.click();
+            document.body.removeChild(a);
+
+            if (saveCardBtn) {
+                saveCardBtn.textContent = t('share.saved', 'Card Saved!');
+                setTimeout(function() {
+                    saveCardBtn.textContent = t('share.saveCard', 'Save Result Card');
+                }, 2000);
+            }
+            if (typeof gtag === 'function') {
+                gtag('event', 'save_image', {
+                    event_category: 'ick-factor',
+                    app_name: 'ick-factor',
+                    result_type: tier.key,
+                    save_surface: 'result_story_1080x1920'
+                });
+            }
+        } catch (err) {
+            if (saveCardBtn) {
+                saveCardBtn.textContent = t('share.saveFailed', 'Could not save card.');
+            }
+        }
+    }
+
     // --- Share: Twitter ---
     function shareTwitter() {
         var totalIcks = 0;
@@ -661,7 +867,7 @@
             count: totalIcks,
             tier: tierLabel
         });
-        var url = 'https://dopabrain.com/ick-factor/';
+        var url = getShareUrl();
         window.open(
             'https://twitter.com/intent/tweet?text=' + encodeURIComponent(text) + '&url=' + encodeURIComponent(url),
             '_blank',
@@ -674,7 +880,7 @@
 
     // --- Share: Copy URL ---
     function copyUrl() {
-        var url = 'https://dopabrain.com/ick-factor/';
+        var url = getShareUrl();
         if (navigator.clipboard && navigator.clipboard.writeText) {
             navigator.clipboard.writeText(url).then(function() {
                 showCopiedFeedback();
@@ -739,6 +945,10 @@
             retakeBtn.addEventListener('click', function() {
                 showScreen(startScreen);
             });
+        }
+
+        if (saveCardBtn) {
+            saveCardBtn.addEventListener('click', saveResultCard);
         }
 
         if (shareTwitterBtn) {

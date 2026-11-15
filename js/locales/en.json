@@ -75,16 +75,17 @@
     "yourIcks": "Your Icks",
     "noIcks": "Nothing gives you the ick! Truly unbothered.",
     "retake": "Retake Test",
-    "moreTests": "Explore More Tests",
-    "percentileStat": "Your sensitivity score reflects personal reaction patterns across 20 everyday scenarios.",
-    "profileStat": "Your sensitivity score reflects personal reaction patterns across 20 everyday scenarios."
+    "moreTests": "Explore More Tests"
   },
   "share": {
     "title": "Share Your Ick Factor",
     "text": "I got {count}/20 icks! My ick sensitivity: \"{tier}\" 🤢 Check yours:",
     "twitter": "Share on X",
     "copyUrl": "Copy Link",
-    "copied": "Copied!"
+    "copied": "Copied!",
+    "saveCard": "Save Result Card",
+    "saved": "Card Saved!",
+    "saveFailed": "Could not save card."
   },
   "related": {
     "redGreenFlag": "Red Green Flag",
@@ -117,5 +118,15 @@
     "faq3A": "Never. The Ick Factor Test runs entirely client-side inside your web browser. None of your swipe responses, behavioral ratings, or calculated sensitivity tiers are transmitted, tracked, or stored on any external server.",
     "reviewDate": "Editorial Review: November 2026",
     "reviewTeam": "DopaBrain Relational Psychology & Social Cognition Series"
+  },
+  "curated": {
+    "title": "Recommended Relationship Guides",
+    "disclosure": "Affiliate links",
+    "subtitle": "Evidence-based reads on attachment patterns, micro-boundaries, and long-term intimacy.",
+    "cta": "View Guide ->",
+    "attachedTitle": "Attached: The New Science of Adult Attachment",
+    "attachedDesc": "Amir Levine & Rachel Heller — Understand why early hypervigilance and icks flare up in dating.",
+    "eightDatesTitle": "Eight Dates: Essential Conversations for a Lifetime of Love",
+    "eightDatesDesc": "John Gottman & Julie Schwartz Gottman — Turn everyday friction into deeper compatibility."
   }
 }

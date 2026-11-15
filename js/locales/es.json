@@ -75,16 +75,17 @@
     "yourIcks": "Tus Icks",
     "noIcks": "¡Nada te da ick! Verdaderamente inmutable.",
     "retake": "Repetir Test",
-    "moreTests": "Explora Más Tests",
-    "percentileStat": "Tu puntuación de sensibilidad refleja tus patrones de reacción en 20 situaciones cotidianas.",
-    "profileStat": "Tu puntuación de sensibilidad refleja tus patrones de reacción en 20 situaciones cotidianas."
+    "moreTests": "Explora Más Tests"
   },
   "share": {
     "title": "Comparte Tu Ick",
     "text": "¡Tengo {count}/20 icks! Mi sensibilidad: \"{tier}\" 🤢 Prueba el tuyo:",
     "twitter": "Compartir en X",
     "copyUrl": "Copiar Enlace",
-    "copied": "¡Copiado!"
+    "copied": "¡Copiado!",
+    "saveCard": "Guardar Tarjeta",
+    "saved": "Tarjeta Guardada",
+    "saveFailed": "No se pudo guardar."
   },
   "related": {
     "redGreenFlag": "Bandera Roja/Verde",
@@ -117,5 +118,15 @@
     "faq3A": "Nunca. El test se ejecuta 100% en tu navegador de forma local. Ninguna de tus elecciones o resultados se transmite ni se almacena en el exterior.",
     "reviewDate": "Revisión Editorial: Noviembre 2026",
     "reviewTeam": "DopaBrain Serie de Psicología Relacional y Cognición Social"
+  },
+  "curated": {
+    "title": "Guías de Relaciones Recomendadas",
+    "disclosure": "Enlaces de afiliado",
+    "subtitle": "Lecturas basadas en evidencia sobre apego adulto, límites cotidianos y compatibilidad.",
+    "cta": "Ver Guía ->",
+    "attachedTitle": "Attached (Maneras de amar)",
+    "attachedDesc": "Amir Levine y Rachel Heller — Comprende por qué surgen la hipervigilancia y el rechazo súbito al salir con alguien.",
+    "eightDatesTitle": "Eight Dates: Conversaciones Esenciales",
+    "eightDatesDesc": "John y Julie Schwartz Gottman — Convierte los roces diarios en mayor cercanía."
   }
 }

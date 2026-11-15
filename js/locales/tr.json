@@ -75,16 +75,17 @@
     "yourIcks": "Senin Ick'lerin",
     "noIcks": "Hiçbir şey ick değil! Gerçekten umursamaz.",
     "retake": "Tekrar Yap",
-    "moreTests": "Daha Fazla Test Keşfet",
-    "percentileStat": "Hassasiyet puanın 20 günlük senaryodaki kişisel tepkilerini yansıtır.",
-    "profileStat": "Hassasiyet puanın 20 günlük senaryodaki kişisel tepkilerini yansıtır."
+    "moreTests": "Daha Fazla Test Keşfet"
   },
   "share": {
     "title": "Ick'ini Paylaş",
     "text": "{count}/20 ick aldım! Ick hassasiyetim: \"{tier}\" 🤢 Sen de dene:",
     "twitter": "X'te Paylaş",
     "copyUrl": "Linki Kopyala",
-    "copied": "Kopyalandı!"
+    "copied": "Kopyalandı!",
+    "saveCard": "Sonuç Kartını Kaydet",
+    "saved": "Kart Kaydedildi!",
+    "saveFailed": "Kart kaydedilemedi."
   },
   "related": {
     "redGreenFlag": "Kırmızı/Yeşil Bayrak",
@@ -117,5 +118,15 @@
     "faq3A": "Kesinlikle hayır. Test tamamen tarayıcınızda yerel olarak çalışır; hiçbir veriniz harici sunuculara iletilmez veya kaydedilmez.",
     "reviewDate": "Editoryal İnceleme: Kasım 2026",
     "reviewTeam": "DopaBrain İlişki Psikolojisi ve Sosyal Biliş Serisi"
+  },
+  "curated": {
+    "title": "Önerilen İlişki Rehberleri",
+    "disclosure": "İş ortaklığı bağlantıları",
+    "subtitle": "Bağlanma stilleri, kişisel sınırlar ve uzun vadeli uyum üzerine kanıta dayalı kitaplar.",
+    "cta": "İncele ->",
+    "attachedTitle": "Attached: Yetişkin Bağlanmasının Yeni Bilimi",
+    "attachedDesc": "Amir Levine ve Rachel Heller — Erken flört dönemindeki soğuma ve aşırı tetikte olma nedenlerini keşfedin.",
+    "eightDatesTitle": "Eight Dates: Ömür Boyu Sevgi İçin Sohbetler",
+    "eightDatesDesc": "John ve Julie Schwartz Gottman — Günlük pürüzleri daha derin bir uyuma dönüştürün."
   }
 }

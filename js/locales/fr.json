@@ -75,16 +75,17 @@
     "yourIcks": "Vos Icks",
     "noIcks": "Rien ne vous donne le ick ! Vraiment imperturbable.",
     "retake": "Refaire le Test",
-    "moreTests": "Découvrir Plus de Tests",
-    "percentileStat": "Votre score de sensibilité reflète vos réactions personnelles à travers 20 scénarios quotidiens.",
-    "profileStat": "Votre score de sensibilité reflète vos réactions personnelles à travers 20 scénarios quotidiens."
+    "moreTests": "Découvrir Plus de Tests"
   },
   "share": {
     "title": "Partagez Votre Ick",
     "text": "J'ai eu {count}/20 icks ! Ma sensibilité : \"{tier}\" 🤢 Fais le tien :",
     "twitter": "Partager sur X",
     "copyUrl": "Copier le Lien",
-    "copied": "Copié !"
+    "copied": "Copié !",
+    "saveCard": "Enregistrer la Carte",
+    "saved": "Carte Enregistrée !",
+    "saveFailed": "Échec de la sauvegarde."
   },
   "related": {
     "redGreenFlag": "Drapeau Rouge/Vert",
@@ -117,5 +118,15 @@
     "faq3A": "Absolument pas. Tout le test fonctionne à 100% localement dans votre navigateur. Aucune donnée personnelle ni résultat n'est transmis à des serveurs tiers.",
     "reviewDate": "Revue Éditoriale : Novembre 2026",
     "reviewTeam": "DopaBrain Psychologie Relationnelle & Cognition Sociale"
+  },
+  "curated": {
+    "title": "Guides Relationnels Recommandés",
+    "disclosure": "Liens affiliés",
+    "subtitle": "Lectures de référence sur l’attachement adulte, les limites et l’intimité durable.",
+    "cta": "Voir le Guide ->",
+    "attachedTitle": "Attached : La science de l’attachement adulte",
+    "attachedDesc": "Amir Levine & Rachel Heller — Comprendre l’hypervigilance et les petits blocages en début de relation.",
+    "eightDatesTitle": "Eight Dates : Huit rendez-vous essentiels",
+    "eightDatesDesc": "John & Julie Schwartz Gottman — Transformer les frictions quotidiennes en complicité."
   }
 }

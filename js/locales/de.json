@@ -75,16 +75,17 @@
     "yourIcks": "Deine Icks",
     "noIcks": "Nichts gibt dir Ick! Wirklich unberührt.",
     "retake": "Nochmal machen",
-    "moreTests": "Mehr Tests entdecken",
-    "percentileStat": "Dein Sensibilitätswert spiegelt deine persönlichen Reaktionsmuster in 20 alltäglichen Szenarien wider.",
-    "profileStat": "Dein Sensibilitätswert spiegelt deine persönlichen Reaktionsmuster in 20 alltäglichen Szenarien wider."
+    "moreTests": "Mehr Tests entdecken"
   },
   "share": {
     "title": "Teile deinen Ick-Faktor",
     "text": "Ich habe {count}/20 Icks! Meine Ick-Empfindlichkeit: \"{tier}\" 🤢 Mach deinen:",
     "twitter": "Auf X teilen",
     "copyUrl": "Link kopieren",
-    "copied": "Kopiert!"
+    "copied": "Kopiert!",
+    "saveCard": "Ergebniskarte Speichern",
+    "saved": "Karte Gespeichert!",
+    "saveFailed": "Speichern fehlgeschlagen."
   },
   "related": {
     "redGreenFlag": "Rote/Grüne Flagge",
@@ -117,5 +118,15 @@
     "faq3A": "Niemals. Der Test wird vollständig lokal in Ihrem Webbrowser verarbeitet. Keine Ihrer Antworten oder Bewertungen verlässt Ihr Gerät.",
     "reviewDate": "Redaktionelle Prüfung: November 2026",
     "reviewTeam": "DopaBrain Beziehungspsychologie & Sozialkognition"
+  },
+  "curated": {
+    "title": "Empfohlene Beziehungs-Ratgeber",
+    "disclosure": "Affiliate-Links",
+    "subtitle": "Fundierte Lektüre über Bindungsmuster, feine Grenzen und echte Verbundenheit.",
+    "cta": "Ansehen ->",
+    "attachedTitle": "Attached: Die neue Wissenschaft der Bindung",
+    "attachedDesc": "Amir Levine & Rachel Heller — Warum frühe Überwachsamkeit und plötzliche Abneigung entstehen.",
+    "eightDatesTitle": "Eight Dates: Acht Gespräche für die Liebe",
+    "eightDatesDesc": "John & Julie Schwartz Gottman — Alltagsreibung in dauerhafte Nähe verwandeln."
   }
 }

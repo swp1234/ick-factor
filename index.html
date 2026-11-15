@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title data-i18n="meta.title">What Is Your Ick Factor? Free Ick Sensitivity Test | DopaBrain</title>
     <meta name="description" data-i18n="meta.description" content="Swipe through 20 behaviors to discover your ick sensitivity level! Are you an Unbothered Legend or an Ick Overlord? Free test with category breakdown.">
-    <meta name="dateModified" content="2026-11-07">
+    <meta name="dateModified" content="2026-11-15">
     <meta name="robots" content="index, follow, max-image-preview:large">
 
     <meta property="og:title" content="What's Your Ick Factor? | DopaBrain">
@@ -225,14 +225,16 @@
                     <div class="share-section">
                         <h3 data-i18n="share.title">Share Your Ick Factor</h3>
                         <div class="share-buttons">
+                            <button class="btn btn-share btn-save-card" id="saveCardBtn" data-i18n="share.saveCard">Save Result Card</button>
                             <button class="btn btn-share btn-twitter" id="shareTwitter" data-i18n="share.twitter">Share on X</button>
                             <button class="btn btn-share btn-copy" id="shareCopy" data-i18n="share.copyUrl">Copy Link</button>
                         </div>
                     </div>
+                    <canvas id="shareCanvas" width="1080" height="1920" style="display:none;" aria-hidden="true"></canvas>
 
                     <button class="btn btn-retake" id="retakeBtn" data-i18n="result.retake">Retake Test</button>
 
-                    <p class="percentile-stat" id="percentileStat"></p>
+                    <div id="curated-resources-card" class="curated-resources"></div>
 
                     <div class="related-tests">
                         <h3 data-i18n="result.moreTests">Explore More Tests</h3>
@@ -262,7 +264,7 @@
 
     <!-- About Section -->
     <section class="about-section collapsible-section" id="about-section">
-      <details>
+      <details open>
         <summary data-i18n="about.toggle" style="min-height:48px;display:flex;align-items:center;justify-content:space-between;cursor:pointer;">About the Ick Factor Test & Relationship Psychology</summary>
         <div class="about-content">
           <h2 data-i18n="about.heading1" style="font-size:16px;color:var(--primary);margin:16px 0 8px;">Evolutionary Psychology of the "Ick"</h2>

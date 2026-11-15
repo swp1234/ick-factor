@@ -1353,3 +1353,106 @@ footer a:hover {
 .about-content { padding: 0 18px 18px; }
 .about-content h2 { font-size: 16px; color: var(--primary); margin: 16px 0 8px; }
 .about-content p { font-size: 14px; color: var(--text-dim); line-height: 1.7; }
+.btn-share,
+.btn-retake,
+.lang-option {
+  min-height: 44px;
+}
+
+.btn-save-card {
+  background: linear-gradient(135deg, #10b981, #059669);
+  color: #ffffff;
+  border: none;
+}
+
+.btn-save-card:hover {
+  filter: brightness(1.06);
+}
+
+.curated-resources {
+  margin: 22px 0 8px;
+  padding: 18px;
+  background: var(--surface, rgba(255, 255, 255, 0.04));
+  border: 1px solid var(--border, rgba(255, 255, 255, 0.12));
+  border-radius: 16px;
+  text-align: left;
+}
+
+.curated-resources-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  margin-bottom: 6px;
+}
+
+.curated-resources-title {
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--text);
+  margin: 0;
+}
+
+.curated-disclosure {
+  font-size: 0.72rem;
+  color: var(--text-muted);
+  white-space: nowrap;
+}
+
+.curated-resources-subtitle {
+  font-size: 0.85rem;
+  color: var(--text-muted);
+  margin: 0 0 12px;
+  line-height: 1.5;
+}
+
+.curated-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.curated-item {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  min-height: 48px;
+  padding: 12px 14px;
+  border-radius: 12px;
+  background: rgba(16, 185, 129, 0.08);
+  border: 1px solid rgba(16, 185, 129, 0.22);
+  text-decoration: none;
+  color: inherit;
+  transition: transform 0.15s ease, border-color 0.15s ease;
+}
+
+.curated-item:hover {
+  transform: translateY(-1px);
+  border-color: var(--primary);
+}
+
+.curated-item-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+}
+
+.curated-item-title {
+  font-size: 0.92rem;
+  font-weight: 700;
+  color: var(--text);
+}
+
+.curated-item-cta {
+  font-size: 0.8rem;
+  font-weight: 700;
+  color: var(--primary);
+  white-space: nowrap;
+}
+
+.curated-item-desc {
+  font-size: 0.82rem;
+  color: var(--text-muted);
+  line-height: 1.45;
+}

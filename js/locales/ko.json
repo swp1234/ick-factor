@@ -75,16 +75,17 @@
     "yourIcks": "당신의 이키",
     "noIcks": "이키가 하나도 없어요! 진정한 무담담.",
     "retake": "다시 하기",
-    "moreTests": "더 많은 테스트",
-    "percentileStat": "당신의 이키 점수는 20가지 일상 시나리오에 대한 개인적인 반응 패턴입니다.",
-    "profileStat": "당신의 이키 점수는 20가지 일상 시나리오에 대한 개인적인 반응 패턴입니다."
+    "moreTests": "더 많은 테스트"
   },
   "share": {
     "title": "이키 결과 공유",
     "text": "나의 이키 {count}/20개! 이키 민감도: \"{tier}\" 🤢 너도 해봐:",
     "twitter": "X에 공유",
     "copyUrl": "링크 복사",
-    "copied": "복사됨!"
+    "copied": "복사됨!",
+    "saveCard": "결과 카드 저장",
+    "saved": "카드 저장됨!",
+    "saveFailed": "카드 저장에 실패했습니다."
   },
   "related": {
     "redGreenFlag": "레드 그린 플래그",
@@ -117,5 +118,15 @@
     "faq3A": "전혀 저장되지 않습니다. 이크 팩터 테스트는 브라우저 내부에서 100% 로컬 연산으로 실행됩니다. 귀하의 스와이프 선택과 결과는 외부 서버로 전송되거나 기록되지 않습니다.",
     "reviewDate": "학술 및 편집 검토: 2026년 11월",
     "reviewTeam": "DopaBrain 관계 심리학 & 사회인지 연구팀"
+  },
+  "curated": {
+    "title": "추천 관계 심리 도서",
+    "disclosure": "제휴 링크 포함",
+    "subtitle": "애착 유형, 마이크로 경계선, 깊은 친밀감을 다루는 근거 기반 가이드입니다.",
+    "cta": "도서 보기 ->",
+    "attachedTitle": "애착 (Attached): 성인 애착의 새로운 과학",
+    "attachedDesc": "아미르 레빈 · 레이첼 헬러 — 데이트 초반의 과잉 경계와 사소한 정떨어짐의 심리를 풀어봅니다.",
+    "eightDatesTitle": "여덟 번의 데이트 (Eight Dates)",
+    "eightDatesDesc": "존 가트맨 · 줄리 가트맨 — 사소한 마찰을 장기적인 호흡으로 바꾸는 8가지 대화."
   }
 }

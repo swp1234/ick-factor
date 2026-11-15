@@ -75,16 +75,17 @@
     "yourIcks": "你的反感项",
     "noIcks": "什么都不反感！真正的淡定。",
     "retake": "重新测试",
-    "moreTests": "探索更多测试",
-    "percentileStat": "你的反感度分数反映了你在20个日常情境下的个人反应模式。",
-    "profileStat": "你的反感度分数反映了你在20个日常情境下的个人反应模式。"
+    "moreTests": "探索更多测试"
   },
   "share": {
     "title": "分享反感结果",
     "text": "我的反感{count}/20！反感敏感度：“{tier}”🤢 你也来试试：",
     "twitter": "分享到X",
     "copyUrl": "复制链接",
-    "copied": "已复制！"
+    "copied": "已复制！",
+    "saveCard": "保存结果卡片",
+    "saved": "卡片已保存！",
+    "saveFailed": "保存失败，请重试。"
   },
   "related": {
     "redGreenFlag": "红绿旗",
@@ -117,5 +118,15 @@
     "faq3A": "绝不。Ick测试全程在您的浏览器本地进行运算，不收集、传输或存储任何个人互动数据。",
     "reviewDate": "学术与编辑审阅：2026年11月",
     "reviewTeam": "DopaBrain 关系心理学与社会认知研究组"
+  },
+  "curated": {
+    "title": "推荐关系心理学书单",
+    "disclosure": "含推广链接",
+    "subtitle": "深入理解依恋模式、日常边界感与长期亲密关系的经典读物。",
+    "cta": "查看详情 ->",
+    "attachedTitle": "《依恋》(Attached)：成人依恋的新科学",
+    "attachedDesc": "阿米尔·莱文 / 蕾切尔·赫勒 — 剖析约会初期突然下头与防备心理的根源。",
+    "eightDatesTitle": "《八次约会》(Eight Dates)：长久之爱的对话",
+    "eightDatesDesc": "约翰·戈特曼 / 朱莉·戈特曼 — 将日常小摩擦转化为默契与信任。"
   }
 }
