@@ -43,6 +43,7 @@ class I18n {
         return true;
     }
     updateUI() {
+        document.documentElement.lang = this.currentLang;
         document.querySelectorAll('[data-i18n]').forEach(el => {
             const val = this.t(el.getAttribute('data-i18n'));
             if (val !== el.getAttribute('data-i18n')) el.textContent = val;
