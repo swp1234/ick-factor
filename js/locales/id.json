@@ -128,5 +128,11 @@
     "attachedDesc": "Amir Levine & Rachel Heller — Pahami pemicu kewaspadaan berlebih dan rasa ilfeel saat PDKT.",
     "eightDatesTitle": "Eight Dates: Percakapan Penting Cinta",
     "eightDatesDesc": "John & Julie Schwartz Gottman — Ubah gesekan kecil menjadi kecocokan yang lebih kuat."
+  },
+  "nextStep": {
+    "label": "Langkah Berikutnya",
+    "title": "Tes Gaya Keterikatan",
+    "desc": "Lihat bagaimana pola hubunganmu terhubung dengan gaya keterikatan dalam 10 skenario.",
+    "cta": "Cek Gaya Keterikatan →"
   }
 }

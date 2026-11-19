@@ -242,6 +242,18 @@
 
                     <div id="curated-resources-card" class="curated-resources"></div>
 
+                                        <div class="next-step-card" id="nextStepCard">
+                        <p class="next-step-label" data-i18n="nextStep.label">Recommended Next Step</p>
+                        <div class="next-step-main">
+                            <span class="next-step-emoji" aria-hidden="true">💞</span>
+                            <div class="next-step-content">
+                                <h4 class="next-step-title" data-i18n="nextStep.title">Attachment Style Reflection</h4>
+                                <p class="next-step-desc" data-i18n="nextStep.desc">See how your relationship signals connect to your core attachment pattern in 10 scenarios.</p>
+                            </div>
+                        </div>
+                        <a href="/attachment-style/?lang=en&amp;start=1&amp;source=ick_factor_result" class="next-step-cta" id="nextStepCta" data-i18n="nextStep.cta">Check Attachment Style →</a>
+                    </div>
+
                     <div class="related-tests">
                         <h3 data-i18n="result.moreTests">Explore More Tests</h3>
                         <div class="related-grid" id="related-grid">
@@ -313,5 +325,35 @@ if ('serviceWorker' in navigator) {
   navigator.serviceWorker.register('sw.js').catch(() => {});
 }
 </script>
+
+    <script>
+      (function () {
+        var cta = document.getElementById('nextStepCta');
+        if (!cta) return;
+        function syncHref() {
+          var lang = (window.i18n && (window.i18n.currentLang || (typeof window.i18n.getCurrentLanguage === 'function' && window.i18n.getCurrentLanguage())))
+            || new URLSearchParams(window.location.search).get('lang')
+            || document.documentElement.lang
+            || 'en';
+          try {
+            var u = new URL(cta.getAttribute('href'), window.location.origin);
+            u.searchParams.set('lang', lang);
+            u.searchParams.set('source', 'ick_factor_result');
+            cta.setAttribute('href', u.pathname + u.search);
+          } catch (e) {}
+        }
+        syncHref();
+        cta.addEventListener('click', function () {
+          syncHref();
+          if (typeof gtag === 'function') {
+            gtag('event', 'content_cta_click', {
+              cta_surface: 'next_step_hero',
+              destination: cta.getAttribute('href'),
+              source: 'ick_factor_result'
+            });
+          }
+        });
+      })();
+    </script>
 </body>
 </html>

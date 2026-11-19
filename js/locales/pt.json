@@ -128,5 +128,11 @@
     "attachedDesc": "Amir Levine e Rachel Heller — Entenda os gatilhos de hipervigilância e antipatia no início do namoro.",
     "eightDatesTitle": "Eight Dates: Conversas Essenciais",
     "eightDatesDesc": "John e Julie Schwartz Gottman — Transforme atritos cotidianos em conexão duradoura."
+  },
+  "nextStep": {
+    "label": "Próximo passo recomendado",
+    "title": "Teste de Estilo de Apego",
+    "desc": "Veja em 10 cenários como seus sinais afetivos refletem seu padrão de apego.",
+    "cta": "Fazer Teste de Apego →"
   }
 }

@@ -128,5 +128,11 @@
     "attachedDesc": "Amir Levine & Rachel Heller — Understand why early hypervigilance and icks flare up in dating.",
     "eightDatesTitle": "Eight Dates: Essential Conversations for a Lifetime of Love",
     "eightDatesDesc": "John Gottman & Julie Schwartz Gottman — Turn everyday friction into deeper compatibility."
+  },
+  "nextStep": {
+    "label": "Recommended Next Step",
+    "title": "Attachment Style Reflection",
+    "desc": "See how your relationship signals connect to your core attachment pattern in 10 scenarios.",
+    "cta": "Check Attachment Style →"
   }
 }

@@ -128,5 +128,11 @@
     "attachedDesc": "Amir Levine ve Rachel Heller — Erken flört dönemindeki soğuma ve aşırı tetikte olma nedenlerini keşfedin.",
     "eightDatesTitle": "Eight Dates: Ömür Boyu Sevgi İçin Sohbetler",
     "eightDatesDesc": "John ve Julie Schwartz Gottman — Günlük pürüzleri daha derin bir uyuma dönüştürün."
+  },
+  "nextStep": {
+    "label": "Önerilen Sonraki Adım",
+    "title": "Bağlanma Stili Testi",
+    "desc": "10 ilişki senaryosuyla yakınlık ve sınır kalıplarını keşfet.",
+    "cta": "Bağlanma Testini Başlat →"
   }
 }

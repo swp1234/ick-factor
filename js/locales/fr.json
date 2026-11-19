@@ -128,5 +128,11 @@
     "attachedDesc": "Amir Levine & Rachel Heller — Comprendre l’hypervigilance et les petits blocages en début de relation.",
     "eightDatesTitle": "Eight Dates : Huit rendez-vous essentiels",
     "eightDatesDesc": "John & Julie Schwartz Gottman — Transformer les frictions quotidiennes en complicité."
+  },
+  "nextStep": {
+    "label": "Prochaine étape recommandée",
+    "title": "Test de Style d’Attachement",
+    "desc": "Explorez votre dynamique relationnelle à travers 10 scénarios concrets.",
+    "cta": "Tester mon attachement →"
   }
 }

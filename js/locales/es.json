@@ -128,5 +128,11 @@
     "attachedDesc": "Amir Levine y Rachel Heller — Comprende por qué surgen la hipervigilancia y el rechazo súbito al salir con alguien.",
     "eightDatesTitle": "Eight Dates: Conversaciones Esenciales",
     "eightDatesDesc": "John y Julie Schwartz Gottman — Convierte los roces diarios en mayor cercanía."
+  },
+  "nextStep": {
+    "label": "Siguiente paso recomendado",
+    "title": "Test de Estilo de Apego",
+    "desc": "Descubre cómo se conectan tus señales afectivas con tu patrón de apego en 10 escenarios.",
+    "cta": "Hacer Test de Apego →"
   }
 }

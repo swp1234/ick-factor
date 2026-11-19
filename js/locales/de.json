@@ -128,5 +128,11 @@
     "attachedDesc": "Amir Levine & Rachel Heller — Warum frühe Überwachsamkeit und plötzliche Abneigung entstehen.",
     "eightDatesTitle": "Eight Dates: Acht Gespräche für die Liebe",
     "eightDatesDesc": "John & Julie Schwartz Gottman — Alltagsreibung in dauerhafte Nähe verwandeln."
+  },
+  "nextStep": {
+    "label": "Empfohlener nächster Schritt",
+    "title": "Bindungsstil-Reflexion",
+    "desc": "Sieh in 10 Beziehungsszenarien, wie dein Bindungsmuster Nähe und Grenzen prägt.",
+    "cta": "Bindungstest starten →"
   }
 }
